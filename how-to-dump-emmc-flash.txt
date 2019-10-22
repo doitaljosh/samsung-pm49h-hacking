@@ -1,0 +1,22 @@
+Samsung PM49H eMMC flash dump:
+
+This is the minimal configuration to read the flash in 1-bit mode (slow):
+(4-bit mode should certainly be possible by finding DAT1-DAT3, as not all readers support 1-bit mode.)
+
+TP1603/R1624	CMD
+
+R1625	DAT0
+
+TP1602/R1636	CLK
+
+BD1601	VCCQ	(apply 1.8V)
+
+BD1602	VCC		(apply 3.3V)
+
+NOTE:
+Remove resistors R1615-1624,1635-1636 and ferrite beads BD1601-1602
+prior to connecting the reader in order to isolate the eMMC from the
+circuit to avoid damage due to voltage level incompatibility. The 
+CPU operates at 1.8V logic levels while most SD card readers operate
+at 3.3V logic levels. Leaving the signal/voltage rails connected may
+damage the target.

@@ -1,0 +1,1180 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.05 15:33:22 =~=~=~=~=~=~=~=~=~=~=~=
+Ack
+
+boot-up
+1 l 8 R 0007 0007 (Nov 10 2016-17:08:51) N 0x03 1 0
+GPT
+SECOS[1]
+SPD
+0031.5
+[Kernel[1]
+SPD
+DTB[1]
+SPD
+E[5] 
+Waiting for trigger from SeureOS.
+]
+[0-0.0000] sdp_clk_register_fixed_div: failed to register clock emac_clk
+[0-0.0887] netif_napi_add() called with weight 256 on device eth%d
+[0-0.1259] type=2000 audit(0.120:1): initialized
+[0-0.1611] ================================================================================
+[0-0.1677]  SAMSUNG VDLP Kernel
+[0-0.1706]  Version : 0271, release
+[0-0.1738]  Platform information : 170221, DTV, Hawk.M-Tizen, release, Enterprise_Trunk_2016_MP_Prj
+[0-0.1826] ================================================================================
+Checking system bus transport...
+Standard dbus system bus
+[FB:INIT - 533] fast init start
+[eeprom open wait]
+[bbc] r= : 1]
+[SBH] bw_get_boot_mode() call
+FP_NVRAM_FASTBOOT_IN_PRODUCTION [0]
+non-factory production mode
+After production mode
+mknod: `/dev/tty0': File exists
+failed to create tty0 terminal
+[SBH] bw_get_boot_mode() error 
+[SBH] bw_get_boot_mode() : 0, BOOT_TYPE_ISP(1) BOOT_TYPE_RVU(2)
+/usr/apps/fastboot/bin/fb.sh: line 23: /usr/bin/firstscreen.sh: No such file or directory
+######################################## Smack Enforce!! ########################################
+######################################## Smack Enforce!! ########################################
+######################################## Smack Enforce!! #######################################[2-0.6304] sdp-msg-micom micom-msg.17: [Send][0.6304][kthread_watchdo] Set Rollback
+#
+#############[2-0.6383] sdp-msg-micom micom-msg.17: [0.6383][Micom State][PwrOnMode:0][ErrState:0]
+########################### Smack Enforce!! ########################################
+######################################## Smack Enforce!! ########################################
+child process: 300
+Started Xorg[314]WARNING: Xorg is setuid root - bummer.starting X server with: "/usr/bin/Xorg :0 -nolisten tcp -noreset -ac -r +accessx 0 -sharevts +dpmsphone -dumbSched"
+X.Org X Server 1.16.0
+Release Date: 2014-07-16
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 3.19.0-25-generic armv7l Tizen Platform
+Current Operating System: Linux (none) 3.10.30 #3 SMP PREEMPT Thu Mar 2 12:40:13 UTC 2017 armv7l
+Kernel command line: dtsversion=0010_sdp1406-UHD-2.5G-tizen-lfd-fhd-se15hs root=/dev/mmcblk0p22 init=/sbin/init rootfstype=vdfs ro console=ttyS0,115200N8                      onboot_ver=2016 rootwait no_console_suspend earlyprintk sdp_sparsemem vmalloc=550M quiet 
+Build Date: 29 March 2017  09:10:24AM
+ 
+Current version of pixman: 0.28.2
+Before reporting problems, check http://wiki.x.org
+to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+(++) from command line, (!!) notice, (II) informational,
+(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Wed Dec 31 19:00:00 1969
+(==) Using config file: "/etc/X11/xorg.conf"
+(==) Using config directory: "/etc/X11/xorg.conf.d"
+[VCONF] rtc db directory already exit
+[VCONF] rtc file directory already exit
+- same version : T-HKMLAKUC-2002.3
+[SBH] cannot access BootReason setting files
+[SBH] create boot mode file(/tmp/normal_mode)
+[SBH] main() end
+[FAILED] [    1.6814] Failed to start Create Volatile Files and Directories.
+[    1.6817] See 'systemctl status systemd-tmpfiles-setup.service' for details.
+[FAILED] [    1.6830] Failed to start tizen debug on.
+[    1.6831] See 'systemctl status tizen-debug-on.service' for details.
+[  OK  ] [    1.6938] Started Initialize the VConf storage.
+[  OK  ] [    1.7108] Started Load smart-deadlock module.
+[  OK  ] [    1.7264] Started TZ Driver Loader.
+         [    1.7292] Starting Start the TrustZone daemon...
+         [    1.7309] Starting Enlightenment WM/Compositor...
+         [    1.8085] Starting boot sound...
+[  OK  ] [    1.8185] Started boot sound.
+         [    1.8189] Starting Initialize boot watch daemon...
+[  OK  ] [    1.8209] Started Initialize boot watch daemon.
+         [    1.8326] Starting udev Kernel Device Manager...
+         [    1.8348] Starting T-trace marker...
+[  OK  ] [    1.8428] Started T-trace marker.
+[  OK  ] [    1.8944] Started D-Bus System Message Bus.
+[  OK  ] [    1.9064] Started Generate environment from /etc/profile.d.
+[  OK  ] [    1.9256] Started Load ZRAM module.
+[  OK  ] [    1.9625] Started Start the TrustZone daemon.
+         [    1.9657] Starting Secure Storage server (J.16.1)...
+         [    1.9698] Starting WPA Supplicant daemon...
+         [    1.9971] Starting Start the Access Control server...
+[  OK  ] [    2.0024] Started Start the Access Control server.
+         [    2.0292] Starting vconf service on TV...
+[  OK  ] [    2.0315] Started vconf service on TV.
+         [    2.0319] Starting Start the ep-log-manager daemon...
+[  OK  ] [    2.0389] Started Start the ep-log-manager daemon.
+[  OK  ] [    2.0419] Started udev Coldplug all Devices.
+[  OK  ] [    2.1254] Started udev Kernel Device Manager.
+[  OK  ] [    2.1325] Reached target System Initialization.
+         [    2.1329] Starting automation-service service...
+[  OK  ] [    2.1348] Started automation-service service.
+[  OK  ] [    2.1352] Reached target Paths.
+[  OK  ] [    2.1356] Listening on The preload/preinit daemon Socket.
+         [    2.1357] Starting Start the booster daemon...
+[  OK  ] [    2.1381] Started Start the booster daemon.
+[  OK  ] [    2.1651] Listening on download-provider.socket.
+[  OK  ] [    2.1723] Listening on Input Service Framework Panel.
+[  OK  ] [    2.1775] Listening on security-server-data-share.socket.
+[  OK  ] [    2.1881] Listening on security-server-get-gid.socket.
+[  OK  ] [    2.1887] Listening on security-server-privilege-by-pid.socket.
+[  OK  ] [    2.1891] Listening on security-server-app-permissions.socket.
+[  OK  ] [    2.1894] Listening on security-...er-app-privilege-by-name.socket.
+[  OK  ] [    2.1914] Listening on security-server-cookie-get.socket.
+[  OK  ] [    2.1918] Listening on security-server-cookie-check.socket.
+[  OK  ] [    2.1922] Listening on security-server-open-for-privileged.socket.
+[  OK  ] [    2.1925] Listening on security-...er-open-for-unprivileged.socket.
+[  OK  ] [    2.1928] Listening on security-server-password-check.socket.
+[  OK  ] [    2.1932] Listening on security-server-password-set.socket.
+[  OK  ] [    2.1946] Listening on security-server-password-reset.socket.
+[  OK  ] [    2.1956] Listening on security-server-label.socket.
+[  OK  ] [    2.1958] Reached target security-server sockets.
+[  OK  ] [    2.2038] Started Secure Storage server (J.16.1).
+[  OK  ] [    2.2050] Listening on key manager socket for control API.
+[  OK  ] [    2.2070] Listening on key manager socket for ocsp API.
+[  OK  ] [    2.2089] Listening on key manager socket for storage API.
+[  OK  ] [    2.2093] Listening on cert-server.socket.
+[  OK  ] [    2.2097] Listening on MediaController Service socket.
+[  OK  ] [    2.2101] Listening on ss-server.socket.
+[  OK  ] [    2.2105] Reached target Sockets.
+         [    2.2115] Starting Start the anti-debug server...
+[  OK  ] [    2.2191] Started Start the anti-debug server.
+         [    2.2192] Starting Start the lyn...fter secure-storage is ready)...
+[  OK  ] [    2.2229] Started Connection service.
+[  OK  ] [    2.2343] Started Network Configuration service.
+[  OK  ] [    2.3427] Started WPA Supplicant daemon.
+[1-2.6359] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x60, (ret:0)
+[  OK  ] [    2.6532] Started Device SMACK labeling.
+[  OK  ] [    2.6537] Reached target Basic System.
+         [    2.6538] Starting Start the ep-monitor daemon...
+         [    2.6556] Starting Start the security server...
+[  OK  ] [    2.6591] Started Start the security server.
+         [    2.6598] Starting this is insmod daemon...
+[  OK  ] [    2.6618] Started this is insmod daemon.
+         [    2.6621] Starting this is mknod daemon...
+[  OK  ] [    2.6653] Started this is mknod daemon.
+         [    2.6656] Starting this is mount daemon...
+[  OK  ] [    2.6676] Started this is mount daemon.
+         [    2.6679] Starting this is umount daemon...
+[  OK  ] [    2.6699] Started this is umount daemon.
+         [    2.6703] Starting Start the SEF Mounter daemon...
+         [    2.6736] Starting Start the org.tizen.mi-agent service...
+[  OK  ] [    2.6782] Started Start the org.tizen.mi-agent service.
+         [    2.6842] Starting Start the mi-wsrm daemon...
+[  OK  ] [    2.6897] Started Start the mi-wsrm daemon.
+         [    2.6901] Starting Start the org.tizen.mi-manager service...
+[  OK  ] [    2.7028] Started Start the org.tizen.mi-manager service.
+         [    2.7032] Starting Start the MagicInfoPlayer debug...
+[  OK  ] [    2.7239] Started Start the MagicInfoPlayer debug.
+         [    2.7244] Starting Graphical Mode...
+arc = 7, optind = 3 ,Kb 0, rotate 4
+[  OK  ] [    3.4985] Started Start the SEF Mounter daemon.
+         [    3.4992] Starting Start the ser...nsion framework broker daemon...
+         [    3.5010] Starting zone-manager Service Daemon...
+         [    3.5048] Starting USB daemon handling usb devices...
+         [    3.5100] Starting Launch pms-monitor...
+[  OK  ] [    3.5275] Started Launch pms-monitor.
+         [    3.5413] Starting Bluetooth Service Monitor...
+[  OK  ] [    3.5435] Started Bluetooth Service Monitor.
+         [    3.5492] Starting Launch AT-HUB...
+[  OK  ] [    3.5513] Started Launch AT-HUB.
+         [    3.5524] Starting Dynamic services daemon...
+[  OK  ] [    3.5650] Started Dynamic services daemon.
+         [    3.5653] Starting source-list systemd service...
+[  OK  ] [    3.5705] Started Start the serv...tension framework broker daemon.
+[USB][3.582487] MAIN START
+
+[  OK  ] [    3.6030] Started USB daemon handling usb devices.
+         [    3.6134] Starting Start litewebappservice...
+[  OK  ] [    3.6490] Started zone-manager Service Daemon.
+[  OK  ] [    3.8938] Started source-list systemd service.
+[1-4.6439] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x61, (ret:0)
+[2-4.6510] sdp-msg-micom micom-msg.17: [Send][4.6510][deviced] Screen ON(cmd:0x33)
+[FB:INIT - 4651] fi_util_mq_send_cmd: cmd(122)
+[FB:INIT - 4653] fi_util_mq_send_cmd: cmd(122)
+insmod: ERROR: could not load module /lib/modules/3.10.30/kernel/tztv_hdmi_tx.ko: No such file or directory
+[kfactoryd] KfactoryD_Main(v0.8)..
+[kfactoryd] set_node_labeling done(ret:-1)..
+[3-4.6985] [SP]Get Board Information(0x0020C507)(chip:7,evt:5,hw:12,ocm:0,boston:1,retimer:0)
+[3-4.7057] [SP_LFD]Get Board Information LFD(0x00000001)(se15hs:1)
+[3-4.7114] UART4 is supported.
+[3-4.7144] [system_drv_probe] request gpio failed.. (samsung,resolution_type)
+insmod: ERROR: could not load module /lib/modules/3.10.30/kernel/tztv-battery.ko: No such file or directory
+insmod: ERROR: could not load module /[2-4.7372] 
+[2-4.7372] TZTV MEDIA version : tztv-media-hawkm-enterprize-trunk-170317
+lib/modules/3.10[2-4.7454] sdp_logo UHD 0
+.30/kernel/soc/sdp_frc.ko: No such file or directory
+insmod: ERROR: could not load module /lib/modules/3.10.30/kernel/soc/sdp_ocm.ko: No such file or directory
+[FB:INIT - 4745] fi_util_mq_send_cmd: cmd(108)
+insmod: ERROR: could not insert module /lib/modules/3.10.30/kernel/drivers/usb/usb-common.ko: File exists
+insmod: ERROR: could not insert module /lib/modules/3.10.30/kernel/drivers/usb/core/usbcore.ko: File exists
+[2-4.7909] Inserting Mali v800 device driver. 
+[2-4.7940] Compiled: Mar 29 2017, time: 09:08:03.
+[2-4.8018] Driver revision: r5p2-00rel0
+[2-4.8041] [SDP GPU] Mali Probe called 
+[FB:INIT - 4809] fi_util_mq_send_cmd: cmd(124)
+insmod: ERROR: could not load module /lib/modules/3.10.30/kernel/drivers/usb/phy/phy.ko: No such [1-4.8377] [ERROR] menu number 34 is already reserved.
+file or directory
+[FB:INIT - 4838] fi_util_mq_send_cmd: cmd(104)
+[1-4.8594] tztv_hdmi_isLFDswModel[1]
+[1-4.8650] ###### HDMI TYPE bIsExtern[1] bIsOcm[0] HDMI SWITCH TYPE
+[1-4.8698] ### HDMI SWITCH PROBE ### SW MODEL : HAWK NOVATEK -> Set to Hawk Novatek Switch Configuration 
+[3-4.8714] sdp-i2c 1901a0.i2c: [i2c fail] CH:5 Device ID:0x80 incomplete xfer (-6)
+[3-4.8715] sdp-i2c 1901a0.i2c: [i2c fail] CH:5 Device ID:0x84 incomplete xfer (-6)
+[2-4.8720] [ERROR] menu number 15 is already reserved.
+[2-4.8750] [ERROR] menu number 15 is already reserved.
+[2-4.8784] [ERROR] menu number 15 is already reserved.
+[2-4.8814] [ERROR] menu number 15 is already reserved.
+[2-4.8829] [ERROR] menu number 15 is already reserved.
+[0-4.9131] This is NOT BOE panel!(49A6AFZEK)
+[FB:INIT - 4884] fi_util_mq_send_cmd: cmd(102)
+[0-4.9387] set eeprom write count.
+[FB:INIT - 4973] fi_util_mq_send_cmd: cmd(103)
+[FB:INIT - 4973] fi_util_mq_send_cmd: cmd(103)
+AUTOMATION[5.024] Welcome to Automation Service Daemon
+[2-5.0480] sdp-msg-micom micom-msg.17: [Send][5.0479][deviced] Screen ON(cmd:0x33)
+[  OK  ] [    5.0664] Started Start the ep-monitor daemon.
+[FB:INIT - 5080] fi_util_mq_send_cmd: cmd(106)
+[1-5.1219] [hyunho] AE_BIAS_OFFSET_VALUE = 0x94000
+[1-5.1254] [hyunho] AE_BIAS_OFFSET_VALUE = 0x94000
+[1-5.1295] [hyunho] AE_BIAS_OFFSET_VALUE = 0x94000
+[1-5.1342] [hyunho] AE_BIAS_OFFSET_VALUE = 0x94000
+[1-5.1386] usb 2-1: new high-speed USB device number 2 using sdp-ehci
+[0-5.1567] sdp_audio_aio_i2stx_start I2S[0] SET SCART CHANNEL
+AUTOMATION[5.146] Dev[/dev/ttyS1][0-5.1686] [hyunho] AE_BIAS_OFFSET_VALUE = 0x1
+ BaudRate[9600]AUTOMATION[5.163] mainThread - Init GDbus
+[3-5.1999] Bluetooth: [BTUSB]: built Mar 29 2017,09:02:46
+[FB:INIT - 5247] ERROR: executed[ setxattr /dev/snd/by-path security.SMACK64 _ 1 0 ]
+[X_PRINT][X_INFORMATION][XOpenDisplay][Line :613] XInitThreads not called by Process Name:/usr/bin/xorg-launch-helper ProcessId:296 before first XOpenDisplay call
+[  OK  ] [    5.3445] Started Xorg server launch helper.
+         [    5.3450] Starting Start process-pool launchpad daemon...
+[  OK  ] [    5.3523] Started Start process-pool launchpad daemon.
+[2-5.4480] sdp-msg-micom micom-msg.17: [Send][5.4479][deviced] Screen ON(cmd:0x33)
+[  OK  ] [    5.4988] Started Start litewebappservice.
+[0-5.8479] sdp-msg-micom micom-msg.17: [Send][5.8479][deviced] Screen ON(cmd:0x33)
+[0-6.2480] sdp-msg-micom micom-msg.17: [Send][6.2479][deviced] Screen ON(cmd:0x33)
+[  OK  ] [    6.5042] Started Enlightenment WM/Compositor.
+         [    6.5047] Starting Bluetooth App...
+[  OK  ] [    6.5072] Started Bluetooth App.
+         [    6.5084] Starting Input Service Framework Panel...
+[  OK  ] [    6.5127] Started Input Service Framework Panel.
+[0-6.6480] sdp-msg-micom micom-msg.17: [Send][6.6480][deviced] Screen ON(cmd:0x33)
+[2-7.3005] ##### send SIGKILL for threads of process: wrt-installer (665)
+[1-9.0479] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[3-11.0519] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[2-11.0661] sdp-msg-micom micom-msg.17: [11.0661][Micom State][PwrOnMode:0][ErrState:0]
+insmod: ERROR: could not insert module /lib/modules/3.10.30/kernel/drivers/usb/host/usb_enable.ko: File exists
+[FB - 11065] FORCE: fb_status_fail: fastvideo SKIP.
+insmod: ERROR: could not insert module /lib/modules/3.10.30/kernel/drivers/usb/host/ehci-hcd.ko: File exists
+no huart interface
+HyperUART is disabled in factory menu
+[  OK  ] [   11.1992] Stopped sdbd.
+[0-11.2142] [ath6kl_usb_init:3151] QCA Wi-Fi Driver Init started from here.
+[0-11.2197] QCA Wi-Fi Driver version : (5.0.1.600_0609), 2014(PostRC2-Update) dongle_type=0
+[0-11.5124] [ath6kl-firmware] ar6004 hw 3.0 usb fw 5.0.1.600
+[0-11.5187] ath6l: set max connected sta(4) to SoftAP (0)
+[0-11.5241] [QCA] Wi-Fi Create dedicated p2p interface completed.
+[0-11.5287] Wi-Fi wlan0 interface is up
+[FB:INIT - 11530] fi_util_mq_send_cmd: cmd(107)
+[2-11.5723] ath6kl: wmi startscan idx 0 fgscan 0 dwell 0 intval 100 n_chan 1
+[3-12.1024] wmi connect bssid c4:71:54:37:96:56 freq 5180 flags 0x4 ssid_len 28 type 1 dot11_auth 1 auth 16 pairwise 8 group 8
+[0-12.1281] ath6kl: wmi event connect freq 5180 bssid c4:71:54:37:96:56 listen_intvl 10 beacon_intvl 100 type 1537
+no huart interface
+[3-12.2033] ath6k_info: Tx BOOTPC 1 
+[3-12.2052] ath6k_info: Tx BOOTPC 2 
+[3-12.2085] ath6k_info:  Tx BOOTPC 3 
+[3-12.2119] ath6k_info: Tx BOOTPC 4 
+[3-12.2189] ath6k_info: Tx BOOTPC 1 
+[3-12.2207] ath6k_info: Tx BOOTPC 2 
+[3-12.2240] ath6k_info:  Tx BOOTPC 3 
+[3-12.2274] ath6k_info: Tx BOOTPC 4 
+[1-13.0719] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x4e, (ret:0)
+[1-13.0788] [V4L2-HDMISW][742:insmod][ERR] m_SetHPD_DurationTime (Ret: -1), (ouput[1]: 0)
+no huart interface
+no huart interface
+[3-15.0759] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+no huart interface
+no huart interface
+[1-17.0799] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+no huart interface
+no huart interface
+[2-19.0879] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[FB:INIT - 19130] fi_util_mq_send_cmd: cmd(101)
+[3-19.1685] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.1748] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.1831] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.1917] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.1979] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+no huart interface
+[3-19.2091] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.2170] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.2231] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[3-19.2304] sdp-i2c 1901c0.i2c: [i2c fail] CH:6 Device ID:0x44 incomplete xfer (-6)
+[0-19.2772] [ALSA-CTRL] hdmi in codec info: [Error] UNKNOWN [353:avocd]
+no huart interface
+[0-21.0959] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-21.1031] [JACKIDENT] jack status: changed[0x00000000 -> 0x88000000]
+[2-21.1059] sdp-msg-micom micom-msg.17: [21.1059][Micom State][PwrOnMode:0][ErrState:0]
+[2-21.1165] tztv-jackident tztv_jackident.23: create jackident_ready flag
+[FB:INIT - 21120] fi_util_mq_send_cmd: cmd(105)
+[FB:INIT - 21190] fast init end
+no huart interface
+no huart interface
+no huart interface
+I/O warning : failed to load external entity "/opt/down/common/LogPolicyConfig.xml"
+         [   23.5213] Starting Start the KIP logger service daemon...
+[  OK  ] [   23.6260] Started Start the KIP logger service daemon.
+no huart interface
+no huart interface
+[2-25.5039] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[1-25.5159] sdp-msg-micom micom-msg.17: [Send][25.5150][fastlogo] Inverter Control (1) 
+[1-25.9119] sdp-msg-micom micom-msg.17: [Send][25.9119][fastlogo] Inverter Control (1) 
+no huart interface
+[1-26.3119] sdp-msg-micom micom-msg.17: [Send][26.3119][fastlogo] Inverter Control (1) 
+[1-26.7119] sdp-msg-micom micom-msg.17: [Send][26.7119][fastlogo] Inverter Control (1) 
+[1-27.1119] sdp-msg-micom micom-msg.17: [Send][27.1119][fastlogo] Inverter Control (1) 
+no huart interface
+[1-27.5120] sdp-msg-micom micom-msg.17: [Send][27.5119][fastlogo] Inverter Control (1) 
+no huart interface
+no huart interface
+[2-29.9119] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+no huart interface
+[2-34.3159] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-35.5599] [kpi_fault_info] [k] 0 -> p:0xdeadbeaf l:0xdeadbeaf th:avocd pro:avocd ty:DEADLOCK pgid:353
+[0-35.5677] 
+[0-35.5677] [dead-lock] avocd[pid:353] [watchdog timeout! WatchdogSec(30)] [smart-deadlock][time:        35.559][avocd_353_353][/usr/bin/avocd][C(0),L(0),S(0)][35559,4934,30625,20000,30000]
+[0-35.5855] ##### send signal from KERNEL, SIG : 6, avocd, PID:353, force_sig_info
+[1-35.5930] ================================================================================
+[1-35.6010]  KERNEL Version : 0271, release
+[1-35.6049] 170221, DTV, Hawk.M-Tizen, release, Enterprise_Trunk_2016_MP_Prj
+[1-35.6117] ================================================================================
+[1-35.6198] 
+[1-35.6211] --------------------------------------------------------------------------------------
+[1-35.6298] PC, LR MEMINFO
+[1-35.6322] --------------------------------------------------------------------------------------
+[1-35.6409] PC:42922874, LR:b63b14c0
+[1-35.6442] --------------------------------------------------------------------------------------
+[1-35.6529] PC meminfo (0x42922474 to 0x42922c74)
+[1-35.6574] 2460:                                              e59f301c e3e04000 ee1d2f70
+[1-35.6653] 2480: e79f3003 e2601000 e7821003 eaffffee 000ab098 000a7c54 000a7c38 e52d4008
+[1-35.6732] 24a0: e3a04000 e58de004 e24dd020 e1a0200d e28d1010 e58d0018 e1a00004 e58d4014
+[1-35.6811] 24c0: e58d4010 e58d401c ebffcc68 e1500004 b1a00004 ba000006 e59d200c e30a311f
+[1-35.6891] 24e0: e59d0008 e3403007 e1520003 da000004 e2800001 e28dd020 e59d4000 e28dd004
+[1-35.6970] 2500: e49df004 e1500004 1afffff9 e1520004 cafffff6 eafffff6 e16d41fc e58de018
+[1-35.7049] 2520: e2505000 e1cd60f8 e1cd81f0 e24ddf67 0a000066 e3a03000 e28d600c e58d3008
+[1-35.7128] 2540: e28d708c e3e08102 ea000020 e59d108c e0114009 1a000011 e3a02080 e1a01004
+[1-35.7208] 2560: e1a00006 ebff687d e58d900c e28d2f43 e1a01004 e3a00011 ebfe2912 e3500000
+[1-35.7287] 2580: ba000059 e59d310c e3530001 0a000027 e1a02004 e1a01007 e3a00002 ebfe2915
+[1-35.7366] 25a0: e28d9004 e1a01009 e1a00009 eb00009f e16f3f10 e3550000 e1a04000 e1a032a3
+[1-35.7445] 25c0: 03a03000 e3530000 0a000035 e59d3004 e1550008 90833005 80833008 e3a02080
+[1-35.7524] 25e0: e58d3004 e3a01000 e1a00006 e0635005 e3a09801 ebff6859 e58d900c e1a02007
+[1-35.7604] 2600: e1a01006 e3a00000 ebfe28fa e3500000 0affffcd e3e00000 e28ddf67 e1cd40d0
+[1-35.7683] 2620: e1cd60d8 e1cd81d0 e28dd018 e49df004 e28d9004 ea000005 e59d3008 e375010a
+[1-35.7762] 2640: 91a02005 83e02102 e58d2004 e0635005 e1a01009 e1a00009 eb000074 e16f3f15
+[1-35.7841] 2660: e1a04000 e1a032a3 e3500000 13833001 e3530000 0affffef e59f30f0 e1a01007
+[1-35.7925] 2680: ee1d6f70 e3a02000 e79f3003 e3a00002 e7967003 ebfe28d7 e59f30d4 e79f3003
+[1-35.8000] 26a0: e7867003 e3540000 0a00000d e59d0008 e30624ff e59d3004 e3412dcd e1500002
+[1-35.8079] 26c0: d1a00003 c2830001 e0800005 eaffffd1 ee1d2f70 e512343c e3c31046 e3510008
+[1-35.8158] 26e0: 0a00000e e3a00000 eaffffca e59f3084 e1a02004 ee1d4f70 e1a01007 e79f3003
+[1-35.8237] 2700: e3a00002 e7945003 ebfe28ba e59f3068 e3e00000 e79f3003 e7845003 eaffffbd
+[1-35.8317] 2720: e2421e43 e28dcf43 e241100c e3e00000 e50202a0 e58d310c e383e010 e1910f9f
+[1-35.8396] 2740: e1500003 1a000003 e1814f9e e3540000 1afffff9 f57ff05f 0a000002 e58c0000
+[1-35.8475] 2760: e512343c eafffff2 e5120440 eb01c6df 000a7a30 000a7a1c 000a79bc 000a79a4
+[1-35.8554] 2780: e52d7004 e3a0701d ef000000 e49d7004 e3700a01 312fff1e eafdd048 e320f000
+[1-35.8634] 27a0: e59fc05c e79fc00c e33c0000 e52d7004 1a000005 e3a0701d ef000000 e49d7004
+[1-35.8713] 27c0: e3700a01 312fff1e eafdd03c e52de004 eb0112d4 e1a0c000 e3a0701d ef000000
+[1-35.8792] 27e0: e1a07000 e1a0000c eb011301 e1a00007 e49de004 e49d7004 e3700a01 312fff1e
+[1-35.8871] 2800: eafdd02e 000aacc8 e320f000 e320f000 e52d7004 e3a070a2 ef000000 e49d7004
+[1-35.8951] 2820: e3700a01 312fff1e eafdd024 e320f000 e59fc060 e79fc00c e33c0000 e52d7004
+[1-35.9030] 2840: 1a000005 e3a070a2 ef000000 e49d7004 e3700a01 312fff1e eafdd018 e92d4003
+[1-35.9109] 2860: eb0112b0 e1a0c000 e8bd0003 e3a070a2 ef000000 e1a07000 e1a0000c eb0112dc
+[1-35.9188] 2880: e1a00007 e49de004 e49d7004 e3700a01 312fff1e eafdd009 000aac38 e320f000
+[1-35.9267] 28a0: e59f13a4 e16d42f4 e08f1001 e1cd60f8 e58de020 e1a0e001 e59f6390 e1cda1f8
+[1-35.9347] 28c0: e1cd81f0 e08f6006 e28db020 e24dd00c e5914000 e3540000 0a00002f f57ff05f
+[1-35.9426] 28e0: e5943014 e3530000 0afffff8 e59e2000 e24b8024 e2830001 e5283004 e2822014
+[1-35.9505] 2900: e192cf9f e15c0003 1a000003 e1825f90 e3550000 1afffff9 f57ff05f 1a00001a
+[1-35.9584] 2920: e3a07000 e5943004 e3530000 0a000000 e12fff33 e24dd010 e1a0500d e58d4000
+[1-35.9664] 2940: e5944000 e58d7004 e3540000 0a000013 e2842014 e5943014 e50b3028 e2833001
+[1-35.9743] 2960: e5980000 e1921f9f e1510000 1a000003 e182cf93 e35c0000 1afffff9 f57ff05f
+[1-35.9822] 2980: 0a00009f e5881000 eafffff1 e50bc028 e5914000 e3540000 1affffcf e1a05004
+[1-35.9901] 29a0: ebff349d ee1dcf70 e3a01000 e24c8d13 e3a00011 e51ce454 e2884068 e51ca458
+[1-35.9981] 29c0: e3400120 e26e3000 e1a02001 e50c3454 e3a07078 e1a03001 ef000000 e3700a01
+[1-36.0060] 29e0: e1a09000 8a00004a e3500000 1a00004d e51c1458 e151000a 0a000083 e59f3250
+[1-36.0139] 2a00: e08f3003 e5933000 e3530000 0a000002 e5932000 e2822004 e5832000 e59f3234
+[1-36.0218] 2a20: e50c1454 e08f3003 e5933000 e3530000 1a000069 ebff346f e1a07000 ea000002
+[1-36.0297] 2a40: e1a00007 ebff3471 e1a07000 ebff346d e1570000 0a00000b e1a00007 ebff346d
+[1-36.0377] 2a60: e5903000 e2134902 1afffff4 e1a00007 ebff3468 e5903048 e5834000 e5834004
+[1-36.0456] 2a80: e5834008 eaffffed ebff34a3 e59f31c8 e3550000 e3a02000 e3a04001 e7963003
+[1-36.0535] 2aa0: e58324c4 e58324c8 e58324cc e58324d4 e58324d8 e58344d0 0a000009 e5953000
+[1-36.0614] 2ac0: e593200c e3520000 0a000001 e12fff32 e5953000 e5955004 e5834014 e3550000
+[1-36.0694] 2ae0: 1afffff5 e59f3174 e3a02000 e08f3003 e5832000 e1a00009 e24bd020 e1cd40d0
+[1-36.0773] 2b00: e1cd60d8 e1cd81d0 e1cda1d8 e28dd020 e49df004 e59f3148 e3e09000 e2602000
+[1-36.0852] 2b20: e79f3003 e78c2003 e51c3458 e153000a 1a00003d e50ce454 ebff345f e3550000
+[1-36.0931] 2b40: 0affffeb e24b8028 e5953000 e5932008 e3520000 0a000001 e12fff32 e5953000
+[1-36.1010] 2b60: e2831014 e5932014 e50b2028 e242c001 e5980000 e191ef9f e15e0000 1a000003
+[1-36.1090] 2b80: e1814f9c e3540000 1afffff9 f57ff05f 0a000001 e588e000 eafffff1 e3520001
+[1-36.1169] 2ba0: 0a000003 e5955004 e3550000 1affffe5 eaffffcf e5953000 e5931018 e3510000
+[1-36.1248] 2bc0: 0afffff7 e5930014 e3a01081 e3a03000 e3a070f0 ef000000 eafffff1 e59f2084
+[1-36.1327] 2be0: e1a00008 e59f3080 e7961002 e08f3003 e59320d8 e5913000 e0233002 e12fff33
+[1-36.1407] 2c00: eaffff8b e1a07005 eaffff45 e59f305c e3a0208f e59f1058 e59f0058 e08f3003
+[1-36.1486] 2c20: e08f1001 e08f0000 ebfe09ff e59f3048 e3a020d5 e59f1044 e59f0044 e08f3003
+[1-36.1565] 2c40: e08f1001 e08f0000 ebfe09f7 000aaaac 000a7734 000aa950 000aaa44 00000074
+[1-36.1644] 2c60: 000a95e4 000a7598 000000bc 000aa7a0 0008971c 000896a8
+[1-36.1708] --------------------------------------------------------------------------------------
+[1-36.1795] LR meminfo (0xb63b0cc0 to 0xb63b18c0)
+[1-36.1839] 0cc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.1919] 0ce0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.1998] 0d00: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2077] 0d20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2156] 0d40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2235] 0d60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2315] 0d80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2394] 0da0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2473] 0dc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2552] 0de0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2632] 0e00: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[3-36.2654] [EXTR][NotifyXorgMonitor] [xorg-extra-module][36.042614] xorg-monitor not up yet!!!
+[1-36.2795] 0e20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2874] 0e40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.2954] 0e60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3033] 0e80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3112] 0ea0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3191] 0ec0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3271] 0ee0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-36.3279] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[1-36.3403] 0f00: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3482] 0f20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3561] 0f40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3641] 0f60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3720] 0f80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3799] 0fa0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3878] 0fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.3958] 0fe0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4037] 1000: 00000001 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4116] 1020: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4195] 1040: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4274] 1060: 42a7a1ec 42a7a1ec 00000161 00000161 b63b1070 ffffffec 00000000 00000000
+[1-36.4354] 1080: be1ead48 00000002 00000000 00000001 00141740 00000001 0014d5e0 00000001
+[1-36.4433] 10a0: 0014d6f0 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4512] 10c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4591] 10e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4671] 1100: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4750] 1120: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4829] 1140: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4908] 1160: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.4987] 1180: 00000000 00000000 00000000 b63b108c 00000000 00000000 00000000 00000000
+[1-36.5067] 11a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5146] 11c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5225] 11e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5304] 1200: 00000000 00000000 00000000 00010001 00000000 00000000 00000000 00000000
+[1-36.5384] 1220: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5463] 1240: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5542] 1260: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5621] 1280: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5700] 12a0: 00000000 be1eae80 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5780] 12c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5859] 12e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.5938] 1300: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6017] 1320: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6097] 1340: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6176] 1360: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6255] 1380: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6334] 13a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6414] 13c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6493] 13e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6572] 1400: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6651] 1420: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6730] 1440: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6810] 1460: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6889] 1480: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.6968] 14a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7047] 14c0: b63b1e78 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7127] 14e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7206] 1500: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7285] 1520: 00000000 00000000 00000001 00000000 00000000 00000000 00000000 00000000
+[2-36.7319] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[2-36.7323] ##### send SIGKILL for threads of process: ep-monitor-daem (546)
+[3-36.7331] sdp-msg-micom micom-msg.17: [Send][36.7323][deviced_bl_work] Inverter Control (1) 
+[2-36.7373] [bptime] process released : gdbus(765)
+[1-36.7614] 1540: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7693] 1560: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7773] 1580: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7852] 15a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.7931] 15c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8010] 15e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8090] 1600: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8169] 1620: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8248] 1640: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8327] 1660: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8406] 1680: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8486] 16a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8565] 16c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8644] 16e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8723] 1700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8803] 1720: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 429cac70
+[1-36.8882] 1740: 429ccc58 00000002 429973bc 42996dbc 42997cbc 00000000 00000000 00000000
+[1-36.8961] 1760: 429ca7d8 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[1-36.8963] -----------------------------------------------------------
+[1-36.8963] * dump maps on pid (353 - avocd)
+[1-36.8963] -----------------------------------------------------------
+[1-36.8963] 00010000-00103000 r-xp 00000000 b3:16 38726      /usr/bin/avocd
+[1-36.8963] 00112000-00114000 rw-p 000f2000 b3:16 38726      /usr/bin/avocd
+[1-36.8964] 00114000-00117000 rw-p 00000000 00:00 0          
+[1-36.8964] 00123000-0013f000 rw-p 000f3000 b3:16 38726      /usr/bin/avocd
+[1-36.8964] 0013f000-002aa000 rw-p 00000000 00:00 0          [heap]
+[1-36.8964] 41000000-41021000 r-xp 00000000 b3:16 458        /lib/ld-2.20.so
+[1-36.8964] 41030000-41031000 r--p 00020000 b3:16 458        /lib/ld-2.20.so
+[1-36.8964] 41031000-41032000 rw-p 00021000 b3:16 458        /lib/ld-2.20.so
+[1-36.8964] 41040000-4286c000 r--p 00000000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[1-36.8964] 4286c000-4287b000 ---p 0182c000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[1-36.8964] 4287b000-4287c000 rw-p 0182b000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[1-36.8964] 42880000-429b8000 r-xp 00000000 b3:16 58         /lib/libc-2.20.so
+[1-36.8964] 429b8000-429c8000 ---p 00138000 b3:16 58         /lib/libc-2.20.so
+[1-36.8964] 429c8000-429ca000 r--p 00138000 b3:16 58         /lib/libc-2.20.so
+[1-36.8965] 429ca000-429cb000 rw-p 0013a000 b3:16 58         /lib/libc-2.20.so
+[1-36.8965] 429cb000-429ce000 rw-p 00000000 00:00 0          
+[1-36.8965] 429d0000-429df000 r-xp 00000000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[1-36.8965] 429df000-429ef000 ---p 0000f000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[1-36.8965] 429ef000-429f0000 rw-p 0000f000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[1-36.8965] 429f0000-42a15000 rw-p 00000000 00:00 0          
+[1-36.8965] 42a20000-42a3d000 r-xp 00000000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[1-36.8965] 42a3d000-42a4c000 ---p 0001d000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[1-36.8965] 42a4c000-42a4d000 rw-p 0001c000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[1-36.8965] 42a50000-42a68000 r-xp 00000000 b3:16 59         /lib/libpthread-2.20.so
+[1-36.8965] 42a68000-42a77000 ---p 00018000 b3:16 59         /lib/libpthread-2.20.so
+[1-36.8965] 42a77000-42a78000 r--p 00017000 b3:16 59         /lib/libpthread-2.20.so
+[1-36.8965] 42a78000-42a79000 rw-p 00018000 b3:16 59         /lib/libpthread-2.20.so
+[1-36.8966] 42a79000-42a7b000 rw-p 00000000 00:00 0          
+[1-36.8966] 42a80000-42a84000 r-xp 00000000 b3:16 471        /lib/libdl-2.20.so
+[1-36.8966] 42a84000-42a93000 ---p 00004000 b3:16 471        /lib/libdl-2.20.so
+[1-36.8966] 42a93000-42a94000 r--p 00003000 b3:16 471        /lib/libdl-2.20.so
+[1-36.8966] 42a94000-42a95000 rw-p 00004000 b3:16 471        /lib/libdl-2.20.so
+[1-36.8966] 42aa0000-42aa3000 r-xp 00000000 b3:16 4962       /usr/lib/libsys-assert.so
+[1-36.8966] 42aa3000-42ab2000 ---p 00003000 b3:16 4962       /usr/lib/libsys-assert.so
+[1-36.8966] 42ab2000-42ab3000 rw-p 00002000 b3:16 4962       /usr/lib/libsys-assert.so
+[1-36.8966] 42ac0000-42ac7000 r-xp 00000000 b3:16 312        /lib/librt-2.20.so
+[1-36.8966] 42ac7000-42ad6000 ---p 00007000 b3:16 312        /lib/librt-2.20.so
+[1-36.8966] 42ad6000-42ad7000 r--p 00006000 b3:16 312        /lib/librt-2.20.so
+[1-36.8966] 42ad7000-42ad8000 rw-p 00007000 b3:16 312        /lib/librt-2.20.so
+[1-36.8967] 42ae0000-42b2b000 r-xp 00000000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[1-36.8967] 42b2b000-42b3b000 ---p 0004b000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[1-36.8967] 42b3b000-42b3c000 rw-p 0004b000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[1-36.8967] 42b40000-42b58000 r-xp 00000000 b3:16 456        /lib/libexpat.so.1.5.2
+[1-36.8967] 42b58000-42b67000 ---p 00018000 b3:16 456        /lib/libexpat.so.1.5.2
+[1-36.8967] 42b67000-42b69000 rw-p 00017000 b3:16 456        /lib/libexpat.so.1.5.2
+[1-36.8967] 42b70000-42b83000 r-xp 00000000 b3:16 470        /lib/libresolv-2.20.so
+[1-36.8967] 42b83000-42b92000 ---p 00013000 b3:16 470        /lib/libresolv-2.20.so
+[1-36.8967] 42b92000-42b93000 r--p 00012000 b3:16 470        /lib/libresolv-2.20.so
+[1-36.8967] 42b93000-42b94000 rw-p 00013000 b3:16 470        /lib/libresolv-2.20.so
+[1-36.8967] 42b94000-42b96000 rw-p 00000000 00:00 0          
+[1-36.8967] 42ba0000-42ba8000 r-xp 00000000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[1-36.8968] 42ba8000-42bb7000 ---p 00008000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[1-36.8968] 42bb7000-42bb9000 rw-p 00007000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[1-36.8968] 42bc0000-42bc4000 r-xp 00000000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[1-36.8968] 42bc4000-42bd3000 ---p 00004000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[1-36.8968] 42bd3000-42bd4000 rw-p 00003000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[1-36.8968] 42be0000-42be5000 r-xp 00000000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[1-36.8968] 42be5000-42bf4000 ---p 00005000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[1-36.8968] 42bf4000-42bf5000 rw-p 00004000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[1-36.8968] 42c00000-42cf1000 r-xp 00000000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[1-36.8968] 42cf1000-42d00000 ---p 000f1000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[1-36.8968] 42d00000-42d02000 rw-p 000f0000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[1-36.8968] 42d10000-42d80000 r-xp 00000000 b3:16 56         /lib/libm-2.20.so
+[1-36.8969] 42d80000-42d8f000 ---p 00070000 b3:16 56         /lib/libm-2.20.so
+[1-36.8969] 42d8f000-42d90000 r--p 0006f000 b3:16 56         /lib/libm-2.20.so
+[1-36.8969] 42d90000-42d91000 rw-p 00070000 b3:16 56         /lib/libm-2.20.so
+[1-36.8969] 42da0000-42dd7000 r-xp 00000000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[1-36.8969] 42dd7000-42de7000 ---p 00037000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[1-36.8969] 42de7000-42de8000 rw-p 00037000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[1-36.8969] 42df0000-42e08000 r-xp 00000000 b3:16 448        /lib/libz.so.1.2.8
+[1-36.8969] 42e08000-42e17000 ---p 00018000 b3:16 448        /lib/libz.so.1.2.8
+[1-36.8969] 42e17000-42e18000 rw-p 00017000 b3:16 448        /lib/libz.so.1.2.8
+[1-36.8969] 42e20000-42f2a000 r-xp 00000000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[1-36.8969] 42f2a000-42f3a000 ---p 0010a000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[1-36.8969] 42f3a000-42f3d000 rw-p 0010a000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[1-36.8970] 42f3d000-42f3e000 rw-p 00000000 00:00 0          
+[1-36.8970] 42f40000-42fec000 r-xp 00000000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[1-36.8970] 42fec000-42ffc000 ---p 000ac000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[1-36.8970] 42ffc000-42fff000 r--p 000ac000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[1-36.8970] 42fff000-43001000 rw-p 000af000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[1-36.8970] 43001000-43008000 rw-p 00000000 00:00 0          
+[1-36.8970] 43010000-4304a000 r-xp 00000000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[1-36.8970] 4304a000-43059000 ---p 0003a000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[1-36.8970] 43059000-4305b000 rw-p 00039000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[1-36.8970] 43060000-43066000 r-xp 00000000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[1-36.8970] 43066000-43075000 ---p 00006000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[1-36.8970] 43075000-43076000 rw-p 00005000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[1-36.8971] 43080000-43082000 r-xp 00000000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[1-36.8971] 43082000-43091000 ---p 00002000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[1-36.8971] 43091000-43092000 rw-p 00001000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[1-36.8971] 430a0000-430a5000 r-xp 00000000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[1-36.8971] 430a5000-430b4000 ---p 00005000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[1-36.8971] 430b4000-430b5000 rw-p 00004000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[1-36.8971] 430c0000-430cd000 r-xp 00000000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[1-36.8971] 430cd000-430dc000 ---p 0000d000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[1-36.8971] 430dc000-430dd000 rw-p 0000c000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[1-36.8971] 430e0000-4319c000 r-xp 00000000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[1-36.8971] 4319c000-431ab000 ---p 000bc000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[1-36.8971] 431ab000-431ad000 r--p 000bb000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[1-36.8972] 431ad000-431ae000 rw-p 000bd000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[1-36.8972] 431b0000-431c9000 r-xp 00000000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[1-36.8972] 431c9000-431d9000 ---p 00019000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[1-36.8972] 431d9000-431da000 rw-p 00019000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[1-36.8972] 431e0000-432c8000 r-xp 00000000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[1-36.8972] 432c8000-432d7000 ---p 000e8000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[1-36.8972] 432d7000-432dc000 rw-p 000e7000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[1-36.8972] 432dc000-432dd000 rw-p 00000000 00:00 0          
+[1-36.8972] 432e0000-43313000 r-xp 00000000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[1-36.8972] 43313000-43322000 ---p 00033000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[1-36.8972] 43322000-43325000 rw-p 00032000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[1-36.8972] 43330000-43347000 r-xp 00000000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[1-36.8972] 43347000-43357000 ---p 00017000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[1-36.8973] 43357000-43359000 rw-p 00017000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[1-36.8973] 43360000-43370000 r-xp 00000000 b3:16 5052       /usr/lib/libTIFactoryDataWrite.so
+[1-36.8973] 43370000-43372000 rw-p 00010000 b3:16 5052       /usr/lib/libTIFactoryDataWrite.so
+[1-36.8973] 43380000-43382000 r-xp 00000000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[1-36.8973] 43382000-43391000 ---p 00002000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[1-36.8973] 43391000-43392000 rw-p 00001000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[1-36.8973] 433a0000-433a6000 r-xp 00000000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[1-36.8973] 433a6000-433b5000 ---p 00006000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[1-36.8973] 433b5000-433b6000 rw-p 00005000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[1-36.8973] 433c0000-433c3000 r-xp 00000000 b3:16 4293       /usr/lib/libiniparser.so.0
+[1-36.8973] 433c3000-433d2000 ---p 00003000 b3:16 4293       /usr/lib/libiniparser.so.0
+[1-36.8974] 433d2000-433d3000 rw-p 00002000 b3:16 4293       /usr/lib/libiniparser.so.0
+[1-36.8974] 433e0000-433ec000 r-xp 00000000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[1-36.8974] 433ec000-433fb000 ---p 0000c000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[1-36.8974] 433fb000-433fc000 rw-p 0000b000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[1-36.8974] 43400000-434ef000 r-xp 00000000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[1-36.8974] 434ef000-434fe000 ---p 000ef000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[1-36.8974] 434fe000-43502000 rw-p 000ee000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[1-36.8974] 43510000-4355c000 r-xp 00000000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[1-36.8974] 4355c000-4356c000 ---p 0004c000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[1-36.8974] 4356c000-4356d000 rw-p 0004c000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[1-36.8974] 4356d000-4356e000 rw-p 00000000 00:00 0          
+[1-36.8974] 43570000-43590000 r-xp 00000000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[1-36.8975] 43590000-4359f000 ---p 00020000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[1-36.8975] 4359f000-435a1000 rw-p 0001f000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[1-36.8975] 435a1000-435af000 rw-p 00000000 00:00 0          
+[1-36.8975] 435c0000-435ce000 r-xp 00000000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[1-36.8975] 435ce000-435de000 ---p 0000e000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[1-36.8975] 435de000-435df000 rw-p 0000e000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[1-36.8975] 435f0000-43605000 r-xp 00000000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[1-36.8975] 43605000-43614000 ---p 00015000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[1-36.8975] 43614000-43615000 rw-p 00014000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[1-36.8975] 43620000-43630000 r-xp 00000000 b3:16 7650       /usr/lib/libefl.so.1.13.0
+[1-36.8975] 43630000-43631000 rw-p 00010000 b3:16 7650       /usr/lib/libefl.so.1.13.0
+[1-36.8975] 43631000-43632000 rw-p 00000000 00:00 0          
+[1-36.8975] 43640000-43643000 r-xp 00000000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[1-36.8976] 43643000-43652000 ---p 00003000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[1-36.8976] 43652000-43653000 rw-p 00002000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[1-36.8976] 43660000-43664000 r-xp 00000000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[1-36.8976] 43664000-43673000 ---p 00004000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[1-36.8976] 43673000-43674000 rw-p 00003000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[1-36.8976] 43680000-43860000 r-xp 00000000 b3:16 3377       /usr/lib/libcrypto.so.1.0.0
+[1-36.8976] 43860000-43875000 rw-p 001e0000 b3:16 3377       /usr/lib/libcrypto.so.1.0.0
+[1-36.8976] 43875000-43879000 rw-p 00000000 00:00 0          
+[1-36.8976] 43880000-43902000 r-xp 00000000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[1-36.8976] 43902000-43911000 ---p 00082000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[1-36.8976] 43911000-43914000 rw-p 00081000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[1-36.8976] 43920000-43973000 r-xp 00000000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[1-36.8977] 43973000-43982000 ---p 00053000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[1-36.8977] 43982000-43987000 rw-p 00052000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[1-36.8977] 43990000-43999000 r-xp 00000000 b3:16 1206       /lib/libcrypt-2.20.so
+[1-36.8977] 43999000-439a8000 ---p 00009000 b3:16 1206       /lib/libcrypt-2.20.so
+[1-36.8977] 439a8000-439a9000 r--p 00008000 b3:16 1206       /lib/libcrypt-2.20.so
+[1-36.8977] 439a9000-439aa000 rw-p 00009000 b3:16 1206       /lib/libcrypt-2.20.so
+[1-36.8977] 439aa000-439d1000 rw-p 00000000 00:00 0          
+[1-36.8977] 439e0000-439fb000 r-xp 00000000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[1-36.8977] 439fb000-43a0a000 ---p 0001b000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[1-36.8977] 43a0a000-43a0b000 r--p 0001a000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[1-36.8977] 43a0b000-43a0c000 rw-p 0001b000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[1-36.8977] 43a10000-43a13000 r-xp 00000000 b3:16 468        /lib/libattr.so.1.1.0
+[1-36.8978] 43a13000-43a22000 ---p 00003000 b3:16 468        /lib/libattr.so.1.1.0
+[1-36.8978] 43a22000-43a23000 rw-p 00002000 b3:16 468        /lib/libattr.so.1.1.0
+[1-36.8978] 43a30000-43a34000 r-xp 00000000 b3:16 310        /lib/libcap.so.2.21
+[1-36.8978] 43a34000-43a43000 ---p 00004000 b3:16 310        /lib/libcap.so.2.21
+[1-36.8978] 43a43000-43a44000 rw-p 00003000 b3:16 310        /lib/libcap.so.2.21
+[1-36.8978] 43a50000-43a52000 r-xp 00000000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[1-36.8978] 43a52000-43a62000 ---p 00002000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[1-36.8978] 43a62000-43a63000 rw-p 00002000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[1-36.8978] 43a70000-43c0d000 r-xp 00000000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[1-36.8978] 43c0d000-43c1c000 ---p 0019d000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[1-36.8978] 43c1c000-43c25000 rw-p 0019c000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[1-36.8978] 43c25000-43c26000 rw-p 00000000 00:00 0          
+[1-36.8978] 43c30000-43d44000 r-xp 00000000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[1-36.8979] 43d44000-43d53000 ---p 00114000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[1-36.8979] 43d53000-43d5d000 rw-p 00113000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[1-36.8979] 43d5d000-43d62000 rw-p 00000000 00:00 0          
+[1-36.8979] 43d70000-43dd0000 r-xp 00000000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[1-36.8979] 43dd0000-43ddf000 ---p 00060000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[1-36.8979] 43ddf000-43de3000 rw-p 0005f000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[1-36.8979] 43df0000-43e2c000 r-xp 00000000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[1-36.8979] 43e2c000-43e3b000 ---p 0003c000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[1-36.8979] 43e3b000-43e3d000 rw-p 0003b000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[1-36.8979] 43e3d000-43e3e000 rw-p 00000000 00:00 0          
+[1-36.8979] 43e40000-43e62000 r-xp 00000000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[1-36.8979] 43e62000-43e71000 ---p 00022000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[1-36.8980] 43e71000-43e73000 rw-p 00021000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[1-36.8980] 43e80000-43ea9000 r-xp 00000000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[1-36.8980] 43ea9000-43eb8000 ---p 00029000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[1-36.8980] 43eb8000-43eba000 rw-p 00028000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[1-36.8980] 43ec0000-43ed2000 r-xp 00000000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[1-36.8980] 43ed2000-43ee2000 ---p 00012000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[1-36.8980] 43ee2000-43ee3000 rw-p 00012000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[1-36.8980] 43ef0000-43f0b000 r-xp 00000000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[1-36.8980] 43f0b000-43f1a000 ---p 0001b000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[1-36.8980] 43f1a000-43f1b000 rw-p 0001a000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[1-36.8980] 43f20000-43f35000 r-xp 00000000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[1-36.8981] 43f35000-43f45000 ---p 00015000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[1-36.8981] 43f45000-43f46000 rw-p 00015000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[1-36.8981] 43f50000-43f52000 r-xp 00000000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[1-36.8981] 43f52000-43f61000 ---p 00002000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[1-36.8981] 43f61000-43f62000 rw-p 00001000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[1-36.8981] 43f70000-43f77000 r-xp 00000000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[1-36.8981] 43f77000-43f86000 ---p 00007000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[1-36.8981] 43f86000-43f87000 rw-p 00006000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[1-36.8981] 43f90000-43f92000 r-xp 00000000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[1-36.8981] 43f92000-43fa1000 ---p 00002000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[1-36.8981] 43fa1000-43fa2000 rw-p 00001000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[1-36.8981] 43fb0000-43fbb000 r-xp 00000000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[1-36.8982] 43fbb000-43fca000 ---p 0000b000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[1-36.8982] 43fca000-43fcb000 rw-p 0000a000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[1-36.8982] 43fd0000-43fd3000 r-xp 00000000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[1-36.8982] 43fd3000-43fe2000 ---p 00003000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[1-36.8982] 43fe2000-43fe3000 rw-p 00002000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[1-36.8982] 43ff0000-43ff2000 r-xp 00000000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[1-36.8982] 43ff2000-44001000 ---p 00002000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[1-36.8982] 44001000-44002000 rw-p 00001000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[1-36.8982] 44010000-4401a000 r-xp 00000000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[1-36.8982] 4401a000-44029000 ---p 0000a000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[1-36.8982] 44029000-4402a000 rw-p 00009000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[1-36.8982] 44030000-44032000 r-xp 00000000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[1-36.8983] 44032000-44041000 ---p 00002000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[1-36.8983] 44041000-44042000 rw-p 00001000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[1-36.8983] 44050000-44056000 r-xp 00000000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[1-36.8983] 44056000-44065000 ---p 00006000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[1-36.8983] 44065000-44066000 rw-p 00005000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[1-36.8983] 44070000-44076000 r-xp 00000000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[1-36.8983] 44076000-44085000 ---p 00006000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[1-36.8983] 44085000-44086000 rw-p 00005000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[1-36.8983] 44090000-44094000 r-xp 00000000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[1-36.8983] 44094000-440a3000 ---p 00004000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[1-36.8983] 440a3000-440a4000 rw-p 00003000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[1-36.8983] 440b0000-440b1000 r-xp 00000000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[1-36.8984] 440b1000-440c0000 ---p 00001000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[1-36.8984] 440c0000-440c1000 rw-p 00000000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[1-36.8984] 440d0000-440d3000 r-xp 00000000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[1-36.8984] 440d3000-440e3000 ---p 00003000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[1-36.8984] 440e3000-440e4000 rw-p 00003000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[1-36.8984] 440f0000-440f9000 r-xp 00000000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[1-36.8984] 440f9000-44109000 ---p 00009000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[1-36.8984] 44109000-4410a000 rw-p 00009000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[1-36.8984] 44110000-44112000 r-xp 00000000 b3:16 5045       /usr/lib/libiri.so
+[1-36.8984] 44112000-44121000 ---p 00002000 b3:16 5045       /usr/lib/libiri.so
+[1-36.8984] 44121000-44122000 rw-p 00001000 b3:16 5045       /usr/lib/libiri.so
+[1-36.8984] 44130000-442a5000 r-xp 00000000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[1-36.8985] 442a5000-442b4000 ---p 00175000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[1-36.8985] 442b4000-442c5000 rw-p 00174000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[1-36.8985] 442c5000-442dc000 rw-p 00000000 00:00 0          
+[1-36.8985] 442e0000-44321000 r-xp 00000000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[1-36.8985] 44321000-44331000 ---p 00041000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[1-36.8985] 44331000-44332000 rw-p 00041000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[1-36.8985] 44340000-44367000 r-xp 00000000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[1-36.8985] 44367000-44376000 ---p 00027000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[1-36.8985] 44376000-44377000 rw-p 00026000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[1-36.8985] 44377000-44387000 rw-p 00000000 00:00 0          
+[1-36.8985] 44390000-443b2000 r-xp 00000000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[1-36.8985] 443b2000-443c2000 ---p 00022000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[1-36.8986] 443c2000-443c3000 rw-p 00022000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[1-36.8986] 443c3000-443c4000 rw-p 00000000 00:00 0          
+[1-36.8986] 443d0000-443ef000 r-xp 00000000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[1-36.8986] 443ef000-443fe000 ---p 0001f000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[1-36.8986] 443fe000-443ff000 rw-p 0001e000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[1-36.8986] 443ff000-44407000 rw-p 00000000 00:00 0          
+[1-36.8986] 44410000-4443c000 r-xp 00000000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[1-36.8986] 4443c000-4444b000 ---p 0002c000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[1-36.8986] 4444b000-4444c000 rw-p 0002b000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[1-36.8986] 44450000-44476000 r-xp 00000000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[1-36.8986] 44476000-44485000 ---p 00026000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[1-36.8986] 44485000-44486000 rw-p 00025000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[1-36.8986] 44490000-444ac000 r-xp 00000000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[1-36.8987] 444ac000-444bb000 ---p 0001c000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[1-36.8987] 444bb000-444bc000 rw-p 0001b000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[1-36.8987] 444bc000-444be000 rw-p 00000000 00:00 0          
+[1-36.8987] 444c0000-444d9000 r-xp 00000000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[1-36.8987] 444d9000-444e9000 ---p 00019000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[1-36.8987] 444e9000-444ea000 rw-p 00019000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[1-36.8987] 444f0000-44504000 r-xp 00000000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[1-36.8987] 44504000-44513000 ---p 00014000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[1-36.8987] 44513000-44515000 rw-p 00013000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[1-36.8987] 44520000-44534000 r-xp 00000000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[1-36.8987] 44534000-44543000 ---p 00014000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[1-36.8987] 44543000-44544000 rw-p 00013000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[1-36.8988] 44550000-44564000 r-xp 00000000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[1-36.8988] 44564000-44574000 ---p 00014000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[1-36.8988] 44574000-44575000 rw-p 00014000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[1-36.8988] 44580000-4459b000 r-xp 00000000 b3:16 3164       /usr/lib/liblua-5.1.so
+[1-36.8988] 4459b000-445ab000 ---p 0001b000 b3:16 3164       /usr/lib/liblua-5.1.so
+[1-36.8988] 445ab000-445ac000 rw-p 0001b000 b3:16 3164       /usr/lib/liblua-5.1.so
+[1-36.8988] 445b0000-445cc000 r-xp 00000000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[1-36.8988] 445cc000-445db000 ---p 0001c000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[1-36.8988] 445db000-445dc000 rw-p 0001b000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[1-36.8988] 445e0000-445e3000 r-xp 00000000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[1-36.8988] 445e3000-445f2000 ---p 00003000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[1-36.8988] 445f2000-445f3000 rw-p 00002000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[1-36.8989] 44600000-44604000 r-xp 00000000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[1-36.8989] 44604000-44613000 ---p 00004000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[1-36.8989] 44613000-44614000 rw-p 00003000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[1-36.8989] 44620000-44625000 r-xp 00000000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[1-36.8989] 44625000-44634000 ---p 00005000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[1-36.8989] 44634000-44635000 rw-p 00004000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[1-36.8989] 44640000-44642000 r-xp 00000000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[1-36.8989] 44642000-44651000 ---p 00002000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[1-36.8989] 44651000-44652000 rw-p 00001000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[1-36.8989] 44660000-44666000 r-xp 00000000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[1-36.8989] 44666000-44675000 ---p 00006000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[1-36.8989] 44675000-44676000 rw-p 00005000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[1-36.8990] 44680000-448e9000 r-xp 00000000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[1-36.8990] 448e9000-448f8000 ---p 00269000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[1-36.8990] 448f8000-44914000 rw-p 00268000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[1-36.8990] 44914000-44917000 rw-p 00000000 00:00 0          
+[1-36.8990] 44920000-449aa000 r-xp 00000000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[1-36.8990] 449aa000-449ba000 ---p 0008a000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[1-36.8990] 449ba000-449bd000 rw-p 0008a000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[1-36.8990] 449c0000-449f3000 r-xp 00000000 b3:16 6028       /usr/lib/libCLogger.so
+[1-36.8990] 449f3000-44a03000 ---p 00033000 b3:16 6028       /usr/lib/libCLogger.so
+[1-36.8990] 44a03000-44a04000 rw-p 00033000 b3:16 6028       /usr/lib/libCLogger.so
+[1-36.8990] 44a10000-44a31000 r-xp 00000000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[1-36.8990] 44a31000-44a41000 ---p 00021000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[1-36.8991] 44a41000-44a42000 rw-p 00021000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[1-36.8991] 44a50000-44a69000 r-xp 00000000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[1-36.8991] 44a69000-44a78000 ---p 00019000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[1-36.8991] 44a78000-44a79000 rw-p 00018000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[1-36.8991] 44a80000-44a98000 r-xp 00000000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[1-36.8991] 44a98000-44aa8000 ---p 00018000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[1-36.8991] 44aa8000-44aa9000 rw-p 00018000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[1-36.8991] 44aa9000-44aaa000 rw-p 00000000 00:00 0          
+[1-36.8991] 44ab0000-44ab8000 r-xp 00000000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[1-36.8991] 44ab8000-44ac7000 ---p 00008000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[1-36.8991] 44ac7000-44ac8000 rw-p 00007000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[1-36.8991] 44ad0000-44ad6000 r-xp 00000000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[1-36.8992] 44ad6000-44ae5000 ---p 00006000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[1-36.8992] 44ae5000-44ae6000 rw-p 00005000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[1-36.8992] 44af0000-44af2000 r-xp 00000000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[1-36.8992] 44af2000-44b01000 ---p 00002000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[1-36.8992] 44b01000-44b02000 rw-p 00001000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[1-36.8992] 44b10000-44b13000 r-xp 00000000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[1-36.8992] 44b13000-44b23000 ---p 00003000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[1-36.8992] 44b23000-44b24000 rw-p 00003000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[1-36.8992] 44b30000-44b35000 r-xp 00000000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[1-36.8992] 44b35000-44b44000 ---p 00005000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[1-36.8992] 44b44000-44b45000 rw-p 00004000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[1-36.8992] 44b50000-44b52000 r-xp 00000000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[1-36.8993] 44b52000-44b61000 ---p 00002000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[1-36.8993] 44b61000-44b62000 rw-p 00001000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[1-36.8993] 44b70000-44b7d000 r-xp 00000000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[1-36.8993] 44b7d000-44b8d000 ---p 0000d000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[1-36.8993] 44b8d000-44b8e000 rw-p 0000d000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[1-36.8993] 44b90000-44b97000 r-xp 00000000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[1-36.8993] 44b97000-44ba7000 ---p 00007000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[1-36.8993] 44ba7000-44ba8000 rw-p 00007000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[1-36.8993] 44bb0000-44bb9000 r-xp 00000000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[1-36.8993] 44bb9000-44bc8000 ---p 00009000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[1-36.8993] 44bc8000-44bc9000 rw-p 00008000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[1-36.8994] 44bd0000-44bd7000 r-xp 00000000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[1-36.8994] 44bd7000-44be6000 ---p 00007000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[1-36.8994] 44be6000-44be7000 rw-p 00006000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[1-36.8994] 44bf0000-44bf1000 r-xp 00000000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[1-36.8994] 44bf1000-44c00000 ---p 00001000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[1-36.8994] 44c00000-44c01000 rw-p 00000000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[1-36.8994] 44c10000-44c25000 r-xp 00000000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[1-36.8994] 44c25000-44c34000 ---p 00015000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[1-36.8994] 44c34000-44c3a000 rw-p 00014000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[1-36.8994] 44c40000-44c45000 r-xp 00000000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[1-36.8994] 44c45000-44c54000 ---p 00005000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[1-36.8994] 44c54000-44c55000 rw-p 00004000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[1-36.8995] 44c60000-44d44000 r-xp 00000000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[1-36.8995] 44d44000-44d54000 ---p 000e4000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[1-36.8995] 44d54000-44d60000 rw-p 000e4000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[1-36.8995] 44d70000-44dbf000 r-xp 00000000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[1-36.8995] 44dbf000-44dcf000 ---p 0004f000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[1-36.8995] 44dcf000-44dd0000 rw-p 0004f000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[1-36.8995] 44de0000-44e2a000 r-xp 00000000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[1-36.8995] 44e2a000-44e39000 ---p 0004a000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[1-36.8995] 44e39000-44e3b000 rw-p 00049000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[1-36.8995] 44e3b000-44e3f000 rw-p 00000000 00:00 0          
+[1-36.8995] 44e50000-44e8c000 r-xp 00000000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[1-36.8995] 44e8c000-44e9b000 ---p 0003c000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[1-36.8996] 44e9b000-44e9c000 rw-p 0003b000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[1-36.8996] 44ea0000-44ec3000 r-xp 00000000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[1-36.8996] 44ec3000-44ed3000 ---p 00023000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[1-36.8996] 44ed3000-44ed4000 rw-p 00023000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[1-36.8996] 44ee0000-44ee7000 r-xp 00000000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[1-36.8996] 44ee7000-44ef6000 ---p 00007000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[1-36.8996] 44ef6000-44ef7000 rw-p 00006000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[1-36.8996] 44f00000-44f04000 r-xp 00000000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[1-36.8996] 44f04000-44f13000 ---p 00004000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[1-36.8996] 44f13000-44f14000 rw-p 00003000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[1-36.8996] 44f20000-44f2b000 r-xp 00000000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[1-36.8996] 44f2b000-44f3b000 ---p 0000b000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[1-36.8997] 44f3b000-44f3c000 rw-p 0000b000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[1-36.8997] 44f3c000-44f3f000 rw-p 00000000 00:00 0          
+[1-36.8997] 44f50000-44f61000 r-xp 00000000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[1-36.8997] 44f61000-44f70000 ---p 00011000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[1-36.8997] 44f70000-44f76000 rw-p 00010000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[1-36.8997] 44f80000-44f9c000 r-xp 00000000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[1-36.8997] 44f9c000-44fac000 ---p 0001c000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[1-36.8997] 44fac000-44fad000 rw-p 0001c000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[1-36.8997] 44fb0000-44fca000 r-xp 00000000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[1-36.8997] 44fca000-44fd9000 ---p 0001a000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[1-36.8997] 44fd9000-44fda000 rw-p 00019000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[1-36.8997] 45000000-45007000 r-xp 00000000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[1-36.8998] 45007000-45017000 ---p 00007000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[1-36.8998] 45017000-45018000 rw-p 00007000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[1-36.8998] 45020000-45025000 r-xp 00000000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[1-36.8998] 45025000-45035000 ---p 00005000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[1-36.8998] 45035000-45036000 rw-p 00005000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[1-36.8998] 45040000-45044000 r-xp 00000000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[1-36.8998] 45044000-45053000 ---p 00004000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[1-36.8998] 45053000-45054000 rw-p 00003000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[1-36.8998] 45060000-45064000 r-xp 00000000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[1-36.8998] 45064000-45073000 ---p 00004000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[1-36.8998] 45073000-45074000 rw-p 00003000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[1-36.8999] 45080000-451aa000 r-xp 00000000 b3:16 5319       /usr/lib/libtvs-api.so
+[1-36.8999] 451aa000-451b9000 ---p 0012a000 b3:16 5319       /usr/lib/libtvs-api.so
+[1-36.8999] 451b9000-451c0000 rw-p 00129000 b3:16 5319       /usr/lib/libtvs-api.so
+[1-36.8999] 451c0000-451c2000 rw-p 00000000 00:00 0          
+[1-36.8999] 451d0000-4524b000 r-xp 00000000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[1-36.8999] 4524b000-4525a000 ---p 0007b000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[1-36.8999] 4525a000-4525d000 rw-p 0007a000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[1-36.8999] 45260000-45282000 r-xp 00000000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[1-36.8999] 45282000-45292000 ---p 00022000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[1-36.8999] 45292000-45293000 rw-p 00022000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[1-36.9000] 452a0000-452a5000 r-xp 00000000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[1-36.9000] 452a5000-452b4000 ---p 00005000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[1-36.9000] 452b4000-452b5000 rw-p 00004000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[1-36.9000] 452c0000-452c4000 r-xp 00000000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[1-36.9000] 452c4000-452d3000 ---p 00004000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[1-36.9000] 452d3000-452d4000 rw-p 00003000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[1-36.9000] 452e0000-452e1000 r-xp 00000000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[1-36.9000] 452e1000-452f0000 ---p 00001000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[1-36.9000] 452f0000-452f1000 rw-p 00000000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[1-36.9000] 45300000-45301000 r-xp 00000000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[1-36.9000] 45301000-45310000 ---p 00001000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[1-36.9001] 45310000-45311000 rw-p 00000000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[1-36.9001] 45320000-45328000 r-xp 00000000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[1-36.9001] 45328000-45337000 ---p 00008000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[1-36.9001] 45337000-45338000 rw-p 00007000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[1-36.9001] 45340000-453a5000 r-xp 00000000 b3:16 7603       /usr/lib/libavoc-3d.so
+[1-36.9001] 453a5000-453b5000 ---p 00065000 b3:16 7603       /usr/lib/libavoc-3d.so
+[1-36.9001] 453b5000-453c1000 rw-p 00065000 b3:16 7603       /usr/lib/libavoc-3d.so
+[1-36.9001] 453d0000-45436000 r-xp 00000000 b3:16 7040       /usr/lib/libavoc-mls.so
+[1-36.9001] 45436000-45446000 ---p 00066000 b3:16 7040       /usr/lib/libavoc-mls.so
+[1-36.9001] 45446000-45452000 rw-p 00066000 b3:16 7040       /usr/lib/libavoc-mls.so
+[1-36.9001] 454d0000-454da000 r-xp 00000000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[1-36.9001] 454da000-454e9000 ---p 0000a000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[1-36.9002] 454e9000-454ea000 rw-p 00009000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[1-36.9002] 45570000-4557f000 r-xp 00000000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[1-36.9002] 4557f000-4558e000 ---p 0000f000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[1-36.9002] 4558e000-4558f000 rw-p 0000e000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[1-36.9002] 455a0000-455ad000 r-xp 00000000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[1-36.9002] 455ad000-455bc000 ---p 0000d000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[1-36.9002] 455bc000-455c2000 rw-p 0000c000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[1-36.9002] 455d0000-455d7000 r-xp 00000000 b3:16 7434       /usr/lib/libteec.so
+[1-36.9002] 455d7000-455e7000 ---p 00007000 b3:16 7434       /usr/lib/libteec.so
+[1-36.9002] 455e7000-455e8000 rw-p 00007000 b3:16 7434       /usr/lib/libteec.so
+[1-36.9002] 45690000-45713000 r-xp 00000000 b3:16 3853       /usr/lib/libavoc.so
+[1-36.9002] 45713000-45723000 ---p 00083000 b3:16 3853       /usr/lib/libavoc.so
+[1-36.9003] 45723000-4572f000 rw-p 00083000 b3:16 3853       /usr/lib/libavoc.so
+[1-36.9003] 45740000-457b3000 r-xp 00000000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[1-36.9003] 457b3000-457c2000 ---p 00073000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[1-36.9003] 457c2000-457ce000 rw-p 00072000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[1-36.9003] 457d0000-45838000 r-xp 00000000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[1-36.9003] 45838000-45848000 ---p 00068000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[1-36.9003] 45848000-45854000 rw-p 00068000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[1-36.9003] 45860000-458c5000 r-xp 00000000 b3:16 3721       /usr/lib/libavoc-br.so
+[1-36.9003] 458c5000-458d5000 ---p 00065000 b3:16 3721       /usr/lib/libavoc-br.so
+[1-36.9003] 458d5000-458e1000 rw-p 00065000 b3:16 3721       /usr/lib/libavoc-br.so
+[1-36.9003] 458f0000-4595e000 r-xp 00000000 b3:16 5035       /usr/lib/libavoc-checker.so
+[1-36.9004] 4595e000-4596d000 ---p 0006e000 b3:16 5035       /usr/lib/libavoc-checker.so
+[1-36.9004] 4596d000-45979000 rw-p 0006d000 b3:16 5035       /usr/lib/libavoc-checker.so
+[1-36.9004] 45980000-459e5000 r-xp 00000000 b3:16 4794       /usr/lib/libavoc-wm.so
+[1-36.9004] 459e5000-459f4000 ---p 00065000 b3:16 4794       /usr/lib/libavoc-wm.so
+[1-36.9004] 459f4000-45a00000 rw-p 00064000 b3:16 4794       /usr/lib/libavoc-wm.so
+[1-36.9004] 45a10000-45a2a000 r-xp 00000000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[1-36.9004] 45a2a000-45a39000 ---p 0001a000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[1-36.9004] 45a39000-45a3b000 rw-p 00019000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[1-36.9004] 45a3b000-45a8d000 rw-p 00000000 00:00 0          
+[1-36.9004] 45ad0000-45ada000 r-xp 00000000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[1-36.9004] 45ada000-45ae9000 ---p 0000a000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[1-36.9004] 45ae9000-45aea000 rw-p 00009000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[1-36.9005] 45af0000-45af2000 r-xp 00000000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[1-36.9005] 45af2000-45b01000 ---p 00002000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[1-36.9005] 45b01000-45b02000 rw-p 00001000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[1-36.9005] 45b10000-45b13000 r-xp 00000000 b3:16 7887       /usr/lib/libbptime.so
+[1-36.9005] 45b13000-45b22000 ---p 00003000 b3:16 7887       /usr/lib/libbptime.so
+[1-36.9005] 45b22000-45b23000 rw-p 00002000 b3:16 7887       /usr/lib/libbptime.so
+[1-36.9005] 45b50000-45b57000 r-xp 00000000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[1-36.9005] 45b57000-45b66000 ---p 00007000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[1-36.9005] 45b66000-45b6a000 rw-p 00006000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[1-36.9005] 45c90000-45cd7000 r-xp 00000000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[1-36.9005] 45cd7000-45ce6000 ---p 00047000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[1-36.9005] 45ce6000-45ce7000 rw-p 00046000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[1-36.9006] 45cf0000-45d27000 r-xp 00000000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[1-36.9006] 45d27000-45d36000 ---p 00037000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[1-36.9006] 45d36000-45d37000 rw-p 00036000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[1-36.9006] 45d40000-45d64000 r-xp 00000000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[1-36.9006] 45d64000-45d73000 ---p 00024000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[1-36.9006] 45d73000-45d75000 rw-p 00023000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[1-36.9006] 45e00000-45e11000 r-xp 00000000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[1-36.9006] 45e11000-45e21000 ---p 00011000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[1-36.9006] 45e21000-45e22000 rw-p 00011000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[1-36.9006] 45e60000-45e66000 r-xp 00000000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[1-36.9006] 45e66000-45e75000 ---p 00006000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[1-36.9007] 45e75000-45e76000 rw-p 00005000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[1-36.9007] 45e80000-45e83000 r-xp 00000000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[1-36.9007] 45e83000-45e93000 ---p 00003000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[1-36.9007] 45e93000-45e94000 rw-p 00003000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[1-36.9007] 45ea0000-45ea4000 r-xp 00000000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[1-36.9007] 45ea4000-45eb4000 ---p 00004000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[1-36.9007] 45eb4000-45eb5000 rw-p 00004000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[1-36.9007] 45fb0000-45fe9000 r-xp 00000000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[1-36.9007] 45fe9000-45ff9000 ---p 00039000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[1-36.9007] 45ff9000-45ffa000 rw-p 00039000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[1-36.9007] 46000000-46015000 r-xp 00000000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[1-36.9007] 46015000-46024000 ---p 00015000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[1-36.9008] 46024000-46025000 rw-p 00014000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[1-36.9008] 467d0000-46826000 r-xp 00000000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[1-36.9008] 46826000-46835000 ---p 00056000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[1-36.9008] 46835000-46839000 rw-p 00055000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[1-36.9008] 468a0000-468e7000 r-xp 00000000 b3:16 7736       /usr/lib/libtvs-ht.so
+[1-36.9008] 468e7000-468f6000 ---p 00047000 b3:16 7736       /usr/lib/libtvs-ht.so
+[1-36.9008] 468f6000-468f9000 rw-p 00046000 b3:16 7736       /usr/lib/libtvs-ht.so
+[1-36.9008] 46970000-4697d000 r-xp 00000000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[1-36.9008] 4697d000-4698d000 ---p 0000d000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[1-36.9008] 4698d000-46994000 rw-p 0000d000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[1-36.9008] 46af0000-46d41000 r-xp 00000000 b3:16 3887       /usr/lib/libave.so.0.1
+[1-36.9008] 46d41000-46d51000 ---p 00251000 b3:16 3887       /usr/lib/libave.so.0.1
+[1-36.9009] 46d51000-46d56000 rw-p 00251000 b3:16 3887       /usr/lib/libave.so.0.1
+[1-36.9009] 46d56000-46d60000 rw-p 00000000 00:00 0          
+[1-36.9009] 471e0000-471e3000 r-xp 00000000 b3:16 7277       /usr/lib/libpq.so.1
+[1-36.9009] 471e3000-471f2000 ---p 00003000 b3:16 7277       /usr/lib/libpq.so.1
+[1-36.9009] 471f2000-471f9000 rw-p 00002000 b3:16 7277       /usr/lib/libpq.so.1
+[1-36.9009] 4a7e0000-4a7e4000 r-xp 00000000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[1-36.9009] 4a7e4000-4a7f3000 ---p 00004000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[1-36.9009] 4a7f3000-4a7f4000 rw-p 00003000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[1-36.9009] 4a800000-4a802000 r-xp 00000000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[1-36.9009] 4a802000-4a811000 ---p 00002000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[1-36.9009] 4a811000-4a812000 rw-p 00001000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[1-36.9009] 4ce30000-4ce3a000 r-xp 00000000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[1-36.9010] 4ce3a000-4ce49000 ---p 0000a000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[1-36.9010] 4ce49000-4ce62000 rw-p 00009000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[1-36.9010] b5964000-b596f000 r-xp 00000000 b3:16 442        /lib/libnss_files-2.20.so
+[1-36.9010] b596f000-b597e000 ---p 0000b000 b3:16 442        /lib/libnss_files-2.20.so
+[1-36.9010] b597e000-b597f000 r--p 0000a000 b3:16 442        /lib/libnss_files-2.20.so
+[1-36.9010] b597f000-b5980000 rw-p 0000b000 b3:16 442        /lib/libnss_files-2.20.so
+[1-36.9010] b59a0000-b59a1000 ---p 00000000 00:00 0          
+[1-36.9010] b59a1000-b5ba0000 rw-p 00000000 00:00 0          [tstack: tcon_monitor: 801]
+[1-36.9010] b5ba0000-b5ba1000 ---p 00000000 00:00 0          
+[1-36.9010] b5ba1000-b5da0000 rw-p 00000000 00:00 0          [tstack: frc_ddr_check: 800]
+[1-36.9010] b5da0000-b5da1000 ---p 00000000 00:00 0          
+[1-36.9010] b5da1000-b5fa0000 rw-p 00000000 00:00 0          [tstack: metadata self m: 799]
+[1-36.9010] b5fa0000-b5fa1000 ---p 00000000 00:00 0          
+[1-36.9011] b5fa1000-b5fe0000 rw-p 00000000 00:00 0          [tstack: AVEvSyncMonitor: 772]
+[1-36.9011] b5fe0000-b5fe8000 rw-s 00000000 b3:18 4186       /opt/dbspace/.avoc.db-shm
+[1-36.9011] b5fe8000-b6064000 rw-p 00000000 00:00 0          
+[1-36.9011] b6064000-b607f000 rw-s 00000000 00:0f 8607       /dev/shm/shm_ave
+[1-36.9011] b607f000-b6080000 rw-s 00000000 00:0f 8606       /dev/shm/sem.ave_semaphore
+[1-36.9011] b6080000-b60bc000 r-xp 00000000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[1-36.9011] b60bc000-b60cb000 ---p 0003c000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[1-36.9011] b60cb000-b60d5000 rw-p 0003b000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[1-36.9011] b60d5000-b60da000 r--s 00000000 b3:16 50546      /usr/share/factory-data/FactoryIndexFile_Part2.dat
+[1-36.9011] b60da000-b60dc000 r-xp 00000000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[1-36.9011] b60dc000-b60eb000 ---p 00002000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[1-36.9012] b60eb000-b60ec000 rw-p 00001000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[1-36.9012] b60ec000-b60ee000 r-xp 00000000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[1-36.9012] b60ee000-b60fd000 ---p 00002000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[1-36.9012] b60fd000-b60fe000 rw-p 00001000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[1-36.9012] b60fe000-b638e000 rw-s 00b60000 00:05 1111       /dev/sdp_mem
+[1-36.9012] b638e000-b63b1000 rw-s 00980000 00:05 1111       /dev/sdp_mem
+[1-36.9012] b63b1000-b63d9000 rw-p 00000000 00:00 0          
+[1-36.9012] b63d9000-b63e1000 r--s 00000000 b3:16 50549      /usr/share/factory-data/FactoryIndexFile_Part1.dat
+[1-36.9012] b63e1000-b63e2000 rw-s 00000000 00:04 0          /SYSV521612ed (deleted)
+[1-36.9012] b63e2000-b63f1000 rw-s 005c1000 00:05 1111       /dev/sdp_mem
+[1-36.9012] b63f1000-b63f7000 rw-s 00000000 00:0f 401        /dev/shm/shm_socpq
+[1-36.9012] b63f7000-b63f8000 rw-s 00000000 00:0f 400        /dev/shm/sem.socpq_semaphore
+[1-36.9013] b63f8000-b63f9000 r--p 00000000 00:05 1193       /dev/dlog_mgr
+[1-36.9013] b63f9000-b63fb000 rw-p 00000000 00:00 0          
+[1-36.9013] b63fb000-b63fc000 r-xp 00000000 00:00 0          [sigpage]
+[1-36.9013] be1c9000-be1eb000 rw-p 00000000 00:00 0          [stack]
+[1-36.9013] ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+[1-36.9013] -----------------------------------------------------------
+[1-36.9013] 
+[1-36.9018] [kpi_fault_info] [k] 0 -> p:0x42922874 l:0xb63b14c0 th:avocd pro:avocd ty:crash pgid:353
+[1-36.9018] [VDLP COREDUMP] SIGNR:6
+[1-36.9018] 
+[1-36.9018] thread 'frc_ddr_check' has TASK_UNINTERRUPTIBLE(2) state 
+[1-36.9018] faulting thread : avocd
+[3-37.1311] sdp-msg-micom micom-msg.17: [Send][37.1310][deviced_bl_work] Inverter Control (1) 
+[3-37.5330] sdp-msg-micom micom-msg.17: [Send][37.5330][deviced_bl_work] Inverter Control (1) 
+[3-37.9324] sdp-msg-micom micom-msg.17: [Send][37.9324][deviced_bl_work] Inverter Control (1) 
+[3-38.3335] sdp-msg-micom micom-msg.17: [Send][38.3335][deviced_bl_work] Inverter Control (1) 
+[2-38.7360] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[2-38.7364] frc_tcon->submicom[0xd1:1]retry[0][pid:478,deviced_bl_work]
+[2-40.7500] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[3-40.7504] sdp-msg-micom micom-msg.17: [Send][40.7504][fastlogo] Inverter Control (1) 
+[3-41.1531] sdp-msg-micom micom-msg.17: [Send][41.1531][fastlogo] Inverter Control (1) 
+[3-41.5529] sdp-msg-micom micom-msg.17: [Send][41.5529][fastlogo] Inverter Control (1) 
+         [   36.8904] Stopping Start the ep-monitor daemon...
+[  OK  ] [   36.8905] Stopped Start the ep-monitor daemon.
+         [   36.8905] Starting Start the ep-monitor daemon...
+[3-41.9519] sdp-msg-micom micom-msg.17: [Send][41.9519][fastlogo] Inverter Control (1) 
+[3-42.3519] sdp-msg-micom micom-msg.17: [Send][42.3519][fastlogo] Inverter Control (1) 
+[3-42.7519] sdp-msg-micom micom-msg.17: [Send][42.7519][fastlogo] Inverter Control (1) 
+[2-43.1543] sdp-msg-micom micom-msg.17: [Send][43.1543][deviced_bl_work] Inverter Control (1) 
+[2-43.5519] sdp-msg-micom micom-msg.17: [Send][43.5519][deviced_bl_work] Inverter Control (1) 
+[2-43.9519] sdp-msg-micom micom-msg.17: [Send][43.9519][deviced_bl_work] Inverter Control (1) 
+[2-44.3519] sdp-msg-micom micom-msg.17: [Send][44.3519][deviced_bl_work] Inverter Control (1) 
+[2-44.7519] sdp-msg-micom micom-msg.17: [Send][44.7519][deviced_bl_work] Inverter Control (1) 
+[3-45.1519] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[3-45.1593] frc_tcon->submicom[0xd1:1]retry[1][pid:478,deviced_bl_work]
+[2-47.1559] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[3-49.5600] sdp-msg-micom micom-msg.17: [Send][49.5599][deviced_bl_work] Inverter Control (1) 
+[3-49.9599] sdp-msg-micom micom-msg.17: [Send][49.9599][deviced_bl_work] Inverter Control (1) 
+[3-50.3599] sdp-msg-micom micom-msg.17: [Send][50.3599][deviced_bl_work] Inverter Control (1) 
+[3-50.7599] sdp-msg-micom micom-msg.17: [Send][50.7599][deviced_bl_work] Inverter Control (1) 
+[3-51.1599] sdp-msg-micom micom-msg.17: [Send][51.1599][deviced_bl_work] Inverter Control (1) 
+[3-51.5599] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[3-51.5669] frc_tcon->submicom[0xd1:1]retry[2][pid:478,deviced_bl_work]
+[2-53.5679] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-53.5748] sdp-msg-micom micom-msg.17: [Send][53.5748][fastlogo] Inverter Control (1) 
+[0-53.9719] sdp-msg-micom micom-msg.17: [Send][53.9719][fastlogo] Inverter Control (1) 
+[0-54.3719] sdp-msg-micom micom-msg.17: [Send][54.3719][fastlogo] Inverter Control (1) 
+[0-54.7719] sdp-msg-micom micom-msg.17: [Send][54.7719][fastlogo] Inverter Control (1) 
+[0-55.1719] sdp-msg-micom micom-msg.17: [Send][55.1719][fastlogo] Inverter Control (1) 
+[0-55.5720] sdp-msg-micom micom-msg.17: [Send][55.5719][fastlogo] Inverter Control (1) 
+[0-55.9720] sdp-msg-micom micom-msg.17: [Send][55.9720][deviced_bl_work] Inverter Control (1) 
+[0-56.3719] sdp-msg-micom micom-msg.17: [Send][56.3719][deviced_bl_work] Inverter Control (1) 
+[0-56.7719] sdp-msg-micom micom-msg.17: [Send][56.7719][deviced_bl_work] Inverter Control (1) 
+[0-57.1719] sdp-msg-micom micom-msg.17: [Send][57.1719][deviced_bl_work] Inverter Control (1) 
+[0-57.5719] sdp-msg-micom micom-msg.17: [Send][57.5719][deviced_bl_work] Inverter Control (1) 
+[2-57.9719] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[2-57.9788] frc_tcon->submicom[0xd1:1]retry[3][pid:478,deviced_bl_work]
+[2-59.9759] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+This sentence is redirected to a serial output.Assertion failed: /home/abuild/rpmbuild/BUILD/tvs-main-loop-0.1.2/main.cpp (226) - 0
+Debug information:
+Posix Thread ID: 0xb63ae000
+Linux Thread ID:        367 (tvs-daemon)
+Callstack:
+/usr/bin/tvs-daemon(_Z14CheckFileExistPc+0x1e5) [0x1c63a]
+/usr/bin/tvs-daemon(_Z4Mainv+0x1f7) [0x2304c]
+/usr/lib/libtvs-core.so.0(main+0xbf) [0x4d077a40]
+/lib/libc.so.6(__libc_start_main+0x120) [0x42896768]
+[2-67.1850] sdp-msg-micom micom-msg.17: [Send][67.1849][deviced_bl_work] Inverter Control (1) 
+[2-67.5839] sdp-msg-micom micom-msg.17: [Send][67.5839][deviced_bl_work] Inverter Control (1) 
+[2-67.9839] sdp-msg-micom micom-msg.17: [Send][67.9839][deviced_bl_work] Inverter Control (1) 
+[2-68.3839] sdp-msg-micom micom-msg.17: [Send][68.3839][deviced_bl_work] Inverter Control (1) 
+[2-68.7839] sdp-msg-micom micom-msg.17: [Send][68.7839][deviced_bl_work] Inverter Control (1) 
+[2-69.1839] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[2-69.1910] frc_tcon->submicom[0xd1:1]retry[4][pid:478,deviced_bl_work]
+[2-71.1879] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[3-73.1919] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[2-75.1959] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x60, (ret:0)
+[2-75.2067] sdp-msg-micom micom-msg.17: [Send][75.2066][fastlogo] Inverter Control (1) 
+[2-75.6039] sdp-msg-micom micom-msg.17: [Send][75.6039][fastlogo] Inverter Control (1) 
+[2-76.0039] sdp-msg-micom micom-msg.17: [Send][76.0039][fastlogo] Inverter Control (1) 
+[2-76.4039] sdp-msg-micom micom-msg.17: [Send][76.4039][fastlogo] Inverter Control (1) 
+[2-76.8040] sdp-msg-micom micom-msg.17: [Send][76.8039][fastlogo] Inverter Control (1) 
+[2-77.2040] sdp-msg-micom micom-msg.17: [Send][77.2039][fastlogo] Inverter Control (1) 

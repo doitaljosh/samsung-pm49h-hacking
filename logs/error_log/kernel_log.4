@@ -1,0 +1,2423 @@
+[1-99.3264] sdp-mchnd 800100.msgbox: 10@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[1-99.3264] sdp-mchnd 800100.msgbox: 11@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[1-99.3264] sdp-mchnd 800100.msgbox: 12@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[1-99.3264] sdp-mchnd 800100.msgbox: 13@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[1-99.3265] sdp-mchnd 800100.msgbox: 14@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[1-99.3265] sdp-mchnd 800100.msgbox: 15@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[1-99.3265] sdp-mchnd 800100.msgbox: 16@ 4: 16us(7.0924s) 0x9 0029ffff 00000000 00002929
+[1-99.3265] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-99.3265] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-99.3265] Backtrace: 
+[2-99.3265] Function entered at [<c0011034>] from [<c0011770>]
+[2-99.3265]  r7:00200200 r6:00100100 r5:d78bfee8 r4:cf5ede3c
+[2-99.3265] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-99.3265] Function entered at [<c0414c2c>] from [<be410104>]
+[2-99.3265] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-99.3265] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-99.3266]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-99.3266] Function entered at [<c0012f78>] from [<c0008554>]
+[2-99.3266]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-99.3266] Function entered at [<c00084c0>] from [<c000d980>]
+[2-99.3266] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-99.3266] ff60:                                     d7d61840 00000000 0002100e 00000000
+[2-99.3266] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-99.3266] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600d0013 ffffffff d78bffd4
+[2-99.3266]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600d0013
+[2-99.3266] r4:c000ec60
+[2-99.3266] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-99.3266] Function entered at [<c0072124>] from [<c0410458>]
+[2-99.3267] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-99.3267]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-101.3358] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-101.3424] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-101.3424] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-101.3425] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-101.3425] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-101.3425] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-101.3425] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-101.3425] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-101.3425] sdp-mchnd 800100.msgbox: total_send_count              : 276
+[0-101.3425] sdp-mchnd 800100.msgbox: total_recv_count              : 21
+[0-101.3425] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-101.3425] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-101.3425] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-101.3425] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 99335855886ns
+[0-101.3426] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-101.3426] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-101.3426] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-101.3426] sdp-mchnd 800100.msgbox: rx ring dump ( now 101342478201ns)
+[0-101.3426] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-101.3426] sdp-mchnd 800100.msgbox:  1@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-101.3426] sdp-mchnd 800100.msgbox:  2@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-101.3426] sdp-mchnd 800100.msgbox:  3@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-101.3426] sdp-mchnd 800100.msgbox:  4@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-101.3426] sdp-mchnd 800100.msgbox:  5@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-101.3427] sdp-mchnd 800100.msgbox:  6@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-101.3427] sdp-mchnd 800100.msgbox:  7@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-101.3427] sdp-mchnd 800100.msgbox:  8@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-101.3427] sdp-mchnd 800100.msgbox:  9@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-101.3427] sdp-mchnd 800100.msgbox: 10@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-101.3427] sdp-mchnd 800100.msgbox: 11@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-101.3427] sdp-mchnd 800100.msgbox: 12@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-101.3427] sdp-mchnd 800100.msgbox: 13@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[0-101.3427] sdp-mchnd 800100.msgbox: 14@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[0-101.3427] sdp-mchnd 800100.msgbox: 15@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[0-101.3428] sdp-mchnd 800100.msgbox: 16@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[0-101.3428] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-101.3428] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-101.3428] Backtrace: 
+[2-101.3428] Function entered at [<c0011034>] from [<c0011770>]
+[2-101.3428]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-101.3428] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-101.3428] Function entered at [<c0414c2c>] from [<be410104>]
+[2-101.3428] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-101.3428] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-101.3428]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-101.3429] Function entered at [<c0012f78>] from [<c0008554>]
+[2-101.3429]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-101.3429] Function entered at [<c00084c0>] from [<c000d980>]
+[2-101.3429] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-101.3429] ff60:                                     d7d61840 00000000 000217d6 00000000
+[2-101.3429] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-101.3429] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600d0013 ffffffff d78bffd4
+[2-101.3429]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600d0013
+[2-101.3429] r4:c000ec60
+[2-101.3429] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-101.3429] Function entered at [<c0072124>] from [<c0410458>]
+[2-101.3429] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-101.3429]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[2-101.3430] sdp-msg-micom micom-msg.17: [Send][101.3430][deviced_bl_work] Inverter Control (1) 
+[2-101.7398] sdp-msg-micom micom-msg.17: [Send][101.7398][deviced_bl_work] Inverter Control (1) 
+[2-102.1398] sdp-msg-micom micom-msg.17: [Send][102.1398][deviced_bl_work] Inverter Control (1) 
+[2-102.5398] sdp-msg-micom micom-msg.17: [Send][102.5398][deviced_bl_work] Inverter Control (1) 
+[2-102.9398] sdp-msg-micom micom-msg.17: [Send][102.9398][deviced_bl_work] Inverter Control (1) 
+[2-103.3398] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[2-103.3462] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[2-103.3463] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[2-103.3463] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[2-103.3463] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[2-103.3463] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[2-103.3463] sdp-mchnd 800100.msgbox: Send Data: 00000009 01d1ffff 00000000 08be3cd2
+[2-103.3463] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[2-103.3463] sdp-mchnd 800100.msgbox: total_send_count              : 281
+[2-103.3463] sdp-mchnd 800100.msgbox: total_recv_count              : 21
+[2-103.3463] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[2-103.3463] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[2-103.3464] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[2-103.3464] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 99335855886ns
+[2-103.3464] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[2-103.3464] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[2-103.3464] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[2-103.3464] sdp-mchnd 800100.msgbox: rx ring dump ( now 103346294201ns)
+[2-103.3464] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[2-103.3464] sdp-mchnd 800100.msgbox:  1@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[2-103.3464] sdp-mchnd 800100.msgbox:  2@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[2-103.3464] sdp-mchnd 800100.msgbox:  3@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[2-103.3464] sdp-mchnd 800100.msgbox:  4@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox:  5@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox:  6@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[2-103.3465] sdp-mchnd 800100.msgbox:  7@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox:  8@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox:  9@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox: 10@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[2-103.3465] sdp-mchnd 800100.msgbox: 11@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[2-103.3465] sdp-mchnd 800100.msgbox: 12@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[2-103.3465] sdp-mchnd 800100.msgbox: 13@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[2-103.3465] sdp-mchnd 800100.msgbox: 14@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[2-103.3466] sdp-mchnd 800100.msgbox: 15@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[2-103.3466] sdp-mchnd 800100.msgbox: 16@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[2-103.3466] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-103.3466] CPU: 2 PID: 435 Comm: deviced_bl_work Tainted: PWO 3.10.30 #3
+[2-103.3466] Backtrace: 
+[2-103.3466] Function entered at [<c0011034>] from [<c0011770>]
+[2-103.3466]  r7:be4100f0 r6:60000013 r5:d0e8a028 r4:c041cb20
+[2-103.3466] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-103.3466] Function entered at [<c0414c2c>] from [<be410104>]
+[2-103.3466] Function entered at [<be4100f0>] from [<c007f118>]
+[2-103.3466] Function entered at [<c007f048>] from [<be411130>]
+[2-103.3466] Function entered at [<be410e74>] from [<beb21894>]
+[2-103.3467] Function entered at [<beb217f8>] from [<beb237b0>]
+[2-103.3467]  r8:d0e8a028 r7:d0e8a000 r6:c04138d8 r5:beb2f6d4 r4:00000000
+[2-103.3467] Function entered at [<beb23710>] from [<beb26b28>]
+[2-103.3467]  r7:d0e8a000 r6:c004663b r5:c0415f18 r4:b4a1c95c
+[2-103.3467] Function entered at [<beb269ac>] from [<c00e6e48>]
+[2-103.3467] Function entered at [<c00e6e18>] from [<c00e7888>]
+[2-103.3467] Function entered at [<c00e7418>] from [<c00e79cc>]
+[2-103.3467] Function entered at [<c00e7970>] from [<c000ddc0>]
+[2-103.3467]  r9:d0e8a000 r8:c000df44 r7:00000036 r6:00000001 r5:b62b2370
+[2-103.3467] r4:00000015
+[2-103.3467] frc_tcon->submicom[0xd1:1]retry[8][pid:435,deviced_bl_work]
+[2-103.3527] sdp-msg-micom micom-msg.17: [Send][103.3467][fastlogo] Inverter Control (1) 
+[2-103.7438] sdp-msg-micom micom-msg.17: [Send][103.7438][fastlogo] Inverter Control (1) 
+[2-104.1438] sdp-msg-micom micom-msg.17: [Send][104.1438][fastlogo] Inverter Control (1) 
+[2-104.5438] sdp-msg-micom micom-msg.17: [Send][104.5438][fastlogo] Inverter Control (1) 
+[1-104.7046] [EXTR][NotifyXorgMonitor] [xorg-extra-module][104.047008] xorg-monitor not up yet!!!
+[2-104.9438] sdp-msg-micom micom-msg.17: [Send][104.9438][fastlogo] Inverter Control (1) 
+[0-105.1394] ##### send SIGKILL for threads of process: bootbooster (239)
+[2-105.1924] [bptime] process released : app-boot-manage(351)
+[0-105.2825] usbcore: registered new interface driver usbserial
+[0-105.2835] usbcore: registered new interface driver usbserial_generic
+[0-105.2845] usbserial: USB Serial support registered for generic
+[0-105.2846] usbserial mod ld(0xbf07c000)
+[1-105.3325] [bptime] process open : tvtimer-manager(1109)
+[0-105.3438] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[2-105.3450] sdp-msg-micom micom-msg.17: [Send][105.3438][fastlogo] Inverter Control (1) 
+[0-105.3747] usb_wwan mod ld(0xbf084000)
+[1-105.4302] input: wt61p807 panel key device as /devices/virtual/input/input4
+[3-105.4932] ##### send SIGKILL for threads of process: sdbd (1134)
+[1-105.5007] [bptime] process open : slive-provider-(1116)
+[3-105.5631] usbcore: registered new interface driver option
+[3-105.5634] usbserial: USB Serial support registered for GSM modem (1-port)
+[3-105.5637] option mod ld(0xbf16a000)
+[0-105.7438] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[1-105.7654] usbcore: registered new interface driver cdc_ether
+[1-105.7654] cdc_ether mod ld(0xbe41a000)
+[3-105.9222] slhc mod ld(0xbe43a000)
+[3-106.0243] crc_ccitt mod ld(0xbe470000)
+[1-106.0605] input: USB USB Keyboard as /devices/virtual/input/input5
+[0-106.0801] snd_hwdep mod ld(0xbe47f000)
+[2-106.1548] PPP generic driver version 2.4.2
+[2-106.1733] ppp_generic mod ld(0xbf17a000)
+[2-106.2463] snd_rawmidi mod ld(0xbf183000)
+[1-106.2760] PPP BSD Compression module registered
+[1-106.2761] bsd_comp mod ld(0xbf18a000)
+[1-106.3920] snd_seq_midi_event mod ld(0xbe8e7000)
+[0-106.3928] ppp_async mod ld(0xbf18f000)
+[1-106.5290] snd_usbmidi_lib mod ld(0xbf194000)
+[0-106.6864] PPP Deflate Compression module registered
+[0-106.6864] ppp_deflate mod ld(0xbeb07000)
+[1-106.7201] snd_seq_midi mod ld(0xbeb1f000)
+[2-106.7205] [bptime] process open : input-playback-(1148)
+[0-106.8002] lowmemnotify_poll (21%, Used 320MB, Free 1196MB, normal  )
+[1-106.8054] ##### send SIGKILL for threads of process: sdbd (1285)
+[2-106.8657] usbcore: registered new interface driver snd-usb-audio
+[2-106.8657] snd_usb_audio mod ld(0xbf199000)
+[0-107.0367] usbhid 5-1:1.0: usb_probe_interface
+[0-107.0367] usbhid 5-1:1.0: usb_probe_interface - got id
+[0-107.0472] usbhid 5-1:1.1: usb_probe_interface
+[0-107.0472] usbhid 5-1:1.1: usb_probe_interface - got id
+[0-107.0537] usbcore: registered new interface driver usbhid
+[0-107.0537] usbhid: USB HID core driver
+[0-107.0537] usbhid mod ld(0xbf1b1000)
+[0-107.0630] [LMF] lv1 threshold set : 60 MB
+[0-107.0631] [LMF] lv2 threshold set : 40 MB
+[0-107.0632] [LMF] leave threshold set : 80 MB
+[1-107.0858] [bptime] process open : ep-ui-service(1130)
+[0-107.1797] hid_apple mod ld(0xbebbf000)
+[0-107.2601] hid_chicony mod ld(0xbec66000)
+[1-107.3540] hid_microsoft mod ld(0xbeec6000)
+[0-107.3803] ##### send SIGKILL for threads of process: sdbd (1333)
+[3-107.4175] [bptime] process open : reminder-servic(1125)
+[3-107.4424] hid_multitouch mod ld(0xbf1b8000)
+[2-107.4854] [bptime] process open : ep-dst(1140)
+[0-107.4911] input: MOSART Semi. 2.4G Keyboard Mouse as /devices/400000.xhci/usb5/5-1/5-1:1.0/input/input6
+[0-107.5021] hid-generic 0003:062A:0156.0001: input,hidraw0: USB HID v1.10 Keyboard [MOSART Semi. 2.4G Keyboard Mouse] on usb-400000.xhci-1/input0
+[0-107.5077] input: MOSART Semi. 2.4G Keyboard Mouse as /devices/400000.xhci/usb5/5-1/5-1:1.1/input/input7
+[2-107.5131] [bptime] process open : ep-crestronclie(1142)
+[0-107.5152] hid-generic 0003:062A:0156.0002: input,hidraw1: USB HID v1.10 Mouse [MOSART Semi. 2.4G Keyboard Mouse] on usb-400000.xhci-1/input1
+[0-107.5155] hid_generic mod ld(0xbef1f000)
+[3-107.5493] [bptime] process open : ep-source-switc(1133)
+[2-107.5524] [bptime] process open : ep-protocol-snm(1135)
+[1-107.5950] ff_memless mod ld(0xbf058000)
+[1-107.6858] hid_logitech mod ld(0xbf1bd000)
+[0-107.7310] [bptime] process open : mi-rm-daemon(1160)
+[2-107.7442] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[1-107.7574] usbcore: registered new interface driver xpad
+[1-107.7574] xpad mod ld(0xbf1c2000)
+[2-107.7622] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[2-107.7622] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[2-107.7623] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[2-107.7623] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[2-107.7623] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[2-107.7623] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[2-107.7623] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[2-107.7623] sdp-mchnd 800100.msgbox: total_send_count              : 292
+[2-107.7623] sdp-mchnd 800100.msgbox: total_recv_count              : 21
+[2-107.7623] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[2-107.7623] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[2-107.7623] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[2-107.7623] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 99335855886ns
+[2-107.7623] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[2-107.7624] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[2-107.7624] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[2-107.7624] sdp-mchnd 800100.msgbox: rx ring dump ( now 107762258231ns)
+[2-107.7624] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[2-107.7624] sdp-mchnd 800100.msgbox:  1@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[2-107.7624] sdp-mchnd 800100.msgbox:  2@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[2-107.7624] sdp-mchnd 800100.msgbox:  3@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[2-107.7624] sdp-mchnd 800100.msgbox:  4@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[2-107.7624] sdp-mchnd 800100.msgbox:  5@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[2-107.7625] sdp-mchnd 800100.msgbox:  6@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[2-107.7625] sdp-mchnd 800100.msgbox:  7@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[2-107.7625] sdp-mchnd 800100.msgbox:  8@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[2-107.7625] sdp-mchnd 800100.msgbox:  9@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[2-107.7625] sdp-mchnd 800100.msgbox: 10@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[2-107.7625] sdp-mchnd 800100.msgbox: 11@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[2-107.7625] sdp-mchnd 800100.msgbox: 12@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[2-107.7625] sdp-mchnd 800100.msgbox: 13@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[2-107.7625] sdp-mchnd 800100.msgbox: 14@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[2-107.7626] sdp-mchnd 800100.msgbox: 15@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[2-107.7626] sdp-mchnd 800100.msgbox: 16@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[2-107.7626] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-107.7626] CPU: 2 PID: 1051 Comm: tvctx-manager Tainted: PWO 3.10.30 #3
+[2-107.7626] Backtrace: 
+[2-107.7626] Function entered at [<c0011034>] from [<c0011770>]
+[2-107.7626]  r7:be4100f0 r6:60070013 r5:c4c4e030 r4:c041cb20
+[2-107.7626] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-107.7626] Function entered at [<c0414c2c>] from [<be410104>]
+[2-107.7626] Function entered at [<be4100f0>] from [<c007f118>]
+[2-107.7626] Function entered at [<c007f048>] from [<be411130>]
+[2-107.7626] Function entered at [<be410e74>] from [<be4099b0>]
+[2-107.7627] Function entered at [<be409964>] from [<c026514c>]
+[2-107.7627]  r7:d261c3c0 r6:c4c4ff78 r5:c451ec58 r4:c451ec40
+[2-107.7627] Function entered at [<c026512c>] from [<c012f0c8>]
+[2-107.7627] Function entered at [<c012f010>] from [<c00d7d6c>]
+[2-107.7627] Function entered at [<c00d7cb8>] from [<c00d8564>]
+[2-107.7627]  r8:00000000 r7:000000fe r6:00000001 r5:bde47494 r4:c447ad80
+[2-107.7627] Function entered at [<c00d851c>] from [<c000ddc0>]
+[2-107.7627]  r9:c4c4e000 r8:c000df44 r7:00000003 r6:bde476f0 r5:bde47494
+[2-107.7627] r4:0000001c
+[1-107.7937] ##### send SIGKILL for threads of process: sdbd (1353)
+[3-107.9116] [bptime] process open : ep-protocol-iku(1139)
+[3-107.9610] [bptime] process open : ep-protocol-mdc(1138)
+[1-108.0001] [bptime] process open : ep-express-daem(1165)
+[3-108.0732] [bptime] process open : ep-swupgrade(1132)
+[0-108.1056] ##### send SIGKILL for threads of process: sdbd (1379)
+[1-108.1124] ##### send signal SIG : 9, systemd(1)->sdbd(1382) __send_signal
+[0-109.7598] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-109.7665] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-109.7665] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-109.7665] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-109.7665] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-109.7665] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-109.7665] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-109.7665] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-109.7665] sdp-mchnd 800100.msgbox: total_send_count              : 297
+[0-109.7665] sdp-mchnd 800100.msgbox: total_recv_count              : 21
+[0-109.7665] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-109.7666] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-109.7666] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-109.7666] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 99335855886ns
+[0-109.7666] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-109.7666] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-109.7666] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-109.7666] sdp-mchnd 800100.msgbox: rx ring dump ( now 109766501599ns)
+[0-109.7666] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-109.7666] sdp-mchnd 800100.msgbox:  1@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-109.7666] sdp-mchnd 800100.msgbox:  2@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-109.7666] sdp-mchnd 800100.msgbox:  3@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-109.7667] sdp-mchnd 800100.msgbox:  4@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox:  5@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox:  6@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-109.7667] sdp-mchnd 800100.msgbox:  7@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox:  8@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox:  9@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox: 10@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-109.7667] sdp-mchnd 800100.msgbox: 11@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-109.7667] sdp-mchnd 800100.msgbox: 12@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-109.7667] sdp-mchnd 800100.msgbox: 13@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[0-109.7668] sdp-mchnd 800100.msgbox: 14@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[0-109.7668] sdp-mchnd 800100.msgbox: 15@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[0-109.7668] sdp-mchnd 800100.msgbox: 16@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[0-109.7668] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-109.7668] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-109.7668] Backtrace: 
+[2-109.7668] Function entered at [<c0011034>] from [<c0011770>]
+[2-109.7668]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-109.7668] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-109.7668] Function entered at [<c0414c2c>] from [<be410104>]
+[2-109.7669] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-109.7669] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-109.7669]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-109.7669] Function entered at [<c0012f78>] from [<c0008554>]
+[2-109.7669]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-109.7669] Function entered at [<c00084c0>] from [<c000d980>]
+[2-109.7669] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-109.7669] ff60:                                     d7d61840 00000000 00022b0e 00000000
+[2-109.7669] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-109.7669] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 60010013 ffffffff d78bffd4
+[2-109.7669]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:60010013
+[2-109.7669] r4:c000ec60
+[2-109.7670] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-109.7670] Function entered at [<c0072124>] from [<c0410458>]
+[2-109.7670] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-109.7670]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[2-109.7670] sdp-msg-micom micom-msg.17: [Send][109.7670][deviced_bl_work] Inverter Control (1) 
+[2-110.1638] sdp-msg-micom micom-msg.17: [Send][110.1638][deviced_bl_work] Inverter Control (1) 
+[2-110.5638] sdp-msg-micom micom-msg.17: [Send][110.5638][deviced_bl_work] Inverter Control (1) 
+[2-110.9638] sdp-msg-micom micom-msg.17: [Send][110.9638][deviced_bl_work] Inverter Control (1) 
+[2-111.3638] sdp-msg-micom micom-msg.17: [Send][111.3638][deviced_bl_work] Inverter Control (1) 
+[2-111.7638] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xd1, (ret:0)
+[2-111.7703] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[2-111.7703] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[2-111.7703] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[2-111.7703] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[2-111.7703] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[2-111.7704] sdp-mchnd 800100.msgbox: Send Data: 00000009 01d1ffff 00000000 08be3cd2
+[2-111.7704] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[2-111.7704] sdp-mchnd 800100.msgbox: total_send_count              : 303
+[2-111.7704] sdp-mchnd 800100.msgbox: total_recv_count              : 21
+[2-111.7704] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[2-111.7704] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[2-111.7704] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[2-111.7704] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 99335855886ns
+[2-111.7704] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[2-111.7704] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[2-111.7704] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[2-111.7704] sdp-mchnd 800100.msgbox: rx ring dump ( now 111770346041ns)
+[2-111.7705] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[2-111.7705] sdp-mchnd 800100.msgbox:  1@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  2@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  3@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[2-111.7705] sdp-mchnd 800100.msgbox:  4@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  5@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  6@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[2-111.7705] sdp-mchnd 800100.msgbox:  7@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  8@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[2-111.7705] sdp-mchnd 800100.msgbox:  9@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[2-111.7706] sdp-mchnd 800100.msgbox: 10@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[2-111.7706] sdp-mchnd 800100.msgbox: 11@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[2-111.7706] sdp-mchnd 800100.msgbox: 12@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[2-111.7706] sdp-mchnd 800100.msgbox: 13@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[2-111.7706] sdp-mchnd 800100.msgbox: 14@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[2-111.7706] sdp-mchnd 800100.msgbox: 15@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[2-111.7706] sdp-mchnd 800100.msgbox: 16@ 5: 14us(18.3037s) 0x9 0038ffff 00000000 00002938
+[2-111.7706] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-111.7706] CPU: 2 PID: 435 Comm: deviced_bl_work Tainted: PWO 3.10.30 #3
+[2-111.7706] Backtrace: 
+[2-111.7707] Function entered at [<c0011034>] from [<c0011770>]
+[2-111.7707]  r7:be4100f0 r6:600f0013 r5:d0e8a028 r4:c041cb20
+[2-111.7707] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-111.7707] Function entered at [<c0414c2c>] from [<be410104>]
+[2-111.7707] Function entered at [<be4100f0>] from [<c007f118>]
+[2-111.7707] Function entered at [<c007f048>] from [<be411130>]
+[2-111.7707] Function entered at [<be410e74>] from [<beb21894>]
+[2-111.7707] Function entered at [<beb217f8>] from [<beb237b0>]
+[2-111.7707]  r8:d0e8a028 r7:d0e8a000 r6:c04138d8 r5:beb2f6d4 r4:00000000
+[2-111.7707] Function entered at [<beb23710>] from [<beb26b28>]
+[2-111.7707]  r7:d0e8a000 r6:c004663b r5:c0415f18 r4:b4a1c95c
+[2-111.7707] Function entered at [<beb269ac>] from [<c00e6e48>]
+[2-111.7707] Function entered at [<c00e6e18>] from [<c00e7888>]
+[2-111.7708] Function entered at [<c00e7418>] from [<c00e79cc>]
+[2-111.7708] Function entered at [<c00e7970>] from [<c000ddc0>]
+[2-111.7708]  r9:d0e8a000 r8:c000df44 r7:00000036 r6:00000001 r5:b62b2370
+[2-111.7708] r4:00000015
+[2-111.7708] frc_tcon->submicom[0xd1:1]retry[9][pid:435,deviced_bl_work]
+[2-111.8802] ***** Create small coredump file /opt/usr/share/crash/core/mincore/3.avocd.avocd.352.352.__tizen-2.4-release-lfd-mp-hawkm-lfd_20170329.2__T-HKMLAKUC.0xb630e4c0.0x42922874.mcore ******
+[2-111.8804] including addr range 0xfffff000 to 0x00002000
+[2-111.8852] including addr range 0xfffff000 to 0x00002000
+[2-111.8895] including addr range 0x00115000 to 0x00118000
+[2-111.9006] including addr range 0xffffe000 to 0x00001000
+[2-111.9053] including addr range 0xffffe000 to 0x00001000
+[2-111.9105] Rm unmapped page 0x00117000
+[2-111.9358] [LDVB-DT:S_TC] dbg_cmd: FE_DBG_CMD_SUPPORT_CROSSTALK_NOISE_REDUCTION -- NONE
+[2-111.9373] Including vma range 0x00115000-0x00117000
+[2-111.9420] [LDVB-DT:S_TC] dbg_cmd: FE_DBG_CMD_GET_TUNER_VERSION
+[2-111.9420] [TUNER_MAIN] TunerVersion [16_Si21XXC_20160105]
+[0-111.9537] [LDVB-DT:S_TC] dbg_cmd: FE_DBG_CMD_GET_TUNER_TYPE -- 1
+[2-111.9585] VMAs dumped for ARM GP register pointers = 1
+[2-111.9644] [Mincore]: AES Key encrypted with New RSA.
+[2-112.0812] small Coredump: finished dumping small core /opt/usr/share/crash/core/mincore/3.avocd.avocd.352.352.__tizen-2.4-release-lfd-mp-hawkm-lfd_20170329.2__T-HKMLAKUC.0xb630e4c0.0x42922874.mcore
+[2-112.0813] [smart-deadlock][Making coredump done! Now restart monitoring!][time:16699]
+[2-112.0846] [bptime] process released : avocd(352)
+[3-112.3347] [bptime] process open : avocd(1411)
+[3-112.3735] set eeprom write count.
+[3-112.5705] [ALSA-CTRL] dnse 100hz eq gain: put 50 [1411:avocd]
+[3-112.5705] [ALSA-CTRL] dnse 300hz eq gain: put 50 [1411:avocd]
+[3-112.5706] [ALSA-CTRL] dnse 1khz eq gain: put 50 [1411:avocd]
+[3-112.5706] [ALSA-CTRL] dnse 3khz eq gain: put 50 [1411:avocd]
+[3-112.5706] [ALSA-CTRL] dnse 10khz eq gain: put 50 [1411:avocd]
+[3-112.5707] [ALSA-CTRL] dnse balance: put 10 [1411:avocd]
+[1-112.6399] [ALSA-CTRL] dnse auto volume level mode: put OFF [1411:avocd]
+[1-112.6762] [ALSA-CTRL] spdif out delay: put 0 [1411:avocd]
+[1-112.6762] [ALSA-CTRL] pcm main pulse gain: put 100 [1411:avocd]
+[1-112.7126] [ALSA-CTRL] dnse dtv installation mount type: put STAND [1411:avocd]
+[1-112.7130] [ALSA-CTRL] dec0 dolby compressed mode: put RF [1411:avocd]
+[1-112.7131] [ALSA-CTRL] dec1 dolby compressed mode: put RF [1411:avocd]
+[1-112.7131] [ALSA-CTRL] dec0 out gain: put 0 [1411:avocd]
+[1-112.7132] [ALSA-CTRL] spdif out raw gain: put 0 [1411:avocd]
+[1-112.7132] [ALSA-CTRL] main out delay: put 80 [1411:avocd]
+[1-112.7133] [ALSA-CTRL] hp/line out delay: put 80 [1411:avocd]
+[1-112.7133] [ALSA-CTRL] main out bt/acm pcm delay: put 0 [1411:avocd]
+[1-112.7133] [ALSA-CTRL] spdif out delay: put 0 [1411:avocd]
+[1-113.7758] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[1-113.7824] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[1-113.7824] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[1-113.7824] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[1-113.7824] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[1-113.7824] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[1-113.7824] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[1-113.7824] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[1-113.7825] sdp-mchnd 800100.msgbox: total_send_count              : 309
+[1-113.7825] sdp-mchnd 800100.msgbox: total_recv_count              : 22
+[1-113.7825] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[1-113.7825] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[1-113.7825] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[1-113.7825] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 111776742769ns
+[1-113.7825] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[1-113.7825] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[1-113.7825] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[1-113.7825] sdp-mchnd 800100.msgbox: rx ring dump ( now 113782427666ns)
+[1-113.7825] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[1-113.7825] sdp-mchnd 800100.msgbox:  1@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  2@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  3@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  4@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[1-113.7826] sdp-mchnd 800100.msgbox:  5@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  6@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  7@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[1-113.7826] sdp-mchnd 800100.msgbox:  8@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox:  9@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox: 10@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[1-113.7826] sdp-mchnd 800100.msgbox: 11@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[1-113.7827] sdp-mchnd 800100.msgbox: 12@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[1-113.7827] sdp-mchnd 800100.msgbox: 13@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[1-113.7827] sdp-mchnd 800100.msgbox: 14@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[1-113.7827] sdp-mchnd 800100.msgbox: 15@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[1-113.7827] sdp-mchnd 800100.msgbox: 16@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[1-113.7827] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-113.7827] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-113.7827] Backtrace: 
+[2-113.7827] Function entered at [<c0011034>] from [<c0011770>]
+[2-113.7827]  r7:00200200 r6:00100100 r5:d78bfee8 r4:c4bb1e3c
+[2-113.7828] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-113.7828] Function entered at [<c0414c2c>] from [<be410104>]
+[2-113.7828] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-113.7828] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-113.7828]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-113.7828] Function entered at [<c0012f78>] from [<c0008554>]
+[2-113.7828]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-113.7828] Function entered at [<c00084c0>] from [<c000d980>]
+[2-113.7828] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-113.7828] ff60:                                     d7d61840 00000000 00023736 00000000
+[2-113.7828] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-113.7829] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600d0013 ffffffff d78bffd4
+[2-113.7829]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600d0013
+[2-113.7829] r4:c000ec60
+[2-113.7829] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-113.7829] Function entered at [<c0072124>] from [<c0410458>]
+[2-113.7829] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-113.7829]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[1-115.7798] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[1-115.7863] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[1-115.7863] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[1-115.7863] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[1-115.7863] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[1-115.7863] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[1-115.7863] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[1-115.7863] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[1-115.7863] sdp-mchnd 800100.msgbox: total_send_count              : 314
+[1-115.7863] sdp-mchnd 800100.msgbox: total_recv_count              : 22
+[1-115.7863] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[1-115.7864] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[1-115.7864] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[1-115.7864] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 111776742769ns
+[1-115.7864] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[1-115.7864] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[1-115.7864] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[1-115.7864] sdp-mchnd 800100.msgbox: rx ring dump ( now 115786301974ns)
+[1-115.7864] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[1-115.7864] sdp-mchnd 800100.msgbox:  1@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[1-115.7864] sdp-mchnd 800100.msgbox:  2@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[1-115.7864] sdp-mchnd 800100.msgbox:  3@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox:  4@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[1-115.7865] sdp-mchnd 800100.msgbox:  5@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox:  6@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox:  7@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[1-115.7865] sdp-mchnd 800100.msgbox:  8@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox:  9@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox: 10@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[1-115.7865] sdp-mchnd 800100.msgbox: 11@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[1-115.7865] sdp-mchnd 800100.msgbox: 12@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[1-115.7865] sdp-mchnd 800100.msgbox: 13@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[1-115.7866] sdp-mchnd 800100.msgbox: 14@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[1-115.7866] sdp-mchnd 800100.msgbox: 15@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[1-115.7866] sdp-mchnd 800100.msgbox: 16@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[1-115.7866] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-115.7866] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-115.7866] Backtrace: 
+[2-115.7866] Function entered at [<c0011034>] from [<c0011770>]
+[2-115.7866]  r7:00200200 r6:00100100 r5:d78bfee8 r4:c4017e3c
+[2-115.7866] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-115.7866] Function entered at [<c0414c2c>] from [<be410104>]
+[2-115.7867] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-115.7867] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-115.7867]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-115.7867] Function entered at [<c0012f78>] from [<c0008554>]
+[2-115.7867]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-115.7867] Function entered at [<c00084c0>] from [<c000d980>]
+[2-115.7867] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-115.7867] ff60:                                     d7d61840 00000000 000243e4 00000000
+[2-115.7867] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-115.7867] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 60070013 ffffffff d78bffd4
+[2-115.7867]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:60070013
+[2-115.7867] r4:c000ec60
+[2-115.7867] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-115.7868] Function entered at [<c0072124>] from [<c0410458>]
+[2-115.7868] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-115.7868]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[3-115.7868] sdp-msg-micom micom-msg.17: [Send][115.7868][fastlogo] Inverter Control (1) 
+[3-116.1838] sdp-msg-micom micom-msg.17: [Send][116.1838][fastlogo] Inverter Control (1) 
+[3-116.5838] sdp-msg-micom micom-msg.17: [Send][116.5838][fastlogo] Inverter Control (1) 
+[3-116.9840] sdp-msg-micom micom-msg.17: [Send][116.9838][fastlogo] Inverter Control (1) 
+[3-117.3838] sdp-msg-micom micom-msg.17: [Send][117.3838][fastlogo] Inverter Control (1) 
+[0-117.7838] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[3-117.7838] sdp-msg-micom micom-msg.17: [Send][117.7838][fastlogo] Inverter Control (1) 
+[0-118.1838] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[0-120.1838] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-120.1904] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-120.1904] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-120.1904] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-120.1904] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-120.1904] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-120.1904] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-120.1904] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-120.1905] sdp-mchnd 800100.msgbox: total_send_count              : 325
+[0-120.1905] sdp-mchnd 800100.msgbox: total_recv_count              : 22
+[0-120.1905] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-120.1905] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-120.1905] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-120.1905] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 111776742769ns
+[0-120.1905] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-120.1905] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-120.1905] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-120.1905] sdp-mchnd 800100.msgbox: rx ring dump ( now 120190428277ns)
+[0-120.1905] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-120.1905] sdp-mchnd 800100.msgbox:  1@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  2@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  3@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  4@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-120.1906] sdp-mchnd 800100.msgbox:  5@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  6@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  7@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-120.1906] sdp-mchnd 800100.msgbox:  8@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox:  9@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-120.1906] sdp-mchnd 800100.msgbox: 10@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-120.1907] sdp-mchnd 800100.msgbox: 11@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-120.1907] sdp-mchnd 800100.msgbox: 12@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-120.1907] sdp-mchnd 800100.msgbox: 13@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-120.1907] sdp-mchnd 800100.msgbox: 14@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[0-120.1907] sdp-mchnd 800100.msgbox: 15@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[0-120.1907] sdp-mchnd 800100.msgbox: 16@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[0-120.1907] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-120.1907] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-120.1907] Backtrace: 
+[2-120.1907] Function entered at [<c0011034>] from [<c0011770>]
+[2-120.1908]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-120.1908] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-120.1908] Function entered at [<c0414c2c>] from [<be410104>]
+[2-120.1908] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-120.1908] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-120.1908]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-120.1908] Function entered at [<c0012f78>] from [<c0008554>]
+[2-120.1908]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-120.1908] Function entered at [<c00084c0>] from [<c000d980>]
+[2-120.1908] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-120.1908] ff60:                                     d7d61840 00000000 00024bfe 00000000
+[2-120.1908] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-120.1909] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600f0013 ffffffff d78bffd4
+[2-120.1909]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600f0013
+[2-120.1909] r4:c000ec60
+[2-120.1909] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-120.1909] Function entered at [<c0072124>] from [<c0410458>]
+[2-120.1909] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-120.1909]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-122.1878] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[0-122.1978] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-122.1978] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-122.1978] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-122.1978] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-122.1978] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-122.1979] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[0-122.1979] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-122.1979] sdp-mchnd 800100.msgbox: total_send_count              : 330
+[0-122.1979] sdp-mchnd 800100.msgbox: total_recv_count              : 22
+[0-122.1979] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-122.1979] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-122.1979] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-122.1979] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 111776742769ns
+[0-122.1979] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-122.1979] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-122.1979] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-122.1979] sdp-mchnd 800100.msgbox: rx ring dump ( now 122197826959ns)
+[0-122.1980] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-122.1980] sdp-mchnd 800100.msgbox:  1@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-122.1980] sdp-mchnd 800100.msgbox:  2@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-122.1980] sdp-mchnd 800100.msgbox:  3@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-122.1980] sdp-mchnd 800100.msgbox:  4@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-122.1980] sdp-mchnd 800100.msgbox:  5@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-122.1980] sdp-mchnd 800100.msgbox:  6@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-122.1980] sdp-mchnd 800100.msgbox:  7@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-122.1980] sdp-mchnd 800100.msgbox:  8@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-122.1981] sdp-mchnd 800100.msgbox:  9@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-122.1981] sdp-mchnd 800100.msgbox: 10@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-122.1981] sdp-mchnd 800100.msgbox: 11@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-122.1981] sdp-mchnd 800100.msgbox: 12@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-122.1981] sdp-mchnd 800100.msgbox: 13@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-122.1981] sdp-mchnd 800100.msgbox: 14@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[0-122.1981] sdp-mchnd 800100.msgbox: 15@ 7: 10us(22.3847s) 0x8 70e4feff 43009542 0000296a
+[0-122.1981] sdp-mchnd 800100.msgbox: 16@ 6:  8us(18.3070s) 0x9 006affff 00000000 0000296a
+[0-122.1981] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-122.1982] CPU: 2 PID: 1434 Comm: csf-content-eng Tainted: PWO 3.10.30 #3
+[2-122.1982] Backtrace: 
+[2-122.1982] Function entered at [<c0011034>] from [<c0011770>]
+[2-122.1982]  r7:00200200 r6:00100100 r5:c16279e0 r4:cfb4be3c
+[2-122.1982] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-122.1982] Function entered at [<c0414c2c>] from [<be410104>]
+[2-122.1982] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-122.1982] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-122.1982]  r8:00000002 r7:c1627a68 r6:00000000 r5:c051dc8c r4:c1626010
+[2-122.1982] Function entered at [<c0012f78>] from [<c0008554>]
+[2-122.1982]  r8:c06465c0 r7:c06465c0 r6:c1627a68 r5:c0531814 r4:fe682000
+[2-122.1983] Function entered at [<c00084c0>] from [<c000d980>]
+[2-122.1983] Exception stack(0xc1627a68 to 0xc1627ab0)
+[2-122.1983] 7a60:                   c0c40e80 e57b5659 f483b685 11f8e0dc a21153d0 b824014d
+[2-122.1983] 7a80: 2e17cf59 71e7a82b 133e28bc bb6f02fc 755f76ca c1627b0c 6724bdd5 c1627ab0
+[2-122.1983] 7aa0: 6f5c3d92 c01f8d0c 400e0113 ffffffff 392239b3
+[2-122.1983]  r9:bb6f02fc r8:133e28bc r7:c1627a9c r6:ffffffff r5:400e0113
+[2-122.1983] r4:c01f8d0c
+[2-122.1983] Function entered at [<c01f8638>] from [<c01d9a54>]
+[2-122.1983] Function entered at [<c01d99c8>] from [<c01d8624>]
+[2-122.1983]  r9:000103c0 r8:c162d480 r7:d79c0000 r6:c0c40e40 r5:c0540574
+[2-122.1983] r4:00000000
+[2-122.1983] Function entered at [<c01d855c>] from [<c01d915c>]
+[2-122.1983] Function entered at [<c01d90c0>] from [<c01d91b0>]
+[2-122.1984] Function entered at [<c01d9190>] from [<c02ef8cc>]
+[2-122.1984] Function entered at [<c02ef838>] from [<c02eff90>]
+[2-122.1984]  r7:4b1c0000 r6:00000001 r5:c064d6d8 r4:c1875280
+[2-122.1984] Function entered at [<c02ef8f0>] from [<c01a2c8c>]
+[2-122.1984] Function entered at [<c01a297c>] from [<c0196394>]
+[2-122.1984] Function entered at [<c01962c0>] from [<c00a788c>]
+[2-122.1984]  r9:c1008600 r8:00100100 r7:d7f7a660 r6:00000000 r5:c1abacdc
+[2-122.1984] r4:0000001b
+[2-122.1984] Function entered at [<c00a76cc>] from [<c00a7b4c>]
+[2-122.1984] Function entered at [<c00a7b20>] from [<c009e67c>]
+[2-122.1984] Function entered at [<c009e4fc>] from [<c00b8fb4>]
+[2-122.1984] Function entered at [<c00b8f08>] from [<c00bcb44>]
+[2-122.1984] Function entered at [<c00bca24>] from [<c00bd5d0>]
+[2-122.1984] Function entered at [<c00bd464>] from [<c0015bd4>]
+[2-122.1984] Function entered at [<c0015ab4>] from [<c000845c>]
+[2-122.1985] Function entered at [<c0008420>] from [<c000dd5c>]
+[2-122.1985] Exception stack(0xc1627fb0 to 0xc1627ff8)
+[2-122.1985] 7fa0:                                     be0d3dd0 00000000 ffffffff 00000000
+[2-122.1985] 7fc0: 00000000 be0d3dcc be0d3db4 be0d3d80 45d748a0 45d74d54 41030fac 00000000
+[2-122.1985] 7fe0: 0003bd21 be0d3d80 45d5e164 0003bd20 600d0030 ffffffff 50196821
+[2-122.1985]  r7:be0d3d80 r6:ffffffff r5:600d0030 r4:0003bd20
+[3-122.2383] sdp-msg-micom micom-msg.17: [Send][122.2006][AttDaemonBin] Dual Part Ctrl(1,0)
+[2-122.3651] [SIM-LKM][SimModuleInit]SimModuleInit start
+[2-122.3652] [SIM-LKM][SimModuleInit]SimModuleInit success
+[2-122.3652] sim mod ld(0xbf1c6000)
+[1-122.3681] [SIM-LKM][SimDevAddrRead]SimDevAddrRead start
+[1-122.3681] [SIM-LKM][SimDevAddrRead]SimDevAddrRead end
+[1-122.5396] [SIM-LKM][SimDevPolicyWrite]SimDevPolicyWrite start
+[1-122.5402] [SIM-LKM][SimDevPolicyWrite]SimDevPolicyWrite end
+[1-122.5403] [SIM-LKM][SimDevPolicyRead]SimDevPolicyRead start
+[1-122.5406] [SIM-LKM][SimDevPolicyRead]SimDevPolicyRead end
+[1-122.5653] sg mod ld(0xbf172000)
+[0-124.1998] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-124.2063] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-124.2063] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-124.2063] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0035ffff 00000000 00002935
+[0-124.2063] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-124.2063] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-124.2064] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-124.2064] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-124.2064] sdp-mchnd 800100.msgbox: total_send_count              : 337
+[0-124.2064] sdp-mchnd 800100.msgbox: total_recv_count              : 24
+[0-124.2064] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-124.2064] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-124.2064] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-124.2064] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 122203267917ns
+[0-124.2064] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-124.2064] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-124.2064] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-124.2065] sdp-mchnd 800100.msgbox: rx ring dump ( now 124206346938ns)
+[0-124.2065] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-124.2065] sdp-mchnd 800100.msgbox:  1@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-124.2065] sdp-mchnd 800100.msgbox:  2@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-124.2065] sdp-mchnd 800100.msgbox:  3@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-124.2065] sdp-mchnd 800100.msgbox:  4@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-124.2065] sdp-mchnd 800100.msgbox:  5@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-124.2065] sdp-mchnd 800100.msgbox:  6@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-124.2065] sdp-mchnd 800100.msgbox:  7@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-124.2065] sdp-mchnd 800100.msgbox:  8@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-124.2066] sdp-mchnd 800100.msgbox:  9@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-124.2066] sdp-mchnd 800100.msgbox: 10@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-124.2066] sdp-mchnd 800100.msgbox: 11@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-124.2066] sdp-mchnd 800100.msgbox: 12@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-124.2066] sdp-mchnd 800100.msgbox: 13@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-124.2066] sdp-mchnd 800100.msgbox: 14@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-124.2066] sdp-mchnd 800100.msgbox: 15@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-124.2066] sdp-mchnd 800100.msgbox: 16@ 8:  8us(22.3926s) 0xa 70e6feff 32029444 30e47305
+[0-124.2066] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-124.2067] CPU: 2 PID: 1488 Comm: node Tainted: PWO 3.10.30 #3
+[2-124.2067] Backtrace: 
+[2-124.2067] Function entered at [<c0011034>] from [<c0011770>]
+[2-124.2067]  r7:00200200 r6:00100100 r5:d6d13f28 r4:d796fdd4
+[2-124.2067] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-124.2067] Function entered at [<c0414c2c>] from [<be410104>]
+[2-124.2067] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-124.2067] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-124.2067]  r8:00000002 r7:d6d13fb0 r6:00000000 r5:c051dc8c r4:d6d12018
+[2-124.2067] Function entered at [<c0012f78>] from [<c0008554>]
+[2-124.2067]  r8:c06465c0 r7:c06465c0 r6:d6d13fb0 r5:c0531814 r4:fe682000
+[2-124.2068] Function entered at [<c00084c0>] from [<c000db44>]
+[2-124.2068] Exception stack(0xd6d13fb0 to 0xd6d13ff8)
+[2-124.2068] 3fa0:                                     2f912200 5bf31335 00000000 00000000
+[2-124.2068] 3fc0: 00000000 5bf080c1 00719768 00000000 4b50d4f9 007372a4 00718044 be20129c
+[2-124.2068] 3fe0: 2f912dc1 be201288 2f90a268 2f912e44 a0070010 ffffffff 0a00004b
+[2-124.2068]  r9:007372a4 r8:4b50d4f9 r7:00000000 r6:ffffffff r5:a0070010
+[2-124.2068] r4:2f912e44
+[0-125.6233] [SIM-LKM][SimDevInitWrite]SimDevInitWrite start
+[0-125.6233] [SIM-LKM][SimDevInitWrite]ssm is off
+[2-126.2038] msg-wt61p807 msg-wt61p807: ack[4E,60] timed out
+[2-126.6038] msg-wt61p807 msg-wt61p807: ack[4E,60] timed out
+[2-128.6038] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[2-128.6104] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[2-128.6105] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[2-128.6105] sdp-mchnd 800100.msgbox: Recv Data: 00000009 10c6ffff 00000034 0000290a
+[2-128.6105] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[2-128.6105] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[2-128.6105] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[2-128.6105] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[2-128.6105] sdp-mchnd 800100.msgbox: total_send_count              : 349
+[2-128.6105] sdp-mchnd 800100.msgbox: total_recv_count              : 25
+[2-128.6105] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[2-128.6105] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[2-128.6105] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[2-128.6106] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 126606234470ns
+[2-128.6106] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[2-128.6106] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[2-128.6106] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[2-128.6106] sdp-mchnd 800100.msgbox: rx ring dump ( now 128610483942ns)
+[2-128.6106] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[2-128.6106] sdp-mchnd 800100.msgbox:  1@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[2-128.6106] sdp-mchnd 800100.msgbox:  2@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[2-128.6106] sdp-mchnd 800100.msgbox:  3@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[2-128.6106] sdp-mchnd 800100.msgbox:  4@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[2-128.6106] sdp-mchnd 800100.msgbox:  5@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox:  6@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox:  7@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[2-128.6107] sdp-mchnd 800100.msgbox:  8@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox:  9@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox: 10@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[2-128.6107] sdp-mchnd 800100.msgbox: 11@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox: 12@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox: 13@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[2-128.6107] sdp-mchnd 800100.msgbox: 14@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[2-128.6108] sdp-mchnd 800100.msgbox: 15@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[2-128.6108] sdp-mchnd 800100.msgbox: 16@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[2-128.6108] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-128.6108] CPU: 2 PID: 1477 Comm: webappservice Tainted: PWO 3.10.30 #3
+[2-128.6108] Backtrace: 
+[2-128.6108] Function entered at [<c0011034>] from [<c0011770>]
+[2-128.6108]  r7:be4100f0 r6:600d0013 r5:c06e0030 r4:c041cb20
+[2-128.6108] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-128.6108] Function entered at [<c0414c2c>] from [<be410104>]
+[2-128.6108] Function entered at [<be4100f0>] from [<c007f118>]
+[2-128.6108] Function entered at [<c007f048>] from [<be411130>]
+[2-128.6108] Function entered at [<be410e74>] from [<be4099b0>]
+[2-128.6109] Function entered at [<be409964>] from [<c026514c>]
+[2-128.6109]  r7:d261c3c0 r6:c06e1f78 r5:c07c5718 r4:c07c5700
+[2-128.6109] Function entered at [<c026512c>] from [<c012f0c8>]
+[2-128.6109] Function entered at [<c012f010>] from [<c00d7d6c>]
+[2-128.6109] Function entered at [<c00d7cb8>] from [<c00d8564>]
+[2-128.6109]  r8:00000000 r7:000000fe r6:00000001 r5:b54fd3e4 r4:c100bd80
+[2-128.6109] Function entered at [<c00d851c>] from [<c000ddc0>]
+[2-128.6109]  r9:c06e0000 r8:c000df44 r7:00000003 r6:b54fd640 r5:b54fd3e4
+[2-128.6109] r4:00000021
+[0-130.6078] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-130.6143] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-130.6144] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-130.6144] sdp-mchnd 800100.msgbox: Recv Data: 00000009 10c6ffff 00000034 0000290a
+[0-130.6144] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-130.6144] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-130.6145] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-130.6145] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-130.6145] sdp-mchnd 800100.msgbox: total_send_count              : 354
+[0-130.6145] sdp-mchnd 800100.msgbox: total_recv_count              : 25
+[0-130.6145] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-130.6145] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-130.6145] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-130.6145] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 126606234470ns
+[0-130.6145] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-130.6145] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-130.6145] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-130.6145] sdp-mchnd 800100.msgbox: rx ring dump ( now 130614384739ns)
+[0-130.6145] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-130.6146] sdp-mchnd 800100.msgbox:  1@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-130.6146] sdp-mchnd 800100.msgbox:  2@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-130.6146] sdp-mchnd 800100.msgbox:  3@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-130.6146] sdp-mchnd 800100.msgbox:  4@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-130.6146] sdp-mchnd 800100.msgbox:  5@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-130.6146] sdp-mchnd 800100.msgbox:  6@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-130.6146] sdp-mchnd 800100.msgbox:  7@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-130.6146] sdp-mchnd 800100.msgbox:  8@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-130.6146] sdp-mchnd 800100.msgbox:  9@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-130.6147] sdp-mchnd 800100.msgbox: 10@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-130.6147] sdp-mchnd 800100.msgbox: 11@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-130.6147] sdp-mchnd 800100.msgbox: 12@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-130.6147] sdp-mchnd 800100.msgbox: 13@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-130.6147] sdp-mchnd 800100.msgbox: 14@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-130.6147] sdp-mchnd 800100.msgbox: 15@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-130.6147] sdp-mchnd 800100.msgbox: 16@ 9: 10us(26.3272s) 0x9 0029ffff 00000000 00002929
+[0-130.6147] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-130.6147] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-130.6147] Backtrace: 
+[2-130.6148] Function entered at [<c0011034>] from [<c0011770>]
+[2-130.6148]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-130.6148] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-130.6148] Function entered at [<c0414c2c>] from [<be410104>]
+[2-130.6148] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-130.6148] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-130.6148]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-130.6148] Function entered at [<c0012f78>] from [<c0008554>]
+[2-130.6148]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-130.6148] Function entered at [<c00084c0>] from [<c000d980>]
+[2-130.6148] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-130.6148] ff60:                                     d7d61840 00000000 00027c1a 00000000
+[2-130.6149] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-130.6149] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600e0013 ffffffff d78bffd4
+[2-130.6149]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600e0013
+[2-130.6149] r4:c000ec60
+[2-130.6149] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-130.6149] Function entered at [<c0072124>] from [<c0410458>]
+[2-130.6149] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-130.6149]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-132.6158] msg-wt61p807 msg-wt61p807: ack[4E,65] timed out
+[0-133.0158] msg-wt61p807 msg-wt61p807: ack[4E,65] timed out
+[3-133.0179] sdp-msg-micom micom-msg.17: [Send][133.0178][fastlogo] Inverter Control (1) 
+[3-133.4158] sdp-msg-micom micom-msg.17: [Send][133.4158][fastlogo] Inverter Control (1) 
+[3-133.8158] sdp-msg-micom micom-msg.17: [Send][133.8158][fastlogo] Inverter Control (1) 
+[3-134.2158] sdp-msg-micom micom-msg.17: [Send][134.2158][fastlogo] Inverter Control (1) 
+[3-134.6158] sdp-msg-micom micom-msg.17: [Send][134.6158][fastlogo] Inverter Control (1) 
+[3-135.0158] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[3-135.0158] sdp-msg-micom micom-msg.17: [Send][135.0158][fastlogo] Inverter Control (1) 
+[3-135.4158] msg-wt61p807 msg-wt61p807: ack[D1] timed out
+[3-135.5161] [sdp_logo_dp_lvds_set][570] lvds format reg 0x101
+[0-135.5222] sdp_logo UHD 0
+[0-135.6674] sdp_logo UHD 0
+[0-135.8166] sdp_logo UHD 0
+[0-135.9666] sdp_logo UHD 0
+[0-136.1166] sdp_logo UHD 0
+[0-136.2666] sdp_logo UHD 0
+[0-136.4149] sdp_logo UHD 0
+[0-136.5648] sdp_logo UHD 0
+[0-136.7148] sdp_logo UHD 0
+[0-136.8649] sdp_logo UHD 0
+[0-137.0150] sdp_logo UHD 0
+[0-137.1649] sdp_logo UHD 0
+[0-137.3148] sdp_logo UHD 0
+[0-137.4158] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-137.4223] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-137.4223] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-137.4223] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-137.4223] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-137.4223] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-137.4223] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-137.4223] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-137.4223] sdp-mchnd 800100.msgbox: total_send_count              : 372
+[0-137.4224] sdp-mchnd 800100.msgbox: total_recv_count              : 26
+[0-137.4224] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-137.4224] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-137.4224] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-137.4224] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 130617351781ns
+[0-137.4224] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-137.4224] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-137.4224] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-137.4224] sdp-mchnd 800100.msgbox: rx ring dump ( now 137422318741ns)
+[0-137.4224] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-137.4224] sdp-mchnd 800100.msgbox:  1@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-137.4224] sdp-mchnd 800100.msgbox:  2@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-137.4225] sdp-mchnd 800100.msgbox:  3@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-137.4225] sdp-mchnd 800100.msgbox:  4@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox:  5@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox:  6@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox:  7@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox:  8@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-137.4225] sdp-mchnd 800100.msgbox:  9@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox: 10@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-137.4225] sdp-mchnd 800100.msgbox: 11@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-137.4225] sdp-mchnd 800100.msgbox: 12@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-137.4226] sdp-mchnd 800100.msgbox: 13@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-137.4226] sdp-mchnd 800100.msgbox: 14@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-137.4226] sdp-mchnd 800100.msgbox: 15@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-137.4226] sdp-mchnd 800100.msgbox: 16@10: 139us(26.3336s) 0x9 00acffff 00000000 000029ac
+[0-137.4226] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-137.4226] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-137.4226] Backtrace: 
+[2-137.4226] Function entered at [<c0011034>] from [<c0011770>]
+[2-137.4226]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-137.4227] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-137.4227] Function entered at [<c0414c2c>] from [<be410104>]
+[2-137.4227] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-137.4227] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-137.4227]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-137.4227] Function entered at [<c0012f78>] from [<c0008554>]
+[2-137.4227]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-137.4227] Function entered at [<c00084c0>] from [<c000d980>]
+[2-137.4227] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-137.4227] ff60:                                     d7d61840 00000000 000299c6 00000000
+[2-137.4227] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-137.4227] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 60000013 ffffffff d78bffd4
+[2-137.4227]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:60000013
+[2-137.4227] r4:c000ec60
+[2-137.4228] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-137.4228] Function entered at [<c0072124>] from [<c0410458>]
+[2-137.4228] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-137.4228]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-137.4648] sdp_logo UHD 0
+[0-137.6149] sdp_logo UHD 0
+[0-137.7648] sdp_logo UHD 0
+[0-137.9149] sdp_logo UHD 0
+[0-138.0652] sdp_logo UHD 0
+[0-138.2149] sdp_logo UHD 0
+[0-138.3648] sdp_logo UHD 0
+[0-138.5148] sdp_logo UHD 0
+[0-138.6649] sdp_logo UHD 0
+[0-138.8148] sdp_logo UHD 0
+[0-138.9649] sdp_logo UHD 0
+[0-139.0342] ##### send signal SIG : 9, media-server(1143)->media-scanner-v(1386) __send_signal
+[0-139.1151] sdp_logo UHD 0
+[0-139.2651] sdp_logo UHD 0
+[0-139.4164] sdp_logo UHD 0
+[0-139.4238] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[3-139.5439] [bptime] process open : ScreenMirroring(1516)
+[0-139.5653] sdp_logo UHD 0
+[0-139.7152] sdp_logo UHD 0
+[1-139.7664] [bptime] process open : ScreenMirroring(1514)
+[3-139.8238] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[3-139.8241] ##### send SIGKILL for threads of process: ep-monitor-daem (1013)
+[3-139.8343] [bptime] process released : ep-monitor-daem(1013)
+[0-139.8652] sdp_logo UHD 0
+[3-140.0150] sdp_logo UHD 0
+[1-140.1650] sdp_logo UHD 0
+[1-140.3151] sdp_logo UHD 0
+[0-140.4161] [bptime] process open : ep-monitor-daem(1544)
+[1-140.4651] sdp_logo UHD 0
+[3-140.6158] sdp_logo UHD 0
+[0-140.7054] [EXTR][NotifyXorgMonitor] [xorg-extra-module] ALIVE message sent to xorg-monitor [PID:1106] at [110.047004 116.047010 122.047017 128.047015 134.047017 140.047015 ]
+[3-140.7651] sdp_logo UHD 0
+[3-140.9151] sdp_logo UHD 0
+[0-141.0650] sdp_logo UHD 0
+[0-141.2149] sdp_logo UHD 0
+[0-141.3650] sdp_logo UHD 0
+[1-141.5151] sdp_logo UHD 0
+[1-141.6650] sdp_logo UHD 0
+[0-141.8150] sdp_logo UHD 0
+[0-141.8238] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-141.8304] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-141.8304] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-141.8304] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 1fffff29
+[0-141.8304] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-141.8304] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-141.8304] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-141.8304] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-141.8304] sdp-mchnd 800100.msgbox: total_send_count              : 384
+[0-141.8304] sdp-mchnd 800100.msgbox: total_recv_count              : 27
+[0-141.8304] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-141.8305] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-141.8305] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-141.8305] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 137425176692ns
+[0-141.8305] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-141.8305] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-141.8305] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-141.8305] sdp-mchnd 800100.msgbox: rx ring dump ( now 141830401749ns)
+[0-141.8305] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-141.8305] sdp-mchnd 800100.msgbox:  1@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-141.8305] sdp-mchnd 800100.msgbox:  2@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-141.8305] sdp-mchnd 800100.msgbox:  3@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-141.8305] sdp-mchnd 800100.msgbox:  4@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-141.8306] sdp-mchnd 800100.msgbox:  5@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox:  6@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox:  7@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox:  8@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox:  9@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-141.8306] sdp-mchnd 800100.msgbox: 10@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox: 11@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-141.8306] sdp-mchnd 800100.msgbox: 12@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-141.8306] sdp-mchnd 800100.msgbox: 13@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-141.8307] sdp-mchnd 800100.msgbox: 14@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-141.8307] sdp-mchnd 800100.msgbox: 15@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-141.8307] sdp-mchnd 800100.msgbox: 16@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-141.8307] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-141.8307] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-141.8307] Backtrace: 
+[2-141.8307] Function entered at [<c0011034>] from [<c0011770>]
+[2-141.8307]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-141.8307] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-141.8307] Function entered at [<c0414c2c>] from [<be410104>]
+[2-141.8307] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-141.8308] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-141.8308]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-141.8308] Function entered at [<c0012f78>] from [<c0008554>]
+[2-141.8308]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-141.8308] Function entered at [<c00084c0>] from [<c000d980>]
+[2-141.8308] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-141.8308] ff60:                                     d7d61840 00000000 0002b572 00000000
+[2-141.8308] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-141.8308] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 60000013 ffffffff d78bffd4
+[2-141.8308]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:60000013
+[2-141.8308] r4:c000ec60
+[2-141.8308] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-141.8309] Function entered at [<c0072124>] from [<c0410458>]
+[2-141.8309] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-141.8309]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-141.9649] sdp_logo UHD 0
+[0-142.1150] sdp_logo UHD 0
+[0-142.2649] sdp_logo UHD 0
+[0-142.4148] sdp_logo UHD 0
+[0-142.5648] sdp_logo UHD 0
+[0-142.7149] sdp_logo UHD 0
+[0-142.8648] sdp_logo UHD 0
+[3-142.8918] [kpi_fault_info] [k] 1 -> p:0xdeadbeaf l:0xdeadbeaf th:avocd pro:avocd ty:DEADLOCK pgid:1411
+[3-142.8997] 
+[3-142.8997] [dead-lock] avocd[pid:1411] [watchdog timeout! WatchdogSec(30)] [smart-deadlock][time:       142.891][avocd_1411_1411][/usr/bin/avocd][C(1),L(0),S(0)][142891,112611,30280,20000,30000]
+[3-142.9183] ##### send signal from KERNEL, SIG : 6, avocd, PID:1411, force_sig_info
+[0-143.0150] sdp_logo UHD 0
+[0-143.1649] sdp_logo UHD 0
+[0-143.3148] sdp_logo UHD 0
+[0-143.4648] sdp_logo UHD 0
+[0-143.6149] sdp_logo UHD 0
+[0-143.7648] sdp_logo UHD 0
+[0-143.8278] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[0-143.8343] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-143.8343] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-143.8343] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 1fffff29
+[0-143.8343] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-143.8343] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-143.8343] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[0-143.8343] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-143.8343] sdp-mchnd 800100.msgbox: total_send_count              : 389
+[0-143.8343] sdp-mchnd 800100.msgbox: total_recv_count              : 27
+[0-143.8344] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-143.8344] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-143.8344] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-143.8344] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 137425176692ns
+[0-143.8344] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-143.8344] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-143.8344] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-143.8344] sdp-mchnd 800100.msgbox: rx ring dump ( now 143834314998ns)
+[0-143.8344] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-143.8344] sdp-mchnd 800100.msgbox:  1@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-143.8344] sdp-mchnd 800100.msgbox:  2@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox:  3@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-143.8345] sdp-mchnd 800100.msgbox:  4@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-143.8345] sdp-mchnd 800100.msgbox:  5@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox:  6@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox:  7@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox:  8@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox:  9@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-143.8345] sdp-mchnd 800100.msgbox: 10@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox: 11@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-143.8345] sdp-mchnd 800100.msgbox: 12@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-143.8346] sdp-mchnd 800100.msgbox: 13@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-143.8346] sdp-mchnd 800100.msgbox: 14@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-143.8346] sdp-mchnd 800100.msgbox: 15@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-143.8346] sdp-mchnd 800100.msgbox: 16@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-143.8346] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-143.8346] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-143.8346] Backtrace: 
+[2-143.8346] Function entered at [<c0011034>] from [<c0011770>]
+[2-143.8346]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d4a75e3c
+[2-143.8346] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-143.8347] Function entered at [<c0414c2c>] from [<be410104>]
+[2-143.8347] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-143.8347] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-143.8347]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-143.8347] Function entered at [<c0012f78>] from [<c0008554>]
+[2-143.8347]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-143.8347] Function entered at [<c00084c0>] from [<c000d980>]
+[2-143.8347] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-143.8347] ff60:                                     d7d61840 00000000 0002bb36 00000000
+[2-143.8347] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-143.8347] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600f0013 ffffffff d78bffd4
+[2-143.8347]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600f0013
+[2-143.8347] r4:c000ec60
+[2-143.8348] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-143.8348] Function entered at [<c0072124>] from [<c0410458>]
+[2-143.8348] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-143.8348]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-143.9148] sdp_logo UHD 0
+[0-144.0649] sdp_logo UHD 0
+[0-144.2149] sdp_logo UHD 0
+[1-144.3652] sdp_logo UHD 0
+[1-144.5816] This is NOT BOE panel!(49A6AFZEK)
+[0-144.5842] @@ ID_SPREAD_SPECTRUM_AP_DDR_VALUE - BC[4][0x2182]
+[1-144.5859] ##### send SIGKILL for threads of process: fastvideo (244)
+[3-144.5943] start module_exit/sdp_logo
+[0-144.5983] remove_platform_driver/sdp_logo /0/4/4/4/4/4 msec
+[0-144.5988] module_exit/sdp_logo /4/4/4 msec
+[0-144.5988] sdp_logo mod uld(0xbe47a000)
+[0-144.6002] ##### send SIGKILL for threads of process: fastlogo (242)
+[2-145.8318] msg-wt61p807 msg-wt61p807: ack[4E,73] timed out
+[2-146.2318] msg-wt61p807 msg-wt61p807: ack[4E,73] timed out
+[0-148.2318] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[0-148.2383] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-148.2383] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-148.2383] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 1fffff29
+[0-148.2384] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-148.2384] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-148.2384] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[0-148.2384] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-148.2384] sdp-mchnd 800100.msgbox: total_send_count              : 400
+[0-148.2384] sdp-mchnd 800100.msgbox: total_recv_count              : 27
+[0-148.2384] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-148.2384] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-148.2384] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-148.2384] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 137425176692ns
+[0-148.2384] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-148.2384] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-148.2385] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-148.2385] sdp-mchnd 800100.msgbox: rx ring dump ( now 148238362077ns)
+[0-148.2385] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-148.2385] sdp-mchnd 800100.msgbox:  1@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-148.2385] sdp-mchnd 800100.msgbox:  2@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-148.2385] sdp-mchnd 800100.msgbox:  3@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-148.2385] sdp-mchnd 800100.msgbox:  4@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-148.2385] sdp-mchnd 800100.msgbox:  5@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-148.2385] sdp-mchnd 800100.msgbox:  6@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-148.2385] sdp-mchnd 800100.msgbox:  7@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox:  8@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox:  9@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-148.2386] sdp-mchnd 800100.msgbox: 10@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox: 11@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox: 12@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-148.2386] sdp-mchnd 800100.msgbox: 13@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox: 14@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox: 15@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-148.2386] sdp-mchnd 800100.msgbox: 16@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[0-148.2386] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-148.2387] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-148.2387] Backtrace: 
+[2-148.2387] Function entered at [<c0011034>] from [<c0011770>]
+[2-148.2387]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d4995e3c
+[2-148.2387] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-148.2387] Function entered at [<c0414c2c>] from [<be410104>]
+[2-148.2387] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-148.2387] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-148.2387]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-148.2387] Function entered at [<c0012f78>] from [<c0008554>]
+[2-148.2387]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-148.2388] Function entered at [<c00084c0>] from [<c000d980>]
+[2-148.2388] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-148.2388] ff60:                                     d7d61840 00000000 0002cb48 00000000
+[2-148.2388] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-148.2388] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600d0013 ffffffff d78bffd4
+[2-148.2388]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600d0013
+[2-148.2388] r4:c000ec60
+[2-148.2388] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-148.2388] Function entered at [<c0072124>] from [<c0410458>]
+[2-148.2388] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-148.2388]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-149.4141] [bptime] process released : ScreenMirroring(1514)
+[0-149.4251] ##### send SIGKILL for threads of process: ScreenMirroring (1514)
+[0-149.7936] [bptime] process open : ScreenMirroring(1591)
+[1-150.2358] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[1-150.2423] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[1-150.2423] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[1-150.2423] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 1fffff29
+[1-150.2423] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[1-150.2423] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[1-150.2424] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[1-150.2424] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[1-150.2424] sdp-mchnd 800100.msgbox: total_send_count              : 405
+[1-150.2424] sdp-mchnd 800100.msgbox: total_recv_count              : 27
+[1-150.2424] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[1-150.2424] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[1-150.2424] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[1-150.2424] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 137425176692ns
+[1-150.2424] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[1-150.2424] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[1-150.2424] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[1-150.2424] sdp-mchnd 800100.msgbox: rx ring dump ( now 150242348772ns)
+[1-150.2425] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[1-150.2425] sdp-mchnd 800100.msgbox:  1@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[1-150.2425] sdp-mchnd 800100.msgbox:  2@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[1-150.2425] sdp-mchnd 800100.msgbox:  3@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[1-150.2425] sdp-mchnd 800100.msgbox:  4@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[1-150.2425] sdp-mchnd 800100.msgbox:  5@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[1-150.2425] sdp-mchnd 800100.msgbox:  6@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[1-150.2425] sdp-mchnd 800100.msgbox:  7@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[1-150.2425] sdp-mchnd 800100.msgbox:  8@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox:  9@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[1-150.2426] sdp-mchnd 800100.msgbox: 10@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox: 11@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox: 12@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[1-150.2426] sdp-mchnd 800100.msgbox: 13@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox: 14@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox: 15@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[1-150.2426] sdp-mchnd 800100.msgbox: 16@11: 11us(31.1362s) 0x9 006affff 00000000 0000296a
+[1-150.2426] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-150.2426] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-150.2427] Backtrace: 
+[2-150.2427] Function entered at [<c0011034>] from [<c0011770>]
+[2-150.2427]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d2c23e3c
+[2-150.2427] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-150.2427] Function entered at [<c0414c2c>] from [<be410104>]
+[2-150.2427] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-150.2427] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-150.2427]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-150.2427] Function entered at [<c0012f78>] from [<c0008554>]
+[2-150.2427]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-150.2427] Function entered at [<c00084c0>] from [<c000d980>]
+[2-150.2427] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-150.2428] ff60:                                     d7d61840 00000000 0002e01a 00000000
+[2-150.2428] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-150.2428] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600b0013 ffffffff d78bffd4
+[2-150.2428]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600b0013
+[2-150.2428] r4:c000ec60
+[2-150.2428] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-150.2428] Function entered at [<c0072124>] from [<c0410458>]
+[2-150.2428] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-150.2428]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-151.9502] ##### send SIGKILL for threads of process: scsa_driver_ini (1510)
+[0-152.2438] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-152.2503] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-152.2503] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-152.2503] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-152.2503] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-152.2503] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-152.2503] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-152.2503] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-152.2504] sdp-mchnd 800100.msgbox: total_send_count              : 411
+[0-152.2504] sdp-mchnd 800100.msgbox: total_recv_count              : 28
+[0-152.2504] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-152.2504] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-152.2504] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-152.2504] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 150245732561ns
+[0-152.2504] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-152.2504] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-152.2504] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-152.2504] sdp-mchnd 800100.msgbox: rx ring dump ( now 152250325538ns)
+[0-152.2504] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-152.2504] sdp-mchnd 800100.msgbox:  1@11: 24us(150.2457s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox:  2@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-152.2505] sdp-mchnd 800100.msgbox:  3@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox:  4@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-152.2505] sdp-mchnd 800100.msgbox:  5@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-152.2505] sdp-mchnd 800100.msgbox:  6@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox:  7@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox:  8@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox:  9@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-152.2505] sdp-mchnd 800100.msgbox: 10@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-152.2505] sdp-mchnd 800100.msgbox: 11@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-152.2506] sdp-mchnd 800100.msgbox: 12@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-152.2506] sdp-mchnd 800100.msgbox: 13@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-152.2506] sdp-mchnd 800100.msgbox: 14@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-152.2506] sdp-mchnd 800100.msgbox: 15@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-152.2506] sdp-mchnd 800100.msgbox: 16@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-152.2506] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-152.2506] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-152.2506] Backtrace: 
+[2-152.2506] Function entered at [<c0011034>] from [<c0011770>]
+[2-152.2506]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d796fdd4
+[2-152.2507] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-152.2507] Function entered at [<c0414c2c>] from [<be410104>]
+[2-152.2507] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-152.2507] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-152.2507]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-152.2507] Function entered at [<c0012f78>] from [<c0008554>]
+[2-152.2507]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-152.2507] Function entered at [<c00084c0>] from [<c000d980>]
+[2-152.2507] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-152.2507] ff60:                                     d7d61840 00000000 0002e38a 00000000
+[2-152.2507] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-152.2507] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 600b0013 ffffffff d78bffd4
+[2-152.2508]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:600b0013
+[2-152.2508] r4:c000ec60
+[2-152.2508] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-152.2508] Function entered at [<c0072124>] from [<c0410458>]
+[2-152.2508] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-152.2508]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[0-154.2478] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[0-154.2543] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-154.2543] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-154.2543] sdp-mchnd 800100.msgbox: Recv Data: 00000009 0029ffff 00000000 00002929
+[0-154.2543] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-154.2543] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-154.2543] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[0-154.2543] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-154.2543] sdp-mchnd 800100.msgbox: total_send_count              : 416
+[0-154.2543] sdp-mchnd 800100.msgbox: total_recv_count              : 28
+[0-154.2543] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-154.2544] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-154.2544] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-154.2544] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 150245732561ns
+[0-154.2544] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-154.2544] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-154.2544] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-154.2544] sdp-mchnd 800100.msgbox: rx ring dump ( now 154254306617ns)
+[0-154.2544] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-154.2544] sdp-mchnd 800100.msgbox:  1@11: 24us(150.2457s) 0x9 0029ffff 00000000 00002929
+[0-154.2544] sdp-mchnd 800100.msgbox:  2@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-154.2544] sdp-mchnd 800100.msgbox:  3@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox:  4@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-154.2545] sdp-mchnd 800100.msgbox:  5@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-154.2545] sdp-mchnd 800100.msgbox:  6@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox:  7@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox:  8@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox:  9@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox: 10@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-154.2545] sdp-mchnd 800100.msgbox: 11@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox: 12@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-154.2545] sdp-mchnd 800100.msgbox: 13@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-154.2546] sdp-mchnd 800100.msgbox: 14@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-154.2546] sdp-mchnd 800100.msgbox: 15@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-154.2546] sdp-mchnd 800100.msgbox: 16@12: 17us(33.1449s) 0x9 0029ffff 00000000 00002929
+[0-154.2546] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-154.2546] CPU: 2 PID: 0 Comm: swapper/2 Tainted: PWO 3.10.30 #3
+[2-154.2546] Backtrace: 
+[2-154.2546] Function entered at [<c0011034>] from [<c0011770>]
+[2-154.2546]  r7:00200200 r6:00100100 r5:d78bfee8 r4:d4a75e3c
+[2-154.2546] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-154.2546] Function entered at [<c0414c2c>] from [<be410104>]
+[2-154.2547] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-154.2547] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-154.2547]  r8:00000002 r7:d78bff70 r6:00000000 r5:c051dc8c r4:d78be018
+[2-154.2547] Function entered at [<c0012f78>] from [<c0008554>]
+[2-154.2547]  r8:c06465c0 r7:c06465c0 r6:d78bff70 r5:c0531814 r4:fe682000
+[2-154.2547] Function entered at [<c00084c0>] from [<c000d980>]
+[2-154.2547] Exception stack(0xd78bff70 to 0xd78bffb8)
+[2-154.2547] ff60:                                     d7d61840 00000000 0002e716 00000000
+[2-154.2547] ff80: d78be008 d78be000 d78be000 c055b4cc 2000406a 410fc0d1 00000000 d78bffc4
+[2-154.2547] ffa0: d78bffc8 d78bffb8 c000ec5c c000ec60 60010013 ffffffff d78bffd4
+[2-154.2547]  r9:410fc0d1 r8:2000406a r7:d78bffa4 r6:ffffffff r5:60010013
+[2-154.2547] r4:c000ec60
+[2-154.2547] Function entered at [<c000ec34>] from [<c00721e0>]
+[2-154.2548] Function entered at [<c0072124>] from [<c0410458>]
+[2-154.2548] Function entered at [<c04102b0>] from [<2040fda4>]
+[2-154.2548]  r7:c055b4cc r6:10c0387d r5:00000015 r4:4b0a806a
+[2-154.2601] ================================================================================
+[2-154.2669]  KERNEL Version : 0271, release
+[2-154.2709] 170221, DTV, Hawk.M-Tizen, release, Enterprise_Trunk_2016_MP_Prj
+[2-154.2778] ================================================================================
+[2-154.2861] 
+[2-154.2874] --------------------------------------------------------------------------------------
+[2-154.2962] PC, LR MEMINFO
+[2-154.2987] --------------------------------------------------------------------------------------
+[2-154.3075] PC:42951b5c, LR:4526738f
+[2-154.3109] --------------------------------------------------------------------------------------
+[2-154.3197] PC meminfo (0x4295175c to 0x42951f5c)
+[2-154.3242] 1740:                                                                0a00002a
+[2-154.3322] 1760: e1a00001 e1a0100d ebffff94 e3500000 b3e00000 ba000024 e59dc004 e30dee83
+[2-154.3402] 1780: e59d300c e344e31b e1a0130c e3a00000 e1a02303 e0423103 e041110c e59d5008
+[2-154.3482] 17a0: e59dc000 e0c8219e e0c6239e e1a0930c e1a02305 e1a01fc1 e1a03fc3 e59de018
+[2-154.3562] 17c0: e59d701c e0611948 e049c10c e0633946 e0422105 e59da024 e59d9020 e59d8028
+[2-154.3642] 17e0: e59d602c e59d5030 e08c1001 e0823003 e08ee007 e884400a e584a014 e5849018
+[2-154.3722] 1800: e584801c e5846020 e5845024 e28dd048 e1cd40d0 e1cd60d8 e1cd81d0 e59da018
+[2-154.3803] 1820: e28dd01c e49df004 e52d4008 e1a04001 e58de004 e3a01000 ebffffbf e3500000
+[2-154.3883] 1840: ba000006 e1a00004 e3e01000 ebffffba e1a00fc0 e59d4000 e28dd004 e49df004
+[2-154.3963] 1860: e3e00000 eafffffa e52d7004 e3a07060 ef000000 e3700a01 8a000003 e49d7004
+[2-154.4043] 1880: e3500000 a2600014 e12fff1e e59f3018 ee1d2f70 e79f3003 e2601000 e3e00000
+[2-154.4123] 18a0: e7821003 e49d7004 e12fff1e 00078824 e52d7004 e3a07061 ef000000 e49d7004
+[2-154.4203] 18c0: e3700a01 312fff1e eafd13fc e320f000 e59fc0cc e59f30cc e16d41f0 ee1d4f70
+[2-154.4283] 18e0: e1a05000 e58d6008 e58de00c e3a0e000 e79fc00c e1a0100e e79f3003 e1a0000e
+[2-154.4363] 1900: e794600c e784e003 ebffffd6 e3700001 0a00000c e0802005 e3a01000 e1a00001
+[2-154.4443] 1920: ebffffe2 e3700001 0a00000f e59d6008 e3a01000 e1cd40d0 e59de00c e1a00001
+[2-154.4523] 1940: e28dd010 eaffffc7 e59f305c e79f3003 e7943003 e3530000 1a00000c e59f304c
+[2-154.4604] 1960: e79f3003 e7846003 eaffffe9 e59f3040 e79f3003 e7943003 e353000d 1a000003
+[2-154.4684] 1980: e59f3030 e3a02001 e79f3003 e7842003 e1cd40d0 e59d6008 e28dd00c e3e00000
+[2-154.4764] 19a0: e49df004 000787c8 000787c0 0007876c 00078758 00078748 00078730 e59f109c
+[2-154.4844] 19c0: e1a0c000 e52d400c e08f1001 e98d4080 e3a0702d ef000000 e3700a01 e1a03000
+[2-154.4924] 19e0: 8a000009 e59f2078 e15c0000 e7912002 e5820000 93a00000 8a000011 e59d4000
+[2-154.5004] 1a00: e59d7004 e28dd008 e49df004 e59fc054 e3e04000 ee1def70 e3a00000 e79fc00c
+[2-154.5084] 1a20: e59f203c e2633000 e78e300c e7913002 e59d7004 e5834000 e59d4000 e28dd008
+[2-154.5164] 1a40: e49df004 e59f3020 e3a0100c ee1d2f70 e3e00000 e79f3003 e7821003 eaffffe6
+[2-154.5244] 1a60: 00078630 000000e0 0007869c 00078664 e59f30a0 e59f20a0 e08f3003 e16d41f0
+[2-154.5325] 1a80: e58d6008 e1a05000 e58de00c e7936002 e5964000 e3540000 0a000011 e59f307c
+[2-154.5405] 1aa0: e08f3003 e5933000 e3530000 1a00000c e3550000 0a000005 da000011 e0940005
+[2-154.5485] 1ac0: 2a00000d ebffffbc e3500000 ba00000a e59d6008 e1a00004 e1cd40d0 e28dd00c
+[2-154.5565] 1ae0: e49df004 e3a00000 ebffffb3 e3500000 ba000001 e5964000 eaffffec e3e04000
+[2-154.5645] 1b00: eafffff2 e2653000 e1540003 3afffffa e0840005 eaffffea 00078580 000000e0
+[2-154.5725] 1b20: 00078708 e59f3014 e3a01026 ee1d2f70 e3e00000 e79f3003 e7821003 e12fff1e
+[2-154.5805] 1b40: 00078584 00000000 00000000 00000000 e52d7004 e3a07036 ef000000 e49d7004
+[2-154.5885] 1b60: e3700a01 312fff1e eafd1354 e320f000 e59f30c0 e16d41f8 e08f3003 e1cd60f8
+[2-154.5965] 1b80: e5933000 e58d8010 e58de014 e3530000 1a00000a e3a07091 ef000000 e3700a01
+[2-154.6045] 1ba0: 8a000016 e1a04000 e59d8010 e1a00004 e1cd60d8 e1cd40d0 e28dd014 e49df004
+[2-154.6125] 1bc0: e1a06000 e1a04002 e1a05001 eb0055d5 e1a03000 e1a01005 e1a00006 e1a02004
+[2-154.6206] 1be0: e3a07091 ef000000 e3700a01 8a00000a e1a04000 e1a00003 eb0055fd eaffffe9
+[2-154.6286] 1c00: e59f3034 e3e04000 ee1d2f70 e79f3003 e2600000 e7820003 eaffffe2 e59f201c
+[2-154.6366] 1c20: e3e04000 ee1d1f70 e79f2002 e2600000 e7810002 eaffffee 0007b8f4 000784ac
+[2-154.6446] 1c40: 00078490 e59f30c0 e16d41f8 e08f3003 e1cd60f8 e5933000 e58d8010 e58de014
+[2-154.6526] 1c60: e3530000 1a00000a e3a07092 ef000000 e3700a01 8a000016 e1a04000 e59d8010
+[2-154.6606] 1c80: e1a00004 e1cd60d8 e1cd40d0 e28dd014 e49df004 e1a06000 e1a04002 e1a05001
+[2-154.6687] 1ca0: eb0055a0 e1a03000 e1a01005 e1a00006 e1a02004 e3a07092 ef000000 e3700a01
+[2-154.6766] 1cc0: 8a00000a e1a04000 e1a00003 eb0055c8 eaffffe9 e59f3034 e3e04000 ee1d2f70
+[2-154.6846] 1ce0: e79f3003 e2600000 e7820003 eaffffe2 e59f201c e3e04000 ee1d1f70 e79f2002
+[2-154.6926] 1d00: e2600000 e7810002 eaffffee 0007b820 000783d8 000783bc e59fc0d8 e16d41f8
+[2-154.7006] 1d20: e08fc00c e1a04003 e1cd60f8 e59cc000 e58d8010 e58de014 e35c0000 1a00000c
+[2-154.7087] 1d40: e1a05fc3 e3007169 e1a04005 ef000000 e3700a01 8a000019 e1a04000 e59d8010
+[2-154.7167] 1d60: e1a00004 e1cd60d8 e1cd40d0 e28dd014 e49df004 e1a07000 e1a06001 e1a05002
+[2-154.7247] 1d80: eb005568 e1a03004 e1a02005 e1a0c000 e1a01006 e1a05fc3 e1a00007 e1a04005
+[2-154.7327] 1da0: e3007169 ef000000 e3700a01 8a00000a e1a04000 e1a0000c eb00558d eaffffe6
+[2-154.7407] 1dc0: e59f3034 e3e04000 ee1d2f70 e79f3003 e2600000 e7820003 eaffffdf e59f301c
+[2-154.7487] 1de0: e3e04000 ee1d2f70 e79f3003 e2600000 e7820003 eaffffee 0007b74c 000782ec
+[2-154.7567] 1e00: 000782d0 e59fc0d0 e16d41f4 e08fc00c e1cd60f8 e59cc000 e58de010 e24dd00c
+[2-154.7647] 1e20: e35c0000 e59d3020 e59d4024 1a00000a e3007169 ef000000 e3700a01 8a000018
+[2-154.7728] 1e40: e1a04000 e1a00004 e28dd00c e1cd40d0 e1cd60d8 e28dd010 e49df004 e58d3004
+[2-154.7807] 1e60: e1a07000 e1a06001 e1a05002 eb00552d e59d3004 e1a0c000 e1a01006 e1a00007
+[2-154.7888] 1e80: e1a02005 e3007169 ef000000 e3700a01 8a00000a e1a04000 e1a0000c eb005554
+[2-154.7968] 1ea0: eaffffe7 e59f3034 e3e04000 ee1d2f70 e79f3003 e2600000 e7820003 eaffffe0
+[2-154.8048] 1ec0: e59f301c e3e04000 ee1d2f70 e79f3003 e2600000 e7820003 eaffffee 0007b660
+[2-154.8128] 1ee0: 00078208 000781ec e59fc0d8 e16d41f8 e08fc00c e1a04003 e1cd60f8 e59cc000
+[2-154.8208] 1f00: e58d8010 e58de014 e35c0000 1a00000c e1a05fc3 e300716a e1a04005 ef000000
+[2-154.8288] 1f20: e3700a01 8a000019 e1a04000 e59d8010 e1a00004 e1cd60d8 e1cd40d0 e28dd014
+[2-154.8368] 1f40: e49df004 e1a07000 e1a06001 e1a05002 eb0054f4 e1a03004 e1a02005 e1a0c000
+[2-154.8448] --------------------------------------------------------------------------------------
+[2-154.8536] LR meminfo (0x45266b8f to 0x4526778f)
+[2-154.8581] 6b80:                                     ???????? ???????? ???????? ????????
+[2-154.8662] 6ba0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.8742] 6bc0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.8822] 6be0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.8902] 6c00: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.8982] 6c20: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9062] 6c40: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9142] 6c60: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9222] 6c80: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9302] 6ca0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9382] 6cc0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9462] 6ce0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9543] 6d00: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9623] 6d20: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9703] 6d40: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9783] 6d60: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9863] 6d80: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-154.9943] 6da0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0023] 6dc0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0103] 6de0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0183] 6e00: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0263] 6e20: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0344] 6e40: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0424] 6e60: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0504] 6e80: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0584] 6ea0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0664] 6ec0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0744] 6ee0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0825] 6f00: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0904] 6f20: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.0984] 6f40: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1064] 6f60: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1145] 6f80: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1225] 6fa0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1305] 6fc0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1385] 6fe0: ???????? ???????? ???????? ???????? ???????? ???????? ???????? ????????
+[2-155.1465] 7000: 46309005 800cf8cd 447b9404 f7fe447a 4620e9fa f7fee7cd 2800fceb 6820db01
+[2-155.1545] 7020: 4a1ae7a5 30c3f240 f04f4b19 447a0106 f502447b 920172fe 0339f103 4a159300
+[2-155.1625] 7040: 90024b15 0000f04f 447a447b e9daf7fe 30fff04f f7fee7ad bf00eafc 0002b220
+[2-155.1705] 7060: 0002b3e8 000001bc 00012e9a 000133e4 000133c6 00013eb4 0002b36c 00012e44
+[2-155.1785] 7080: 0001338e 00013e0a 00013364 00012dfe 00013348 00013326 000135ac 4506e96d
+[2-155.1866] 70a0: 4c444a43 4b44447a e9cd447c e9cd6702 b0928e04 af0658d5 682b6820 62fb2800
+[2-155.1946] 70c0: f24bdb53 f04f4103 607b0301 012cf2cc f7fe463a 4604ea16 4a38bb18 36f1f240
+[2-155.2026] 70e0: f04f4b37 447a0104 f502447b 92017206 0339f103 4a339300 96024b33 447a447b
+[2-155.2106] 7100: e980f7fe 6afa4620 429a682b f107d14d 46bd0730 4500e9dd 6702e9dd e8bdb004
+[2-155.2186] 7120: 4b2a8100 447b4e2a f8d3447e f7fe8000 4b28eaf0 32eff240 f5066800 447b7606
+[2-155.2266] 7140: 0106f04f f1039202 e9cd0339 4a223600 90054b22 0000f04f 800cf8cd 447b9404
+[2-155.2346] 7160: f7fe447a 4620e950 f7fee7cd 2800fc41 6820db01 4a1ae7a5 30e5f240 f04f4b19
+[2-155.2426] 7180: 447a0106 f502447b 92017206 0339f103 4a159300 90024b15 0000f04f 447a447b
+[2-155.2506] 71a0: e930f7fe 30fff04f f7fee7ad bf00ea52 0002b0cc 0002b294 000001bc 00012d46
+[2-155.2586] 71c0: 00013290 00013272 00013dd8 0002b216 00012d04 0001323a 00013210 00013d2a
+[2-155.2666] 71e0: 00012caa 000131f4 000131d2 00013458 4d14f84d e9cd4c3d 447c5601 0500f04f
+[2-155.2747] 7200: 7e03e9cd 6820b089 42a8af06 db4e607d 4104f24b 0204f107 0104f2cc e970f7fe
+[2-155.2827] 7220: bb084604 f2404a32 4b32450f 0104f04f 447b447a 720ef502 f103687c 92010339
+[2-155.2907] 7240: 4a2d9300 e9cd4b2d 447b5402 f7fe447a 6878e8da 070cf107 e9dd46bd e9dd4500
+[2-155.2987] 7260: b0046702 fb04f85d f2404b25 447b450c f7fe681e 4a23ea4e 0106f04f 447a4b22
+[2-155.3067] 7280: f502447b 6800720e 0339f103 3200e9cd 4a1f4b1e f04f9005 96030000 95029404
+[2-155.3147] 72a0: 447a447b e8aef7fe 0000f04f f7fee7d2 42a8fb9f 6820db01 4a16e7aa 4105f240
+[2-155.3227] 72c0: 46284b15 447b447a 720ef502 f1039201 93000339 4b124a11 f04f9102 447b0106
+[2-155.3307] 72e0: f7fe447a f04fe890 e7b330ff 0002b142 00012bfc 00013146 00013124 00013cb6
+[2-155.3387] 7300: 0002b0ce 00012bae 000130f8 00013b74 000130ce 00012b68 000130b2 00013090
+[2-155.3467] 7320: 00013316 4d1cf84d e9cd4c71 447c7803 48704680 5601e9cd 9e05e9cd 468eb08b
+[2-155.3547] 7340: 58244621 461daf06 60fb6823 f0002a00 f8df809d f04f91a4 603e0600 44f94611
+[2-155.3628] 7360: 0205f04f 8000f887 0002f107 6601e9c7 e001f887 e8faf7fe 0004f8d9 db3f42b0
+[2-155.3708] 7380: 3101f24b f2cc463a f7fe010c 1e06e8ba 4a5adb3d 4e3cf240 f04f4b59 447a0104
+[2-155.3788] 73a0: 0000f04f f502447b 92017218 0339f103 4a549300 f8cd4b54 f8cd800c 447be008
+[2-155.3868] 73c0: f7fe447a b1cde820 f04f4628 f1070205 46350107 e8caf7fe 462868fa 429a6823
+[2-155.3949] 73e0: 8084f040 0714f107 e9dd46bd e9dd4500 e9dd6702 b0068904 fb04f85d e7eb4635
+[2-155.4028] 7400: fb80f7fe db5a42b0 0004f8d9 4b3fe7b8 447b4635 9004f8d3 e97af7fe e0f0f8df
+[2-155.4108] 7420: 7298f44f f04f4b3b 44fe0106 f50e447b 68007e1c 0339f103 3e00e9cd 4b369202
+[2-155.4188] 7440: 90054a36 0000f04f 900cf8cd 447b9604 f7fd447a 4a32efd8 6687f44f f04f4b31
+[2-155.4268] 7460: 447a0106 0000f04f f502447b 92017218 0339f103 4a2c9300 95044b2c 800cf8cd
+[2-155.4348] 7480: 447b9602 f7fd447a e7a5efbe 46104928 f2404b28 44794523 f501447b 92017218
+[2-155.4429] 74a0: 0339f103 f04f9300 4b230106 95024a23 35fff04f 447a447b efa4f7fd 4a20e78c
+[2-155.4509] 74c0: 7192f44f 46304b1f f04f447a 447b35ff 721cf502 33399201 4a1b9300 91024b1b
+[2-155.4589] 74e0: 447b2106 f7fd447a e7b4ef8e e8b0f7fe 0002ae42 000001bc 0002afde 00012a8e
+[2-155.4669] 7500: 00012fd4 00012fb0 00013c42 0002af2a 00012a02 00012f4c 00013b36 00012f20
+[2-155.4749] 7520: 000129ca 00012f10 00012eec 00013b3e 00012996 00012ee0 00013a80 00012eba
+[2-155.4829] 7540: 00012964 00012eaa 00012e8c 00013a76 4a6a4b69 f84d447b e9cd4d1c e9cd7803
+[2-155.4909] 7560: e9cd5601 b08b9e05 af06589c 60fb6823 f0002900 f8df808f f04f8188 603e0600
+[2-155.4990] 7580: 44f84605 0205f04f f107607e 60be0002 f7fd703d f8d8efec 42b00004 f44fdb34
+[2-155.5069] 75a0: 463a4133 010cf2cc efaaf7fd db321e06 f2404a54 4b544e69 0104f04f f04f447a
+[2-155.5149] 75c0: 447b0000 7223f502 f1039201 93000339 4b4e46b0 95034a4e e008f8cd 447a447b
+[2-155.5230] 75e0: ef10f7fd 464068fa 429a6823 8082f040 0714f107 e9dd46bd e9dd4500 e9dd6702
+[2-155.5310] 7600: b0068904 fb04f85d fa7cf7fe db5a42b0 0004f8d8 4b3fe7c3 447b46b0 9004f8d3
+[2-155.5390] 7620: e876f7fe e0f0f8df 1251f240 f04f4b3b 44fe0106 f50e447b 68007e29 0339f103
+[2-155.5470] 7640: 3e00e9cd 4b369202 90054a36 0000f04f 900cf8cd 447b9604 f7fd447a 4a32eed4
+[2-155.5550] 7660: 4665f240 f04f4b31 447a0106 0000f04f f502447b 92017223 0339f103 4a2c9300
+[2-155.5630] 7680: f8cd4b2c 95038010 447b9602 f7fd447a e7a7eeba 46084a28 f2404b28 447a4152
+[2-155.5710] 76a0: 38fff04f f502447b 92017223 0339f103 4a239300 91024b23 0106f04f 447a447b
+[2-155.5790] 76c0: eea0f7fd 4a20e78e 71a2f44f 46304b1f f04f447a 447b38ff 7229f502 33399201
+[2-155.5870] 76e0: 4a1b9300 91024b1b 447b2106 f7fd447a e7b4ee8a efacf7fd 0002ac1c 000001bc
+[2-155.5950] 7700: 0002adba 00012870 00012db6 00013a24 00012d92 0002ad22 000127fa 00012d44
+[2-155.6031] 7720: 0001392e 00012d18 000127c2 00012d08 00012ce4 00013936 0001278e 00012cd4
+[2-155.6111] 7740: 00012cb2 00013878 0001275c 00012ca2 00012c84 0001386e 4d24f84d 3c6af240
+[2-155.6191] 7760: be07e9cd e2d0f8df 0400f04f 46204bb3 e9cd44fe e9cd5601 e9cd7803 4ab09a05
+[2-155.6271] 7780: 7d37f5ad f85eaf04 f1073003 447a0bb4
+[2-155.6320] --------------------------------------------------------------------------------------
+[2-155.6407] 
+[2-155.6420] 
+[2-155.6434] CPU: 2 PID: 1411 Comm: avocd Tainted: PWO 3.10.30 #3
+[2-155.6492] task: cd301c00 ti: cdf86000 task.ti: cdf86000
+[2-155.6544] pc : [<42951b5c>]    lr : [<4526738f>]    psr: 60000010
+[2-155.6544] sp : be1f069c  ip : 45292238  fp : 000e9f00
+[2-155.6656] r10: 00000001  r9 : 45292340  r8 : 000000a5
+[2-155.6706] r7 : 00000036  r6 : 00000000  r5 : 00000000  r4 : 00113dd8
+[2-155.6770] r3 : 00000000  r2 : be1f06b8  r1 : c00cb301  r0 : 00000000
+[2-155.6833] Flags: nZCv  IRQs on  FIQs on  Mode USER_32  ISA ARM  Segment user
+[2-155.6904] Control: 10c5387d  Table: 2154c06a  DAC: 00000015
+[2-155.6959] CPU: 2 PID: 1411 Comm: avocd Tainted: PWO 3.10.30 #3
+[2-155.7018] Backtrace: 
+[2-155.7040] Function entered at [<c0011034>] from [<c0011770>]
+[2-155.7097]  r7:c0538148 r6:cdf86000 r5:cdf87fb0 r4:cdf87fb0
+[2-155.7152] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-155.7208] Function entered at [<c0414c2c>] from [<c000eeac>]
+[2-155.7265] Function entered at [<c000ee88>] from [<c0011648>]
+[2-155.7322]  r5:cdf87fb0 r4:cd301c00
+[2-155.7356] Function entered at [<c00115cc>] from [<c004a7a8>]
+[2-155.7412]  r9:cdf86000 r8:cdf86030 r7:cdf86030 r6:cbaac944 r5:cdf87edc
+[2-155.7412] r4:00000006
+[2-155.7489] Function entered at [<c004a3a0>] from [<c001084c>]
+[2-155.7545] Function entered at [<c0010794>] from [<c0010ca8>]
+[2-155.7602] Function entered at [<c0010c4c>] from [<c000de00>]
+[2-155.7659]  r7:000000ad r6:00000000 r5:00000000 r4:00113dd8
+[2-155.7713] -----------------------------------------------------------
+[2-155.7778] * dump maps on pid (1411 - avocd)
+[2-155.7820] -----------------------------------------------------------
+[2-155.7884] 00010000-00103000 r-xp 00000000 b3:16 38726      /usr/bin/avocd
+[2-155.7952] 00112000-00114000 rw-p 000f2000 b3:16 38726      /usr/bin/avocd
+[2-155.8020] 00114000-00117000 rw-p 00000000 00:00 0          
+[2-155.8076] 00123000-0013f000 rw-p 000f3000 b3:16 38726      /usr/bin/avocd
+[2-155.8143] 0013f000-002cb000 rw-p 00000000 00:00 0          [heap]
+[2-155.8204] 41000000-41021000 r-xp 00000000 b3:16 458        /lib/ld-2.20.so
+[2-155.8273] 41030000-41031000 r--p 00020000 b3:16 458        /lib/ld-2.20.so
+[2-155.8342] 41031000-41032000 rw-p 00021000 b3:16 458        /lib/ld-2.20.so
+[2-155.8411] 41040000-4286c000 r--p 00000000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[2-155.8490] 4286c000-4287b000 ---p 0182c000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[2-155.8569] 4287b000-4287c000 rw-p 0182b000 b3:16 3969       /usr/lib/libicudata.so.54.1
+[2-155.8648] 42880000-429b8000 r-xp 00000000 b3:16 58         /lib/libc-2.20.so
+[2-155.8719] 429b8000-429c8000 ---p 00138000 b3:16 58         /lib/libc-2.20.so
+[2-155.8789] 429c8000-429ca000 r--p 00138000 b3:16 58         /lib/libc-2.20.so
+[2-155.8860] 429ca000-429cb000 rw-p 0013a000 b3:16 58         /lib/libc-2.20.so
+[2-155.8931] 429cb000-429ce000 rw-p 00000000 00:00 0          
+[2-155.8986] 429d0000-429df000 r-xp 00000000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[2-155.9065] 429df000-429ef000 ---p 0000f000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[2-155.9145] 429ef000-429f0000 rw-p 0000f000 b3:16 4271       /usr/lib/libunwind.so.8.0.1
+[2-155.9224] 429f0000-42a15000 rw-p 00000000 00:00 0          
+[2-155.9280] 42a20000-42a3d000 r-xp 00000000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[2-155.9356] 42a3d000-42a4c000 ---p 0001d000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[2-155.9433] 42a4c000-42a4d000 rw-p 0001c000 b3:16 1223       /lib/libgcc_s-4.9.2.so.1
+[2-155.9509] 42a50000-42a68000 r-xp 00000000 b3:16 59         /lib/libpthread-2.20.so
+[2-155.9585] 42a68000-42a77000 ---p 00018000 b3:16 59         /lib/libpthread-2.20.so
+[2-155.9661] 42a77000-42a78000 r--p 00017000 b3:16 59         /lib/libpthread-2.20.so
+[2-155.9737] 42a78000-42a79000 rw-p 00018000 b3:16 59         /lib/libpthread-2.20.so
+[2-155.9812] 42a79000-42a7b000 rw-p 00000000 00:00 0          
+[2-155.9868] 42a80000-42a84000 r-xp 00000000 b3:16 471        /lib/libdl-2.20.so
+[2-155.9940] 42a84000-42a93000 ---p 00004000 b3:16 471        /lib/libdl-2.20.so
+[2-156.0011] 42a93000-42a94000 r--p 00003000 b3:16 471        /lib/libdl-2.20.so
+[2-156.0082] 42a94000-42a95000 rw-p 00004000 b3:16 471        /lib/libdl-2.20.so
+[2-156.0154] 42aa0000-42aa3000 r-xp 00000000 b3:16 4962       /usr/lib/libsys-assert.so
+[2-156.0231] 42aa3000-42ab2000 ---p 00003000 b3:16 4962       /usr/lib/libsys-assert.so
+[2-156.0309] 42ab2000-42ab3000 rw-p 00002000 b3:16 4962       /usr/lib/libsys-assert.so
+[2-156.0386] 42ac0000-42ac7000 r-xp 00000000 b3:16 312        /lib/librt-2.20.so
+[2-156.0458] 42ac7000-42ad6000 ---p 00007000 b3:16 312        /lib/librt-2.20.so
+[2-156.0529] 42ad6000-42ad7000 r--p 00006000 b3:16 312        /lib/librt-2.20.so
+[2-156.0600] 42ad7000-42ad8000 rw-p 00007000 b3:16 312        /lib/librt-2.20.so
+[2-156.0672] 42ae0000-42b2b000 r-xp 00000000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[2-156.0757] 42b2b000-42b3b000 ---p 0004b000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[2-156.0842] 42b3b000-42b3c000 rw-p 0004b000 b3:16 3722       /usr/lib/libdbuspolicy-1.so.3.8.11
+[2-156.0928] 42b40000-42b58000 r-xp 00000000 b3:16 456        /lib/libexpat.so.1.5.2
+[2-156.1003] 42b58000-42b67000 ---p 00018000 b3:16 456        /lib/libexpat.so.1.5.2
+[2-156.1077] 42b67000-42b69000 rw-p 00017000 b3:16 456        /lib/libexpat.so.1.5.2
+[2-156.1152] 42b70000-42b83000 r-xp 00000000 b3:16 470        /lib/libresolv-2.20.so
+[2-156.1227] 42b83000-42b92000 ---p 00013000 b3:16 470        /lib/libresolv-2.20.so
+[2-156.1302] 42b92000-42b93000 r--p 00012000 b3:16 470        /lib/libresolv-2.20.so
+[2-156.1377] 42b93000-42b94000 rw-p 00013000 b3:16 470        /lib/libresolv-2.20.so
+[2-156.1452] 42b94000-42b96000 rw-p 00000000 00:00 0          
+[2-156.1508] 42ba0000-42ba8000 r-xp 00000000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[2-156.1596] 42ba8000-42bb7000 ---p 00008000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[2-156.1683] 42bb7000-42bb9000 rw-p 00007000 b3:16 7271       /usr/lib/libcapi-base-common.so.0.2.2
+[2-156.1771] 42bc0000-42bc4000 r-xp 00000000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[2-156.1849] 42bc4000-42bd3000 ---p 00004000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[2-156.1926] 42bd3000-42bd4000 rw-p 00003000 b3:16 4611       /usr/lib/libdlog.so.0.0.0
+[2-156.2004] 42be0000-42be5000 r-xp 00000000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[2-156.2082] 42be5000-42bf4000 ---p 00005000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[2-156.2161] 42bf4000-42bf5000 rw-p 00004000 b3:16 7352       /usr/lib/libsmack.so.1.0.0
+[2-156.2239] 42c00000-42cf1000 r-xp 00000000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[2-156.2322] 42cf1000-42d00000 ---p 000f1000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[2-156.2406] 42d00000-42d02000 rw-p 000f0000 b3:16 8036       /usr/lib/libglib-2.0.so.0.4400.1
+[2-156.2490] 42d10000-42d80000 r-xp 00000000 b3:16 56         /lib/libm-2.20.so
+[1-156.2598] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[2-156.2560] 42d80000-42d8f000 ---p 00070000 b3:16 56         /lib/libm-2.20.so
+[2-156.2685] 42d8f000-42d90000 r--p 0006f000 b3:16 56         /lib/libm-2.20.so
+[2-156.2755] 42d90000-42d91000 rw-p 00070000 b3:16 56         /lib/libm-2.20.so
+[2-156.2826] 42da0000-42dd7000 r-xp 00000000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[2-156.2906] 42dd7000-42de7000 ---p 00037000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[2-156.2986] 42de7000-42de8000 rw-p 00037000 b3:16 4287       /usr/lib/libdbus-1.so.3.8.11
+[2-156.3066] 42df0000-42e08000 r-xp 00000000 b3:16 448        /lib/libz.so.1.2.8
+[2-156.3137] 42e08000-42e17000 ---p 00018000 b3:16 448        /lib/libz.so.1.2.8
+[2-156.3209] 42e17000-42e18000 rw-p 00017000 b3:16 448        /lib/libz.so.1.2.8
+[2-156.3280] 42e20000-42f2a000 r-xp 00000000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[2-156.3363] 42f2a000-42f3a000 ---p 0010a000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[2-156.3446] 42f3a000-42f3d000 rw-p 0010a000 b3:16 3961       /usr/lib/libgio-2.0.so.0.4400.1
+[2-156.3528] 42f3d000-42f3e000 rw-p 00000000 00:00 0          
+[2-156.3584] 42f40000-42fec000 r-xp 00000000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[2-156.3664] 42fec000-42ffc000 ---p 000ac000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[2-156.3744] 42ffc000-42fff000 r--p 000ac000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[2-156.3824] 42fff000-43001000 rw-p 000af000 b3:16 4769       /usr/lib/libstdc++.so.6.0.20
+[2-156.3904] 43001000-43008000 rw-p 00000000 00:00 0          
+[2-156.3960] 43010000-4304a000 r-xp 00000000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[2-156.4046] 4304a000-43059000 ---p 0003a000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[2-156.4133] 43059000-4305b000 rw-p 00039000 b3:16 4616       /usr/lib/libgobject-2.0.so.0.4400.1
+[2-156.4219] 43060000-43066000 r-xp 00000000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[2-156.4295] 43066000-43075000 ---p 00006000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[2-156.4372] 43075000-43076000 rw-p 00005000 b3:16 4500       /usr/lib/libffi.so.6.0.2
+[2-156.4449] 43080000-43082000 r-xp 00000000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[2-156.4535] 43082000-43091000 ---p 00002000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[2-156.4621] 43091000-43092000 rw-p 00001000 b3:16 7278       /usr/lib/libgmodule-2.0.so.0.4400.1
+[2-156.4707] 430a0000-430a5000 r-xp 00000000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[2-156.4790] 430a5000-430b4000 ---p 00005000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[2-156.4873] 430b4000-430b5000 rw-p 00004000 b3:16 5051       /usr/lib/libvconf-client.so.0.1
+[2-156.4955] 430c0000-430cd000 r-xp 00000000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[2-156.5034] 430cd000-430dc000 ---p 0000d000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[2-156.5114] 430dc000-430dd000 rw-p 0000c000 b3:16 4713       /usr/lib/libvconf.so.0.2.45
+[2-156.5193] 430e0000-4319c000 r-xp 00000000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[2-156.5273] 4319c000-431ab000 ---p 000bc000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[2-156.5353] 431ab000-431ad000 r--p 000bb000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[2-156.5433] 431ad000-431ae000 rw-p 000bd000 b3:16 4268       /usr/lib/libsystemd.so.0.4.0
+[2-156.5513] 431b0000-431c9000 r-xp 00000000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[2-156.5591] 431c9000-431d9000 ---p 00019000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[2-156.5668] 431d9000-431da000 rw-p 00019000 b3:16 4662       /usr/lib/liblzma.so.5.0.3
+[2-156.5746] 431e0000-432c8000 r-xp 00000000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[2-156.5823] 432c8000-432d7000 ---p 000e8000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[2-156.5901] 432d7000-432dc000 rw-p 000e7000 b3:16 7281       /usr/lib/libxml2.so.2.9.2
+[2-156.5978] 432dc000-432dd000 rw-p 00000000 00:00 0          
+[2-156.6034] 432e0000-43313000 r-xp 00000000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[2-156.6118] 43313000-43322000 ---p 00033000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[2-156.6203] 43322000-43325000 rw-p 00032000 b3:16 5311       /usr/lib/libTIFactoryData-ATSC.so
+[2-156.6287] 43330000-43347000 r-xp 00000000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[2-156.6370] 43347000-43357000 ---p 00017000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[2-156.6453] 43357000-43359000 rw-p 00017000 b3:16 7248       /usr/lib/libTIFactoryService.so
+[1-156.6598] msg-wt61p807 msg-wt61p807: ack[4E,23] timed out
+[2-156.6535] 43360000-43370000 r-xp 00000000 b3:16 5052       /usr/lib/libTIFactoryDataWrite.so
+[2-156.6674] 43370000-43372000 rw-p 00010000 b3:16 5052       /usr/lib/libTIFactoryDataWrite.so
+[2-156.6758] 43380000-43382000 r-xp 00000000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[2-156.6835] 43382000-43391000 ---p 00002000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[2-156.6912] 43391000-43392000 rw-p 00001000 b3:16 3837       /usr/lib/libXau.so.6.0.0
+[2-156.6988] 433a0000-433a6000 r-xp 00000000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[2-156.7082] 433a6000-433b5000 ---p 00006000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[2-156.7176] 433b5000-433b6000 rw-p 00005000 b3:16 4684       /usr/lib/libcapi-system-info.so.0.6.02+tvprd
+[2-156.7270] 433c0000-433c3000 r-xp 00000000 b3:16 4293       /usr/lib/libiniparser.so.0
+[2-156.7349] 433c3000-433d2000 ---p 00003000 b3:16 4293       /usr/lib/libiniparser.so.0
+[2-156.7427] 433d2000-433d3000 rw-p 00002000 b3:16 4293       /usr/lib/libiniparser.so.0
+[2-156.7505] 433e0000-433ec000 r-xp 00000000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[2-156.7590] 433ec000-433fb000 ---p 0000c000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[2-156.7674] 433fb000-433fc000 rw-p 0000b000 b3:16 5300       /usr/lib/libopen-debugmenu_rel.so
+[2-156.7759] 43400000-434ef000 r-xp 00000000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[2-156.7835] 434ef000-434fe000 ---p 000ef000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[2-156.7912] 434fe000-43502000 rw-p 000ee000 b3:16 3238       /usr/lib/libX11.so.6.3.0
+[2-156.7989] 43510000-4355c000 r-xp 00000000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[2-156.8067] 4355c000-4356c000 ---p 0004c000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[2-156.8145] 4356c000-4356d000 rw-p 0004c000 b3:16 3807       /usr/lib/libeina.so.1.13.0
+[2-156.8224] 4356d000-4356e000 rw-p 00000000 00:00 0          
+[2-156.8279] 43570000-43590000 r-xp 00000000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[2-156.8359] 43590000-4359f000 ---p 00020000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[2-156.8438] 4359f000-435a1000 rw-p 0001f000 b3:16 3738       /usr/lib/libecore.so.1.13.0
+[2-156.8517] 435a1000-435af000 rw-p 00000000 00:00 0          
+[2-156.8573] 435c0000-435ce000 r-xp 00000000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[2-156.8649] 435ce000-435de000 ---p 0000e000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[2-156.8726] 435de000-435df000 rw-p 0000e000 b3:16 4297       /usr/lib/libeo.so.1.13.0
+[2-156.8803] 435f0000-43605000 r-xp 00000000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[2-156.8879] 43605000-43614000 ---p 00015000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[2-156.8956] 43614000-43615000 rw-p 00014000 b3:16 3597       /usr/lib/libxcb.so.1.1.0
+[2-156.9032] 43620000-43630000 r-xp 00000000 b3:16 7650       /usr/lib/libefl.so.1.13.0
+[2-156.9110] 43630000-43631000 rw-p 00010000 b3:16 7650       /usr/lib/libefl.so.1.13.0
+[2-156.9187] 43631000-43632000 rw-p 00000000 00:00 0          
+[2-156.9243] 43640000-43643000 r-xp 00000000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[2-156.9324] 43643000-43652000 ---p 00003000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[2-156.9405] 43652000-43653000 rw-p 00002000 b3:16 5011       /usr/lib/libsmart-deadlock.so
+[2-156.9486] 43660000-43664000 r-xp 00000000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[2-156.9570] 43664000-43673000 ---p 00004000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[2-156.9655] 43673000-43674000 rw-p 00003000 b3:16 4490       /usr/lib/libvd-win-util.so.0.0.19
+[2-156.9739] 43680000-43860000 r-xp 00000000 b3:16 3377       /usr/lib/libcrypto.so.1.0.0
+[2-156.9819] 43860000-43875000 rw-p 001e0000 b3:16 3377       /usr/lib/libcrypto.so.1.0.0
+[2-156.9898] 43875000-43879000 rw-p 00000000 00:00 0          
+[2-156.9954] 43880000-43902000 r-xp 00000000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[2-157.0034] 43902000-43911000 ---p 00082000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[2-157.0114] 43911000-43914000 rw-p 00081000 b3:16 3414       /usr/lib/libsqlite3.so.0.8.6
+[2-157.0194] 43920000-43973000 r-xp 00000000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[2-157.0270] 43973000-43982000 ---p 00053000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[2-157.0347] 43982000-43987000 rw-p 00052000 b3:16 7663       /usr/lib/libssl.so.1.0.0
+[2-157.0424] 43990000-43999000 r-xp 00000000 b3:16 1206       /lib/libcrypt-2.20.so
+[2-157.0498] 43999000-439a8000 ---p 00009000 b3:16 1206       /lib/libcrypt-2.20.so
+[2-157.0572] 439a8000-439a9000 r--p 00008000 b3:16 1206       /lib/libcrypt-2.20.so
+[2-157.0646] 439a9000-439aa000 rw-p 00009000 b3:16 1206       /lib/libcrypt-2.20.so
+[2-157.0720] 439aa000-439d1000 rw-p 00000000 00:00 0          
+[2-157.0775] 439e0000-439fb000 r-xp 00000000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[2-157.0853] 439fb000-43a0a000 ---p 0001b000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[2-157.0930] 43a0a000-43a0b000 r--p 0001a000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[2-157.1008] 43a0b000-43a0c000 rw-p 0001b000 b3:16 3710       /usr/lib/libudev.so.1.6.0
+[2-157.1085] 43a10000-43a13000 r-xp 00000000 b3:16 468        /lib/libattr.so.1.1.0
+[2-157.1159] 43a13000-43a22000 ---p 00003000 b3:16 468        /lib/libattr.so.1.1.0
+[2-157.1233] 43a22000-43a23000 rw-p 00002000 b3:16 468        /lib/libattr.so.1.1.0
+[2-157.1307] 43a30000-43a34000 r-xp 00000000 b3:16 310        /lib/libcap.so.2.21
+[2-157.1380] 43a34000-43a43000 ---p 00004000 b3:16 310        /lib/libcap.so.2.21
+[2-157.1452] 43a43000-43a44000 rw-p 00003000 b3:16 310        /lib/libcap.so.2.21
+[2-157.1524] 43a50000-43a52000 r-xp 00000000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[2-157.1602] 43a52000-43a62000 ---p 00002000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[2-157.1679] 43a62000-43a63000 rw-p 00002000 b3:16 7415       /usr/lib/libttrace.so.1.1
+[2-157.1757] 43a70000-43c0d000 r-xp 00000000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[2-157.1836] 43c0d000-43c1c000 ---p 0019d000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[2-157.1915] 43c1c000-43c25000 rw-p 0019c000 b3:16 7770       /usr/lib/libicui18n.so.54.1
+[2-157.1994] 43c25000-43c26000 rw-p 00000000 00:00 0          
+[2-157.2050] 43c30000-43d44000 r-xp 00000000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[2-157.2128] 43d44000-43d53000 ---p 00114000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[2-157.2205] 43d53000-43d5d000 rw-p 00113000 b3:16 3786       /usr/lib/libicuuc.so.54.1
+[2-157.2282] 43d5d000-43d62000 rw-p 00000000 00:00 0          
+[2-157.2338] 43d70000-43dd0000 r-xp 00000000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[2-157.2420] 43dd0000-43ddf000 ---p 00060000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[2-157.2502] 43ddf000-43de3000 rw-p 0005f000 b3:16 3645       /usr/lib/libfreetype.so.6.11.3
+[2-157.2584] 43df0000-43e2c000 r-xp 00000000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[2-157.2665] 43e2c000-43e3b000 ---p 0003c000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[2-157.2746] 43e3b000-43e3d000 rw-p 0003b000 b3:16 7196       /usr/lib/libecore_x.so.1.13.0
+[2-157.2827] 43e3d000-43e3e000 rw-p 00000000 00:00 0          
+[2-157.2882] 43e40000-43e62000 r-xp 00000000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[2-157.2976] 43e62000-43e71000 ---p 00022000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[2-157.3069] 43e71000-43e73000 rw-p 00021000 b3:16 7268       /usr/lib/libsecurity-server-client.so.1.0.1
+[2-157.3162] 43e80000-43ea9000 r-xp 00000000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[2-157.3256] 43ea9000-43eb8000 ---p 00029000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[2-157.3350] 43eb8000-43eba000 rw-p 00028000 b3:16 6996       /usr/lib/libsecurity-server-commons.so.1.0.0
+[2-157.3444] 43ec0000-43ed2000 r-xp 00000000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[2-157.3528] 43ed2000-43ee2000 ---p 00012000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[2-157.3613] 43ee2000-43ee3000 rw-p 00012000 b3:16 4666       /usr/lib/libecore_input.so.1.13.0
+[2-157.3697] 43ef0000-43f0b000 r-xp 00000000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[2-157.3776] 43f0b000-43f1a000 ---p 0001b000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[2-157.3856] 43f1a000-43f1b000 rw-p 0001a000 b3:16 7608       /usr/lib/libpng12.so.0.50.0
+[2-157.3935] 43f20000-43f35000 r-xp 00000000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[2-157.4024] 43f35000-43f45000 ---p 00015000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[2-157.4113] 43f45000-43f46000 rw-p 00015000 b3:16 4818       /usr/lib/libprivilege-control.so.0.0.2
+[2-157.4201] 43f50000-43f52000 r-xp 00000000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[2-157.4284] 43f52000-43f61000 ---p 00002000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[2-157.4367] 43f61000-43f62000 rw-p 00001000 b3:16 6039       /usr/lib/libXcomposite.so.1.0.0
+[2-157.4449] 43f70000-43f77000 r-xp 00000000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[2-157.4530] 43f77000-43f86000 ---p 00007000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[2-157.4610] 43f86000-43f87000 rw-p 00006000 b3:16 7825       /usr/lib/libXcursor.so.1.0.2
+[2-157.4690] 43f90000-43f92000 r-xp 00000000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[2-157.4770] 43f92000-43fa1000 ---p 00002000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[2-157.4850] 43fa1000-43fa2000 rw-p 00001000 b3:16 3427       /usr/lib/libXdamage.so.1.1.0
+[2-157.4930] 43fb0000-43fbb000 r-xp 00000000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[2-157.5008] 43fbb000-43fca000 ---p 0000b000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[2-157.5085] 43fca000-43fcb000 rw-p 0000a000 b3:16 3309       /usr/lib/libXext.so.6.4.0
+[2-157.5163] 43fd0000-43fd3000 r-xp 00000000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[2-157.5242] 43fd3000-43fe2000 ---p 00003000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[2-157.5321] 43fe2000-43fe3000 rw-p 00002000 b3:16 7774       /usr/lib/libXfixes.so.3.1.0
+[2-157.5400] 43ff0000-43ff2000 r-xp 00000000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[2-157.5481] 43ff2000-44001000 ---p 00002000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[2-157.5562] 44001000-44002000 rw-p 00001000 b3:16 7463       /usr/lib/libXgesture.so.7.0.0
+[2-157.5643] 44010000-4401a000 r-xp 00000000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[2-157.5719] 4401a000-44029000 ---p 0000a000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[2-157.5795] 44029000-4402a000 rw-p 00009000 b3:16 7967       /usr/lib/libXi.so.6.1.0
+[2-157.5870] 44030000-44032000 r-xp 00000000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[2-157.5951] 44032000-44041000 ---p 00002000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[2-157.6032] 44041000-44042000 rw-p 00001000 b3:16 4435       /usr/lib/libXinerama.so.1.0.0
+[2-157.6113] 44050000-44056000 r-xp 00000000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[2-157.6192] 44056000-44065000 ---p 00006000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[2-157.6272] 44065000-44066000 rw-p 00005000 b3:16 5015       /usr/lib/libXrandr.so.2.2.0
+[2-157.6351] 44070000-44076000 r-xp 00000000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[2-157.6431] 44076000-44085000 ---p 00006000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[2-157.6511] 44085000-44086000 rw-p 00005000 b3:16 7947       /usr/lib/libXrender.so.1.3.0
+[2-157.6591] 44090000-44094000 r-xp 00000000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[2-157.6669] 44094000-440a3000 ---p 00004000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[2-157.6746] 440a3000-440a4000 rw-p 00003000 b3:16 6686       /usr/lib/libXtst.so.6.1.0
+[2-157.6824] 440b0000-440b1000 r-xp 00000000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[2-157.6910] 440b1000-440c0000 ---p 00001000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[2-157.6996] 440c0000-440c1000 rw-p 00000000 b3:16 7737       /usr/lib/libargos_watchdog.so.0.0.1
+[2-157.7082] 440d0000-440d3000 r-xp 00000000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[2-157.7162] 440d3000-440e3000 ---p 00003000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[2-157.7242] 440e3000-440e4000 rw-p 00003000 b3:16 7453       /usr/lib/libbundle.so.0.1.22
+[2-157.7323] 440f0000-440f9000 r-xp 00000000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[2-157.7402] 440f9000-44109000 ---p 00009000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[2-157.7481] 44109000-4410a000 rw-p 00009000 b3:16 7632       /usr/lib/libedbus.so.1.7.99
+[2-157.7560] 44110000-44112000 r-xp 00000000 b3:16 5045       /usr/lib/libiri.so
+[2-157.7632] 44112000-44121000 ---p 00002000 b3:16 5045       /usr/lib/libiri.so
+[2-157.7703] 44121000-44122000 rw-p 00001000 b3:16 5045       /usr/lib/libiri.so
+[2-157.7774] 44130000-442a5000 r-xp 00000000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[2-157.7853] 442a5000-442b4000 ---p 00175000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[2-157.7931] 442b4000-442c5000 rw-p 00174000 b3:16 4269       /usr/lib/libevas.so.1.13.0
+[2-157.8009] 442c5000-442dc000 rw-p 00000000 00:00 0          
+[2-157.8065] 442e0000-44321000 r-xp 00000000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[2-157.8148] 44321000-44331000 ---p 00041000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[2-157.8231] 44331000-44332000 rw-p 00041000 b3:16 3419       /usr/lib/libharfbuzz.so.0.940.0
+[2-157.8313] 44340000-44367000 r-xp 00000000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[2-157.8391] 44367000-44376000 ---p 00027000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[2-157.8468] 44376000-44377000 rw-p 00026000 b3:16 7742       /usr/lib/libjpeg.so.8.0.2
+[2-157.8546] 44377000-44387000 rw-p 00000000 00:00 0          
+[2-157.8602] 44390000-443b2000 r-xp 00000000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[2-157.8684] 443b2000-443c2000 ---p 00022000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[2-157.8767] 443c2000-443c3000 rw-p 00022000 b3:16 3592       /usr/lib/libecore_con.so.1.13.0
+[2-157.8850] 443c3000-443c4000 rw-p 00000000 00:00 0          
+[2-157.8905] 443d0000-443ef000 r-xp 00000000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[2-157.8983] 443ef000-443fe000 ---p 0001f000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[2-157.9060] 443fe000-443ff000 rw-p 0001e000 b3:16 6652       /usr/lib/libeet.so.1.13.0
+[2-157.9138] 443ff000-44407000 rw-p 00000000 00:00 0          
+[2-157.9194] 44410000-4443c000 r-xp 00000000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[2-157.9276] 4443c000-4444b000 ---p 0002c000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[2-157.9359] 4444b000-4444c000 rw-p 0002b000 b3:16 7654       /usr/lib/libfontconfig.so.1.8.0
+[2-157.9442] 44450000-44476000 r-xp 00000000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[2-157.9526] 44476000-44485000 ---p 00026000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[2-157.9611] 44485000-44486000 rw-p 00025000 b3:16 4740       /usr/lib/libpkgmgr-info.so.0.0.17
+[2-157.9695] 44490000-444ac000 r-xp 00000000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[2-157.9772] 444ac000-444bb000 ---p 0001c000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[2-157.9848] 444bb000-444bc000 rw-p 0001b000 b3:16 3202       /usr/lib/libaul.so.0.1.0
+[2-157.9925] 444bc000-444be000 rw-p 00000000 00:00 0          
+[2-157.9981] 444c0000-444d9000 r-xp 00000000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[2-158.0064] 444d9000-444e9000 ---p 00019000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[2-158.0148] 444e9000-444ea000 rw-p 00019000 b3:16 4997       /usr/lib/libdbus-glib-1.so.2.2.2
+[2-158.0231] 444f0000-44504000 r-xp 00000000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[2-158.0311] 44504000-44513000 ---p 00014000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[2-158.0390] 44513000-44515000 rw-p 00013000 b3:16 7339       /usr/lib/libector.so.1.13.0
+[2-158.0469] 44520000-44534000 r-xp 00000000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[2-158.0549] 44534000-44543000 ---p 00014000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[2-158.0629] 44543000-44544000 rw-p 00013000 b3:16 4714       /usr/lib/libfribidi.so.0.3.1
+[2-158.0709] 44550000-44564000 r-xp 00000000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[2-158.0791] 44564000-44574000 ---p 00014000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[2-158.0873] 44574000-44575000 rw-p 00014000 b3:16 4438       /usr/lib/libgraphite2.so.3.0.1
+[2-158.0955] 44580000-4459b000 r-xp 00000000 b3:16 3164       /usr/lib/liblua-5.1.so
+[2-158.1030] 4459b000-445ab000 ---p 0001b000 b3:16 3164       /usr/lib/liblua-5.1.so
+[2-158.1105] 445ab000-445ac000 rw-p 0001b000 b3:16 3164       /usr/lib/liblua-5.1.so
+[2-158.1179] 445b0000-445cc000 r-xp 00000000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[2-158.1265] 445cc000-445db000 ---p 0001c000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[2-158.1350] 445db000-445dc000 rw-p 0001b000 b3:16 4609       /usr/lib/libpkgmgr_parser.so.0.1.0
+[2-158.1435] 445e0000-445e3000 r-xp 00000000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[2-158.1519] 445e3000-445f2000 ---p 00003000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[2-158.1603] 445f2000-445f3000 rw-p 00002000 b3:16 3566       /usr/lib/libSLP-db-util.so.0.1.0
+[2-158.1686] 44600000-44604000 r-xp 00000000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[2-158.1768] 44604000-44613000 ---p 00004000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[2-158.1850] 44613000-44614000 rw-p 00003000 b3:16 3395       /usr/lib/libdevice-node.so.0.1
+[2-158.1932] 44620000-44625000 r-xp 00000000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[2-158.2015] 44625000-44634000 ---p 00005000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[2-158.2099] 44634000-44635000 rw-p 00004000 b3:16 7435       /usr/lib/libecore_file.so.1.13.0
+[2-158.2182] 44640000-44642000 r-xp 00000000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[2-158.2261] 44642000-44651000 ---p 00002000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[2-158.2339] 44651000-44652000 rw-p 00001000 b3:16 3381       /usr/lib/libvasum.so.0.3.1
+[2-158.2417] 44660000-44666000 r-xp 00000000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[2-158.2498] 44666000-44675000 ---p 00006000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[2-158.2578] 44675000-44676000 rw-p 00005000 b3:16 3444       /usr/lib/libxdgmime.so.1.1.0
+[2-158.2658] 44680000-448e9000 r-xp 00000000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[2-158.2741] 448e9000-448f8000 ---p 00269000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[2-158.2825] 448f8000-44914000 rw-p 00268000 b3:16 4756       /usr/lib/libelementary.so.1.13.0
+[2-158.2909] 44914000-44917000 rw-p 00000000 00:00 0          
+[2-158.2964] 44920000-449aa000 r-xp 00000000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[2-158.3043] 449aa000-449ba000 ---p 0008a000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[2-158.3121] 449ba000-449bd000 rw-p 0008a000 b3:16 4262       /usr/lib/libedje.so.1.13.0
+[2-158.3199] 449c0000-449f3000 r-xp 00000000 b3:16 6028       /usr/lib/libCLogger.so
+[2-158.3274] 449f3000-44a03000 ---p 00033000 b3:16 6028       /usr/lib/libCLogger.so
+[2-158.3349] 44a03000-44a04000 rw-p 00033000 b3:16 6028       /usr/lib/libCLogger.so
+[2-158.3424] 44a10000-44a31000 r-xp 00000000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[2-158.3504] 44a31000-44a41000 ---p 00021000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[2-158.3584] 44a41000-44a42000 rw-p 00021000 b3:16 6720       /usr/lib/libeldbus.so.1.13.0
+[2-158.3664] 44a50000-44a69000 r-xp 00000000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[2-158.3748] 44a69000-44a78000 ---p 00019000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[2-158.3831] 44a78000-44a79000 rw-p 00018000 b3:16 7107       /usr/lib/libecore_evas.so.1.13.0
+[2-158.3915] 44a80000-44a98000 r-xp 00000000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[2-158.3995] 44a98000-44aa8000 ---p 00018000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[2-158.4075] 44aa8000-44aa9000 rw-p 00018000 b3:16 5047       /usr/lib/libefreet.so.1.13.0
+[2-158.4155] 44aa9000-44aaa000 rw-p 00000000 00:00 0          
+[2-158.4211] 44ab0000-44ab8000 r-xp 00000000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[2-158.4288] 44ab8000-44ac7000 ---p 00008000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[2-158.4364] 44ac7000-44ac8000 rw-p 00007000 b3:16 7920       /usr/lib/libdrm.so.2.4.0
+[2-158.4441] 44ad0000-44ad6000 r-xp 00000000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[2-158.4524] 44ad6000-44ae5000 ---p 00006000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[2-158.4606] 44ae5000-44ae6000 rw-p 00005000 b3:16 4857       /usr/lib/libecore_imf.so.1.13.0
+[2-158.4689] 44af0000-44af2000 r-xp 00000000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[2-158.4776] 44af2000-44b01000 ---p 00002000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[2-158.4863] 44b01000-44b02000 rw-p 00001000 b3:16 3600       /usr/lib/libecore_imf_evas.so.1.13.0
+[2-158.4950] 44b10000-44b13000 r-xp 00000000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[2-158.5039] 44b13000-44b23000 ---p 00003000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[2-158.5128] 44b23000-44b24000 rw-p 00003000 b3:16 3819       /usr/lib/libecore_input_evas.so.1.13.0
+[2-158.5217] 44b30000-44b35000 r-xp 00000000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[2-158.5301] 44b35000-44b44000 ---p 00005000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[2-158.5385] 44b44000-44b45000 rw-p 00004000 b3:16 7857       /usr/lib/libefreet_mime.so.1.13.0
+[2-158.5470] 44b50000-44b52000 r-xp 00000000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[2-158.5555] 44b52000-44b61000 ---p 00002000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[2-158.5641] 44b61000-44b62000 rw-p 00001000 b3:16 3879       /usr/lib/libefreet_trash.so.1.13.0
+[2-158.5726] 44b70000-44b7d000 r-xp 00000000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[2-158.5803] 44b7d000-44b8d000 ---p 0000d000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[2-158.5881] 44b8d000-44b8e000 rw-p 0000d000 b3:16 3856       /usr/lib/libeio.so.1.13.0
+[2-158.5958] 44b90000-44b97000 r-xp 00000000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[2-158.6038] 44b97000-44ba7000 ---p 00007000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[2-158.6119] 44ba7000-44ba8000 rw-p 00007000 b3:16 5315       /usr/lib/libembryo.so.1.13.0
+[2-158.6199] 44bb0000-44bb9000 r-xp 00000000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[2-158.6279] 44bb9000-44bc8000 ---p 00009000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[2-158.6359] 44bc8000-44bc9000 rw-p 00008000 b3:16 4833       /usr/lib/libethumb.so.1.13.0
+[2-158.6439] 44bd0000-44bd7000 r-xp 00000000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[3-158.6598] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0x10, (ret:0)
+[3-158.6598] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[3-158.6598] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[3-158.6598] sdp-mchnd 800100.msgbox: Recv Data: 00000009 00a5ffff 00000000 000029a5
+[3-158.6598] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[3-158.6598] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[3-158.6598] sdp-mchnd 800100.msgbox: Send Data: 00000009 0010ffff 00000000 159d4010
+[3-158.6598] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[3-158.6599] sdp-mchnd 800100.msgbox: total_send_count              : 428
+[3-158.6599] sdp-mchnd 800100.msgbox: total_recv_count              : 29
+[3-158.6599] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[3-158.6599] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[3-158.6599] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[3-158.6599] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 154259768735ns
+[3-158.6599] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[3-158.6599] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[3-158.6599] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[3-158.6599] sdp-mchnd 800100.msgbox: rx ring dump ( now 158659844377ns)
+[3-158.6599] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[3-158.6599] sdp-mchnd 800100.msgbox:  1@12: 16us(154.2597s) 0x9 00a5ffff 00000000 000029a5
+[3-158.6599] sdp-mchnd 800100.msgbox:  2@11: 24us(150.2457s) 0x9 0029ffff 00000000 00002929
+[3-158.6599] sdp-mchnd 800100.msgbox:  3@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[3-158.6599] sdp-mchnd 800100.msgbox:  4@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[3-158.6599] sdp-mchnd 800100.msgbox:  5@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[3-158.6600] sdp-mchnd 800100.msgbox:  6@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[3-158.6600] sdp-mchnd 800100.msgbox:  7@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox:  8@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox:  9@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: 10@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: 11@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[3-158.6600] sdp-mchnd 800100.msgbox: 12@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: 13@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: 14@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[3-158.6600] sdp-mchnd 800100.msgbox: 15@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: 16@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[3-158.6600] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-158.6525] 44bd7000-44be6000 ---p 00007000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[2-158.6610] CPU: 2 PID: 1411 Comm: avocd Tainted: PWO 3.10.30 #3
+[2-158.6610] Backtrace: 
+[2-158.6610] Function entered at [<c0011034>] from [<c0011770>]
+[2-158.6610]  r7:00200200 r6:00100100 r5:cdf87b00 r4:d4c43e3c
+[2-158.6610] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-158.6610] Function entered at [<c0414c2c>] from [<be410104>]
+[2-158.6610] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-158.6610] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-158.6610]  r8:00000002 r7:cdf87b88 r6:00000000 r5:c051dc8c r4:cdf86030
+[2-158.6610] Function entered at [<c0012f78>] from [<c0008554>]
+[2-158.6610]  r8:c06465c0 r7:c06465c0 r6:cdf87b88 r5:c0531814 r4:fe682000
+[2-158.6610] Function entered at [<c00084c0>] from [<c000d980>]
+[2-158.6610] Exception stack(0xcdf87b88 to 0xcdf87bd0)
+[2-158.6610] 7b80:                   c0536b14 60000093 00000002 00000002 c0572840 60000013
+[2-158.6610] 7ba0: 00000023 00000023 00000054 00000004 60000013 cdf87c24 cdf87b78 cdf87bd0
+[2-158.6610] 7bc0: c04183fc c003b388 60000013 ffffffff cdf87bf4
+[2-158.6610]  r9:00000004 r8:00000054 r7:cdf87bbc r6:ffffffff r5:60000013
+[2-158.6611] r4:c003b388
+[2-158.6611] Function entered at [<c003b220>] from [<c003b9f4>]
+[2-158.6611] Function entered at [<c003b59c>] from [<c0413914>]
+[2-158.6611] Function entered at [<c04138d8>] from [<c0120b5c>]
+[2-158.6611]  r3:00000001 r2:00000001 r1:cdf87dec r0:c04831fd
+[2-158.6611] Function entered at [<c01208d4>] from [<c0011650>]
+[2-158.6611] Function entered at [<c00115cc>] from [<c004a7a8>]
+[2-158.6611]  r9:cdf86000 r8:cdf86030 r7:cdf86030 r6:cbaac944 r5:cdf87edc
+[2-158.6611] r4:00000006
+[2-158.6611] Function entered at [<c004a3a0>] from [<c001084c>]
+[2-158.6611] Function entered at [<c0010794>] from [<c0010ca8>]
+[2-158.6611] Function entered at [<c0010c4c>] from [<c000de00>]
+[2-158.6611]  r7:000000ad r6:00000000 r5:00000000 r4:00113dd8
+[2-159.0922] 
+[2-159.0937] 44be6000-44be7000 rw-p 00006000 b3:16 7262       /usr/lib/libethumb_client.so.1.13.0
+[2-159.1023] 44bf0000-44bf1000 r-xp 00000000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[2-159.1109] 44bf1000-44c00000 ---p 00001000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[2-159.1195] 44c00000-44c01000 rw-p 00000000 b3:16 7419       /usr/lib/libgthread-2.0.so.0.4400.1
+[2-159.1281] 44c10000-44c25000 r-xp 00000000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[2-159.1376] 44c25000-44c34000 ---p 00015000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[2-159.1471] 44c34000-44c3a000 rw-p 00014000 b3:16 4852       /usr/lib/libvconf-internal-keys-tv.so.0.1.260
+[2-159.1566] 44c40000-44c45000 r-xp 00000000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[2-159.1649] 44c45000-44c54000 ---p 00005000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[2-159.1731] 44c54000-44c55000 rw-p 00004000 b3:16 3781       /usr/lib/libecore_ipc.so.1.13.0
+[2-159.1814] 44c60000-44d44000 r-xp 00000000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[2-159.1896] 44d44000-44d54000 ---p 000e4000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[2-159.1978] 44d54000-44d60000 rw-p 000e4000 b3:16 4295       /usr/lib/libvorbisenc.so.2.0.6
+[2-159.2060] 44d70000-44dbf000 r-xp 00000000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[2-159.2151] 44dbf000-44dcf000 ---p 0004f000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[2-159.2243] 44dcf000-44dd0000 rw-p 0004f000 b3:16 4236       /usr/lib/pulseaudio/libpulsecommon-4.0.so
+[2-159.2334] 44de0000-44e2a000 r-xp 00000000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[2-159.2415] 44e2a000-44e39000 ---p 0004a000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[2-159.2496] 44e39000-44e3b000 rw-p 00049000 b3:16 6649       /usr/lib/libsndfile.so.1.0.25
+[2-159.2577] 44e3b000-44e3f000 rw-p 00000000 00:00 0          
+[2-159.2633] 44e50000-44e8c000 r-xp 00000000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[2-159.2712] 44e8c000-44e9b000 ---p 0003c000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[2-159.2791] 44e9b000-44e9c000 rw-p 0003b000 b3:16 7063       /usr/lib/libpulse.so.0.16.2
+[2-159.2870] 44ea0000-44ec3000 r-xp 00000000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[2-159.2949] 44ec3000-44ed3000 ---p 00023000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[2-159.3029] 44ed3000-44ed4000 rw-p 00023000 b3:16 3925       /usr/lib/libvorbis.so.0.4.3
+[2-159.3108] 44ee0000-44ee7000 r-xp 00000000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[2-159.3187] 44ee7000-44ef6000 ---p 00007000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[2-159.3266] 44ef6000-44ef7000 rw-p 00006000 b3:16 8071       /usr/lib/libjson-c.so.2.0.1
+[2-159.3346] 44f00000-44f04000 r-xp 00000000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[2-159.3422] 44f04000-44f13000 ---p 00004000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[2-159.3499] 44f13000-44f14000 rw-p 00003000 b3:16 7022       /usr/lib/libogg.so.0.7.1
+[2-159.3575] 44f20000-44f2b000 r-xp 00000000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[2-159.3664] 44f2b000-44f3b000 ---p 0000b000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[2-159.3753] 44f3b000-44f3c000 rw-p 0000b000 b3:16 3873       /usr/lib/libaudio-session-mgr.so.0.0.0
+[2-159.3842] 44f3c000-44f3f000 rw-p 00000000 00:00 0          
+[2-159.3898] 44f50000-44f61000 r-xp 00000000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[2-159.3999] 44f61000-44f70000 ---p 00011000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[2-159.4101] 44f70000-44f76000 rw-p 00010000 b3:16 7739       /usr/lib/libcapi-system-runtime-info.so.0.0.215+tvprd
+[2-159.4203] 44f80000-44f9c000 r-xp 00000000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[2-159.4283] 44f9c000-44fac000 ---p 0001c000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[2-159.4363] 44fac000-44fad000 rw-p 0001c000 b3:16 7981       /usr/lib/libdeviced.so.0.1.0
+[2-159.4443] 44fb0000-44fca000 r-xp 00000000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[2-159.4524] 44fca000-44fd9000 ---p 0001a000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[2-159.4605] 44fd9000-44fda000 rw-p 00019000 b3:16 3304       /usr/lib/libmmfsound.so.0.1.0
+[2-159.4686] 45000000-45007000 r-xp 00000000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[2-159.4768] 45007000-45017000 ---p 00007000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[2-159.4850] 45017000-45018000 rw-p 00007000 b3:16 6030       /usr/lib/libmmfcommon.so.0.0.0
+[2-159.4932] 45020000-45025000 r-xp 00000000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[2-159.5015] 45025000-45035000 ---p 00005000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[2-159.5097] 45035000-45036000 rw-p 00005000 b3:16 3367       /usr/lib/libmmfsession.so.0.0.0
+[2-159.5180] 45040000-45044000 r-xp 00000000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[2-159.5266] 45044000-45053000 ---p 00004000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[2-159.5352] 45053000-45054000 rw-p 00003000 b3:16 4652       /usr/lib/libmmfsoundcommon.so.0.0.0
+[2-159.5439] 45060000-45064000 r-xp 00000000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[2-159.5523] 45064000-45073000 ---p 00004000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[2-159.5608] 45073000-45074000 rw-p 00003000 b3:16 3371       /usr/lib/libpulse-simple.so.0.0.4
+[2-159.5692] 45080000-451aa000 r-xp 00000000 b3:16 5319       /usr/lib/libtvs-api.so
+[2-159.5767] 451aa000-451b9000 ---p 0012a000 b3:16 5319       /usr/lib/libtvs-api.so
+[2-159.5842] 451b9000-451c0000 rw-p 00129000 b3:16 5319       /usr/lib/libtvs-api.so
+[2-159.5917] 451c0000-451c2000 rw-p 00000000 00:00 0          
+[2-159.5972] 451d0000-4524b000 r-xp 00000000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[2-159.6052] 4524b000-4525a000 ---p 0007b000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[2-159.6131] 4525a000-4525d000 rw-p 0007a000 b3:16 7779       /usr/lib/libasound.so.2.0.0
+[2-159.6210] 45260000-45282000 r-xp 00000000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[2-159.6287] 45282000-45292000 ---p 00022000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[2-159.6363] 45292000-45293000 rw-p 00022000 b3:16 5309       /usr/lib/libmicom.so.0.1
+[2-159.6440] 452a0000-452a5000 r-xp 00000000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[2-159.6536] 452a5000-452b4000 ---p 00005000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[2-159.6631] 452b4000-452b5000 rw-p 00004000 b3:16 3941       /usr/lib/libcapi-media-sound-manager.so.0.3.24
+[2-159.6727] 452c0000-452c4000 r-xp 00000000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[2-159.6813] 452c4000-452d3000 ---p 00004000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[2-159.6900] 452d3000-452d4000 rw-p 00003000 b3:16 5313       /usr/lib/libcapi-system-power-tv.so
+[2-159.6986] 452e0000-452e1000 r-xp 00000000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[2-159.7070] 452e1000-452f0000 ---p 00001000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[2-159.7155] 452f0000-452f1000 rw-p 00000000 b3:16 5017       /usr/lib/libmmfbootsound.so.0.0.0
+[2-159.7239] 45300000-45301000 r-xp 00000000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[2-159.7323] 45301000-45310000 ---p 00001000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[2-159.7406] 45310000-45311000 rw-p 00000000 b3:16 7070       /usr/lib/libmmfkeysound.so.0.0.0
+[2-159.7490] 45320000-45328000 r-xp 00000000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[2-159.7570] 45328000-45337000 ---p 00008000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[2-159.7650] 45337000-45338000 rw-p 00007000 b3:16 7953       /usr/lib/libsec-audio.so.0.1
+[2-159.7730] 45340000-453a5000 r-xp 00000000 b3:16 7603       /usr/lib/libavoc-3d.so
+[2-159.7805] 453a5000-453b5000 ---p 00065000 b3:16 7603       /usr/lib/libavoc-3d.so
+[2-159.7880] 453b5000-453c1000 rw-p 00065000 b3:16 7603       /usr/lib/libavoc-3d.so
+[2-159.7955] 453d0000-45436000 r-xp 00000000 b3:16 7040       /usr/lib/libavoc-mls.so
+[2-159.8030] 45436000-45446000 ---p 00066000 b3:16 7040       /usr/lib/libavoc-mls.so
+[2-159.8106] 45446000-45452000 rw-p 00066000 b3:16 7040       /usr/lib/libavoc-mls.so
+[2-159.8182] 454d0000-454da000 r-xp 00000000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[2-159.8269] 454da000-454e9000 ---p 0000a000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[2-159.8356] 454e9000-454ea000 rw-p 00009000 b3:16 7907       /usr/lib/libcapi-system-usbdevice.so
+[2-159.8443] 45570000-4557f000 r-xp 00000000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[2-159.8543] 4557f000-4558e000 ---p 0000f000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[2-159.8643] 4558e000-4558f000 rw-p 0000e000 b3:16 3792       /usr/lib/libcapi-media-sound-manager-tv.so.0.1.1+tv
+[2-159.8744] 455a0000-455ad000 r-xp 00000000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[2-159.8848] 455ad000-455bc000 ---p 0000d000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[2-159.8952] 455bc000-455c2000 rw-p 0000c000 b3:16 5080       /usr/lib/libcapi-system-system-settings.so.0.0.201+tvprd
+[2-159.9057] 455d0000-455d7000 r-xp 00000000 b3:16 7434       /usr/lib/libteec.so
+[2-159.9129] 455d7000-455e7000 ---p 00007000 b3:16 7434       /usr/lib/libteec.so
+[2-159.9201] 455e7000-455e8000 rw-p 00007000 b3:16 7434       /usr/lib/libteec.so
+[2-159.9274] 45690000-45713000 r-xp 00000000 b3:16 3853       /usr/lib/libavoc.so
+[2-159.9346] 45713000-45723000 ---p 00083000 b3:16 3853       /usr/lib/libavoc.so
+[2-159.9418] 45723000-4572f000 rw-p 00083000 b3:16 3853       /usr/lib/libavoc.so
+[2-159.9491] 45740000-457b3000 r-xp 00000000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[2-159.9570] 457b3000-457c2000 ---p 00073000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[2-159.9649] 457c2000-457ce000 rw-p 00072000 b3:16 8073       /usr/lib/libalsa-wrapper.so
+[2-159.9728] 457d0000-45838000 r-xp 00000000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[2-159.9807] 45838000-45848000 ---p 00068000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[2-159.9885] 45848000-45854000 rw-p 00068000 b3:16 7424       /usr/lib/libavoc-avsink.so
+[2-159.9963] 45860000-458c5000 r-xp 00000000 b3:16 3721       /usr/lib/libavoc-br.so
+[2-160.0038] 458c5000-458d5000 ---p 00065000 b3:16 3721       /usr/lib/libavoc-br.so
+[2-160.0113] 458d5000-458e1000 rw-p 00065000 b3:16 3721       /usr/lib/libavoc-br.so
+[2-160.0188] 458f0000-4595e000 r-xp 00000000 b3:16 5035       /usr/lib/libavoc-checker.so
+[2-160.0268] 4595e000-4596d000 ---p 0006e000 b3:16 5035       /usr/lib/libavoc-checker.so
+[2-160.0346] 4596d000-45979000 rw-p 0006d000 b3:16 5035       /usr/lib/libavoc-checker.so
+[2-160.0426] 45980000-459e5000 r-xp 00000000 b3:16 4794       /usr/lib/libavoc-wm.so
+[2-160.0500] 459e5000-459f4000 ---p 00065000 b3:16 4794       /usr/lib/libavoc-wm.so
+[2-160.0575] 459f4000-45a00000 rw-p 00064000 b3:16 4794       /usr/lib/libavoc-wm.so
+[2-160.0650] 45a10000-45a2a000 r-xp 00000000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[2-160.0733] 45a2a000-45a39000 ---p 0001a000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[2-160.0816] 45a39000-45a3b000 rw-p 00019000 b3:16 4242       /usr/lib/libv4lconvert.so.0.0.0
+[2-160.0898] 45a3b000-45a8d000 rw-p 00000000 00:00 0          
+[2-160.0954] 45ad0000-45ada000 r-xp 00000000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[2-160.1034] 45ada000-45ae9000 ---p 0000a000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[2-160.1114] 45ae9000-45aea000 rw-p 00009000 b3:16 7954       /usr/lib/libapputil.so.0.1.0
+[2-160.1194] 45af0000-45af2000 r-xp 00000000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[2-160.1280] 45af2000-45b01000 ---p 00002000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[2-160.1365] 45b01000-45b02000 rw-p 00001000 b3:16 7314       /usr/lib/libboost_system.so.1.51.0
+[2-160.1450] 45b10000-45b13000 r-xp 00000000 b3:16 7887       /usr/lib/libbptime.so
+[2-160.1524] 45b13000-45b22000 ---p 00003000 b3:16 7887       /usr/lib/libbptime.so
+[2-160.1598] 45b22000-45b23000 rw-p 00002000 b3:16 7887       /usr/lib/libbptime.so
+[2-160.1672] 45b50000-45b57000 r-xp 00000000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[2-160.1750] 45b57000-45b66000 ---p 00007000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[2-160.1827] 45b66000-45b6a000 rw-p 00006000 b3:16 3643       /usr/lib/libv4l2.so.0.0.0
+[2-160.1905] 45c90000-45cd7000 r-xp 00000000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[2-160.1990] 45cd7000-45ce6000 ---p 00047000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[2-160.2075] 45ce6000-45ce7000 rw-p 00046000 b3:16 7728       /usr/lib/libbluetooth-api.so.1.0.0
+[2-160.2161] 45cf0000-45d27000 r-xp 00000000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[2-160.2257] 45d27000-45d36000 ---p 00037000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[2-160.2354] 45d36000-45d37000 rw-p 00036000 b3:16 7395       /usr/lib/libcapi-network-bluetooth.so.0.1.45+tv
+[2-160.2451] 45d40000-45d64000 r-xp 00000000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[2-160.2536] 45d64000-45d73000 ---p 00024000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[2-160.2621] 45d73000-45d75000 rw-p 00023000 b3:16 8065       /usr/lib/libboost_thread.so.1.51.0
+[2-160.2707] 45e00000-45e11000 r-xp 00000000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[2-160.2798] 45e11000-45e21000 ---p 00011000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[2-160.2889] 45e21000-45e22000 rw-p 00011000 b3:16 3552       /usr/lib/libsec-video-drm-helper.so.0.1.0
+[2-160.2981] 45e60000-45e66000 r-xp 00000000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[2-160.3066] 45e66000-45e75000 ---p 00006000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[2-160.3152] 45e75000-45e76000 rw-p 00005000 b3:16 4705       /usr/lib/libboost_chrono.so.1.51.0
+[2-160.3237] 45e80000-45e83000 r-xp 00000000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[2-160.3323] 45e83000-45e93000 ---p 00003000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[2-160.3409] 45e93000-45e94000 rw-p 00003000 b3:16 7359       /usr/lib/libcapi-appfw-tvcontext.so
+[2-160.3495] 45ea0000-45ea4000 r-xp 00000000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[2-160.3581] 45ea4000-45eb4000 ---p 00004000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[2-160.3666] 45eb4000-45eb5000 rw-p 00004000 b3:16 3730       /usr/lib/libcapi-system-tvtimer.so
+[2-160.3751] 45fb0000-45fe9000 r-xp 00000000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[2-160.3831] 45fe9000-45ff9000 ---p 00039000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[2-160.3910] 45ff9000-45ffa000 rw-p 00039000 b3:16 4845       /usr/lib/libtvsystem.so.0.1
+[2-160.3989] 46000000-46015000 r-xp 00000000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[2-160.4078] 46015000-46024000 ---p 00015000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[2-160.4167] 46024000-46025000 rw-p 00014000 b3:16 3211       /usr/lib/libboost_filesystem.so.1.51.0
+[2-160.4255] 467d0000-46826000 r-xp 00000000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[2-160.4333] 46826000-46835000 ---p 00056000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[2-160.4410] 46835000-46839000 rw-p 00055000 b3:16 6688       /usr/lib/libtvs-ht-api.so
+[2-160.4488] 468a0000-468e7000 r-xp 00000000 b3:16 7736       /usr/lib/libtvs-ht.so
+[2-160.4562] 468e7000-468f6000 ---p 00047000 b3:16 7736       /usr/lib/libtvs-ht.so
+[2-160.4636] 468f6000-468f9000 rw-p 00046000 b3:16 7736       /usr/lib/libtvs-ht.so
+[2-160.4710] 46970000-4697d000 r-xp 00000000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[2-160.4791] 4697d000-4698d000 ---p 0000d000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[2-160.4872] 4698d000-46994000 rw-p 0000d000 b3:16 7970       /usr/lib/libres-lookup.so.0.1
+[2-160.4953] 46af0000-46d41000 r-xp 00000000 b3:16 3887       /usr/lib/libave.so.0.1
+[2-160.5028] 46d41000-46d51000 ---p 00251000 b3:16 3887       /usr/lib/libave.so.0.1
+[2-160.5103] 46d51000-46d56000 rw-p 00251000 b3:16 3887       /usr/lib/libave.so.0.1
+[2-160.5177] 46d56000-46d60000 rw-p 00000000 00:00 0          
+[2-160.5233] 471e0000-471e3000 r-xp 00000000 b3:16 7277       /usr/lib/libpq.so.1
+[2-160.5305] 471e3000-471f2000 ---p 00003000 b3:16 7277       /usr/lib/libpq.so.1
+[2-160.5378] 471f2000-471f9000 rw-p 00002000 b3:16 7277       /usr/lib/libpq.so.1
+[2-160.5450] 4a7e0000-4a7e4000 r-xp 00000000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[2-160.5538] 4a7e4000-4a7f3000 ---p 00004000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[2-160.5626] 4a7f3000-4a7f4000 rw-p 00003000 b3:16 7376       /usr/lib/libsec-video-hdmisw.so.0.1.0
+[2-160.5714] 4a800000-4a802000 r-xp 00000000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[2-160.5799] 4a802000-4a811000 ---p 00002000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[2-160.5884] 4a811000-4a812000 rw-p 00001000 b3:16 7958       /usr/lib/libsec-video-lbd.so.0.1.0
+[2-160.5970] 4ce30000-4ce3a000 r-xp 00000000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[2-160.6058] 4ce3a000-4ce49000 ---p 0000a000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[2-160.6146] 4ce49000-4ce62000 rw-p 00009000 b3:16 7048       /usr/lib/libsec-audio-enhancer.so.0.1
+[2-160.6234] b5892000-b589d000 r-xp 00000000 b3:16 442        /lib/libnss_files-2.20.so
+[2-160.6311] b589d000-b58ac000 ---p 0000b000 b3:16 442        /lib/libnss_files-2.20.so
+[2-160.6389] b58ac000-b58ad000 r--p 0000a000 b3:16 442        /lib/libnss_files-2.20.so
+[2-160.6466] b58ad000-b58ae000 rw-p 0000b000 b3:16 442        /lib/libnss_files-2.20.so
+[2-160.6543] b58ce000-b58cf000 ---p 00000000 00:00 0          
+[2-160.6599] b58cf000-b5ace000 rw-p 00000000 00:00 0          [tstack: tcon_monitor: 1416]
+[0-160.6678] sdp-msg-micom micom-msg.17: sdp-micom: Timeout error - command 0xa0, (ret:0)
+[0-160.6678] sdp-mchnd 800100.msgbox: ===== MessageBox Status Start =====
+[0-160.6678] sdp-mchnd 800100.msgbox: Recv Pend: 00000000
+[0-160.6678] sdp-mchnd 800100.msgbox: Recv Data: 00000009 00a5ffff 00000000 000029a5
+[0-160.6678] sdp-mchnd 800100.msgbox: Recv Data: 00000000 00000000 00000000 00000000
+[0-160.6678] sdp-mchnd 800100.msgbox: Send Pend: 00000000
+[0-160.6678] sdp-mchnd 800100.msgbox: Send Data: 00000009 00a0ffff 00000000 104068a0
+[0-160.6678] sdp-mchnd 800100.msgbox: Send Data: 00000000 00000000 00000000 00000000
+[0-160.6678] sdp-mchnd 800100.msgbox: total_send_count              : 433
+[0-160.6679] sdp-mchnd 800100.msgbox: total_recv_count              : 29
+[0-160.6679] sdp-mchnd 800100.msgbox: total_recv_drop_count         : 0
+[0-160.6679] sdp-mchnd 800100.msgbox: rx_ring_count                 : 0/16
+[0-160.6679] sdp-mchnd 800100.msgbox: rx_ring elapsed_max_time_ns   : 28211589ns
+[0-160.6679] sdp-mchnd 800100.msgbox: isr_last_called_time_ns       : 154259768735ns
+[0-160.6679] sdp-mchnd 800100.msgbox: isr_process_max_time_ns       : 6877ns
+[0-160.6679] sdp-mchnd 800100.msgbox: thread_process_max_time_ns    : 31128ns
+[0-160.6679] sdp-mchnd 800100.msgbox: callback_process_max_time_ns  : 29663ns
+[0-160.6679] sdp-mchnd 800100.msgbox: rx ring dump ( now 160667838478ns)
+[0-160.6679] sdp-mchnd 800100.msgbox: nr@id: elapsed(start_time) data values
+[0-160.6679] sdp-mchnd 800100.msgbox:  1@12: 16us(154.2597s) 0x9 00a5ffff 00000000 000029a5
+[0-160.6679] sdp-mchnd 800100.msgbox:  2@11: 24us(150.2457s) 0x9 0029ffff 00000000 00002929
+[0-160.6679] sdp-mchnd 800100.msgbox:  3@10: 15us(137.4251s) 0x9 0029ffff 00000000 1fffff29
+[0-160.6679] sdp-mchnd 800100.msgbox:  4@ 9: 18us(130.6173s) 0x9 0029ffff 00000000 00002929
+[0-160.6679] sdp-mchnd 800100.msgbox:  5@ 8: 18us(126.6062s) 0x9 10c6ffff 00000034 0000290a
+[0-160.6680] sdp-mchnd 800100.msgbox:  6@ 7: 14us(122.2032s) 0x9 0035ffff 00000000 00002935
+[0-160.6680] sdp-mchnd 800100.msgbox:  7@ 6: 16us(122.2005s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox:  8@ 5: 15us(111.7767s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox:  9@ 4: 15us(99.3358s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: 10@ 3: 11us(86.9058s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: 11@ 2: 16us(84.5045s) 0x9 00d7ffff 00000000 000029d7
+[0-160.6680] sdp-mchnd 800100.msgbox: 12@ 1: 18us(76.0805s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: 13@ 0: 11us(61.6508s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: 14@15: 138us(57.2425s) 0x9 0062ffff 91200040 00002953
+[0-160.6680] sdp-mchnd 800100.msgbox: 15@14: 13us(53.2273s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: 16@13: 28211us(44.3836s) 0x9 0029ffff 00000000 00002929
+[0-160.6680] sdp-mchnd 800100.msgbox: ===== MessageBox Status End =====
+[2-160.6759] CPU: 2 PID: 1411 Comm: avocd Tainted: PWO 3.10.30 #3
+[2-160.6759] Backtrace: 
+[2-160.6759] Function entered at [<c0011034>] from [<c0011770>]
+[2-160.6759]  r7:00200200 r6:00100100 r5:cdf87b00 r4:d796fdd4
+[2-160.6759] Function entered at [<c0011758>] from [<c0414c4c>]
+[2-160.6759] Function entered at [<c0414c2c>] from [<be410104>]
+[2-160.6759] Function entered at [<be4100f0>] from [<c007f8dc>]
+[2-160.6759] Function entered at [<c007f7f4>] from [<c001302c>]
+[2-160.6759]  r8:00000002 r7:cdf87b88 r6:00000000 r5:c051dc8c r4:cdf86030
+[2-160.6759] Function entered at [<c0012f78>] from [<c0008554>]
+[2-160.6759]  r8:c06465c0 r7:c06465c0 r6:cdf87b88 r5:c0531814 r4:fe682000
+[2-160.6759] Function entered at [<c00084c0>] from [<c000d980>]
+[2-160.6759] Exception stack(0xcdf87b88 to 0xcdf87bd0)
+[2-160.6759] 7b80:                   c0536b14 60000093 00000002 60000013 c0572840 c0572840
+[2-160.6759] 7ba0: 00000003 0000005a c0573130 c0598160 c0572840 cdf87c24 cdf87b78 cdf87bd0
+[2-160.6759] 7bc0: c04183fc c003b4f8 60000013 ffffffff 00000400
+[2-160.6759]  r9:c0598160 r8:c0573130 r7:cdf87bbc r6:ffffffff r5:60000013
+[2-160.6759] r4:c003b4f8
+[2-160.6760] Function entered at [<c003b220>] from [<c003b9f4>]
+[2-160.6760] Function entered at [<c003b59c>] from [<c0413914>]
+[2-160.6760] Function entered at [<c04138d8>] from [<c0120b64>]
+[2-160.6760]  r3:00000001 r2:00000002 r1:60000013 r0:c047b190
+[2-160.6760] Function entered at [<c01208d4>] from [<c0011650>]
+[2-160.6760] Function entered at [<c00115cc>] from [<c004a7a8>]
+[2-160.6760]  r9:cdf86000 r8:cdf86030 r7:cdf86030 r6:cbaac944 r5:cdf87edc
+[2-160.6760] r4:00000006
+[2-160.6760] Function entered at [<c004a3a0>] from [<c001084c>]
+[2-160.6760] Function entered at [<c0010794>] from [<c0010ca8>]
+[2-160.6760] Function entered at [<c0010c4c>] from [<c000de00>]
+[2-160.6760]  r7:000000ad r6:00000000 r5:00000000 r4:00113dd8
+[2-161.0992] b5ace000-b5acf000 ---p 00000000 00:00 0          
+[2-161.1047] b5acf000-b5cce000 rw-p 00000000 00:00 0          [tstack: frc_ddr_check: 1415]
+[2-161.1128] b5cce000-b5ccf000 ---p 00000000 00:00 0          
+[2-161.1184] b5ccf000-b5ece000 rw-p 00000000 00:00 0          [tstack: metadata self m: 1414]
+[2-161.1267] b5ece000-b5ecf000 ---p 00000000 00:00 0          
+[2-161.1322] b5ecf000-b5f0e000 rw-p 00000000 00:00 0          [tstack: AVEvSyncMonitor: 1413]
+[2-161.1405] b5f0e000-b5f16000 rw-s 00000000 b3:18 4186       /opt/dbspace/.avoc.db-shm
+[2-161.1483] b5f16000-b5f92000 rw-p 00000000 00:00 0          
+[2-161.1538] b5f92000-b5fad000 rw-s 00000000 00:0f 9190       /dev/shm/shm_ave
+[2-161.1608] b5fad000-b5fae000 rw-s 00000000 00:0f 9189       /dev/shm/sem.ave_semaphore
+[2-161.1686] b5fae000-b5fb3000 r--s 00000000 b3:16 50546      /usr/share/factory-data/FactoryIndexFile_Part2.dat
+[2-161.1786] b5fb3000-b5fb5000 r-xp 00000000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[2-161.1871] b5fb5000-b5fc4000 ---p 00002000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[2-161.1956] b5fc4000-b5fc5000 rw-p 00001000 b3:16 7474       /usr/lib/libdevice-node-generic.so
+[2-161.2042] b5fc5000-b5fc7000 r-xp 00000000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[2-161.2125] b5fc7000-b5fd6000 ---p 00002000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[2-161.2209] b5fd6000-b5fd7000 rw-p 00001000 b3:16 7966       /usr/lib/libslp_devman_plugin.so
+[2-161.2292] b5fd7000-b6267000 rw-s 00b60000 00:05 1111       /dev/sdp_mem
+[2-161.2358] b6267000-b628a000 rw-s 00980000 00:05 1111       /dev/sdp_mem
+[2-161.2425] b628a000-b62c6000 r-xp 00000000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[2-161.2517] b62c6000-b62d5000 ---p 0003c000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[2-161.2609] b62d5000-b62df000 rw-p 0003b000 b3:16 7903       /usr/lib/libsystem-info-external-plugin.so
+[2-161.2701] b62df000-b6307000 rw-p 00000000 00:00 0          
+[2-161.2757] b6307000-b630f000 r--s 00000000 b3:16 50549      /usr/share/factory-data/FactoryIndexFile_Part1.dat
+[2-161.2856] b630f000-b6310000 rw-s 00000000 00:04 0          /SYSV521612ed (deleted)
+[2-161.2932] b6310000-b631f000 rw-s 005c1000 00:05 1111       /dev/sdp_mem
+[2-161.2998] b631f000-b6325000 rw-s 00000000 00:0f 414        /dev/shm/shm_socpq
+[2-161.3070] b6325000-b6326000 rw-s 00000000 00:0f 413        /dev/shm/sem.socpq_semaphore
+[2-161.3150] b6326000-b6327000 r--p 00000000 00:05 1193       /dev/dlog_mgr
+[2-161.3217] b6327000-b6329000 rw-p 00000000 00:00 0          
+[2-161.3273] b6329000-b632a000 r-xp 00000000 00:00 0          [sigpage]
+[2-161.3336] be1cf000-be1f1000 rw-p 00000000 00:00 0          [stack]
+[2-161.3398] ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+[2-161.3462] -----------------------------------------------------------
+[2-161.3462] 
+[2-161.3539] task stack info : pid(1411) stack area (0xbe1cf000 ~ 0xbe1f1000)
+[2-161.3608] -----------------------------------------------------------
+[2-161.3672] * dump user stack
+[2-161.3700] -----------------------------------------------------------
+[2-161.3765] pid(1411) stack vma (0xbe1cf000 ~ 0xbe1f1000)
+[2-161.3817] User Stack: (0xbe1f069c to 0xbe1f0e80)
+[2-161.3863] 0680:                                                                be1f06b8
+[2-161.3943] 06a0: be1f06c0 00000111 00000715 00000000 00000000 00000001 0002a5a5 00000000
+[2-161.4023] 06c0: 00000000 00000000 000ee140 be1f06ec 45292174 00000000 be1f06e8 00113dd8
+[2-161.4103] 06e0: 00000000 45270f93 00000727 00000002 00000000 00000000 00000000 0016d9a0
+[2-161.4183] 0700: 0000015a be1f0720 000e9f63 00081bab 5d98f88b 000cb8a5 0016d9a0 000e9f00
+[2-161.4263] 0720: 0016d9a0 00000002 be1f0750 000e9f00 be1f0750 000a3e0b 000e9f63 000e9f00
+[2-161.4344] 0740: 0000011f 00000000 b5ccccd0 b5acd1f0 00000000 be1f07d0 be1f07d4 00002000
+[2-161.4424] 0760: 00000000 00000000 00000000 00000015 00000000 5d98f874 000bb6f2 00000000
+[2-161.4504] 0780: 00200000 00000780 00000438 00000000 00000000 00000000 00000000 00000000
+[2-161.4584] 07a0: 00001770 00000001 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.4664] 07c0: 00000000 00002328 00000000 00000002 00000003 00000000 00000000 00000000
+[2-161.4744] 07e0: 0000000b 00000000 00000002 00000000 00000000 00000000 00000000 00000000
+[2-161.4825] 0800: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.4904] 0820: 00000000 00000000 00000000 00000000 be1f0848 0016d9a0 00000000 000f36fc
+[2-161.4984] 0840: be1f0868 000f364c 00116668 41030fac 00000000 000b47f7 000f36fc 000f364c
+[2-161.5064] 0860: 0000047b 428f5708 000bd7d4 000f36fc 000f3664 be1f0898 00116688 0004457d
+[2-161.5145] 0880: 000f36fc 000f3664 000004f5 00000003 00000002 46c0f6e0 00113dd8 42bc18c7
+[2-161.5225] 08a0: 42bc15a9 00000003 00000000 433a3db4 00113dd8 42bc18c7 fffffff9 be1f0d44
+[2-161.5305] 08c0: 42bc15a9 00000003 00000002 46c0f6e0 00113dd8 42bc18c7 be1f0a7b 00000000
+[2-161.5385] 08e0: 2044464c 54484d50 42bc15a9 00000003 00000002 46c0f6e0 00113dd8 42bc18c7
+[2-161.5465] 0900: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.5545] 0920: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.5625] 0940: 00000000 00000000 00000000 00000000 00000000 00000000 42bc15a9 00000003
+[2-161.5705] 0960: 00000002 46c0f6e0 00113dd8 42bc18c7 00000000 00000000 00000000 00000000
+[2-161.5785] 0980: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.5866] 09a0: 00000000 00000000 42bc15a9 00000004 00000002 46c0f6e0 00113dd8 42bc18c7
+[2-161.5946] 09c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6026] 09e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6106] 0a00: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6186] 0a20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6266] 0a40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6346] 0a60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6426] 0a80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.6506] 0aa0: 00000000 00000000 00000000 00000000 be1f0bd4 46c12730 000000c3 46c12730
+[2-161.6586] 0ac0: 46d55e00 4294915c 0000b318 00000000 00000000 0000104d 000081ff 00000001
+[2-161.6666] 0ae0: 00000000 00000000 00000000 00000000 00000000 00000000 0007b309 00000000
+[2-161.6746] 0b00: 00001000 429ca808 00000001 429ca7d8 ffffffff 00000000 0000000d 00000fff
+[2-161.6827] 0b20: 0000007d 429ca000 0007b309 00001000 0007b320 00000001 0000000f 000003d9
+[2-161.6907] 0b40: 0000007b 00001f04 00000434 000000e9 00000086 0000007d 000081ff 00000000
+[2-161.6987] 0b60: 00000000 429ca7d8 0007b309 00113dd8 be1f0bc8 0016ef74 be1f0bcc 00000000
+[2-161.7067] 0b80: be1f0bdc 428f5708 0000000d 00000000 0007b309 be1f0ba8 be1f0bc8 42f917bf
+[2-161.7147] 0ba0: 00000000 be1f0ba8 ffffffff be1f0bd4 be1f0bb8 46b411f3 00113dd8 46c123b0
+[2-161.7227] 0bc0: 46c122c0 00000024 00000012 46c12390 00000017 46c124ac 0000b301 5f444441
+[2-161.7307] 0be0: 5f50564d 00565352 454d4147 46464f5f 415f7200 004f5455 4f545541 4f00335f
+[2-161.7387] 0c00: 00000000 00000004 00001000 00000008 5d98efa5 1508cfe6 0000000d 32116206
+[2-161.7467] 0c20: 0000000d be1f0c38 00000000 00000000 00000000 be1f0c38 ffffffff be1f0c60
+[2-161.7547] 0c40: be1f0c58 46b42203 5d98efa5 1508cfe6 0000000d 42ab27c4 42aa1249 84000004
+[2-161.7628] 0c60: 428adb90 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.7708] 0c80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.7788] 0ca0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.7868] 0cc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.7948] 0ce0: 00000000 44f21bd1 04000001 428adb80 00000000 00000000 46c0f6e0 00000000
+[2-161.8028] 0d00: 0000feff 00000000 00044d41 000bd7d4 00000000 00044c70 00000000 00000000
+[2-161.8108] 0d20: 00000000 41030fac 00000000 42896768 429ca000 be1f0e84 00000001 00044451
+[2-161.8188] 0d40: be1f0d70 0098000c 90ab6756 6c3d0d42 000bd7d4 00000000 00044c70 00000000
+[2-161.8268] 0d60: 00000000 00000000 41030fac 00000000 00000000 00000000 00000000 00000000
+[2-161.8348] 0d80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.8429] 0da0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.8509] 0dc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.8589] 0de0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[2-161.8669] 0e00: 00000000 00000000 00000000 00000000 80000004 b5f92000 469779ff 42ab2024
+[2-161.8749] 0e20: 42aa0fb9 42ab2028 00000001 be1f0e84 be1f0e8c 41030fac 428adb80 41010a08
+[2-161.8829] 0e40: 00000000 fffffffc 00000000 00000001 00000000 00000000 41030fac 41010b8c
+[2-161.8909] 0e60: 00000000 00000000 00044c70 00000000 00000000 00044c9c 000bd858 41010eb0
+[2-161.8990] -----------------------------------------------------------
+[2-161.8990] 
+[0-161.9067] [kpi_fault_info] [k] 1 -> p:0x42951b5c l:0x4526738f th:avocd pro:avocd ty:crash pgid:1411
+[0-161.9176] [VDLP COREDUMP] SIGNR:6
+[0-161.9176] 
+[0-161.9208] [smart-deadlock][Crash occurred above! Now making coredump!]
+[0-161.9238] ***** Create small coredump file /opt/usr/share/crash/core/mincore/4.avocd.avocd.1411.1411.__tizen-2.4-release-lfd-mp-hawkm-lfd_20170329.2__T-HKMLAKUC.0x4526738f.0x42951b5c.mcore ******
+[0-161.9240] including addr range 0xfffff000 to 0x00002000
+[0-161.9300] including addr range 0xfffff000 to 0x00002000
+[0-161.9338] including addr range 0xfffff000 to 0x00002000
+[0-161.9391] including addr range 0x00112000 to 0x00115000
+[0-161.9443] including addr range 0x45291000 to 0x45294000
+[0-161.9498] including addr range 0x45291000 to 0x45294000
+[0-161.9566] including addr range 0xc00ca000 to 0xc00cd000
+[0-161.9604] Rm overlap pge 0x45291000 0x45282000-0x45292000
+[0-161.9680] Rm overlap pge 0x45291000 0x45282000-0x45292000
+[0-161.9722] Rm unmapped page 0x45293000
+[0-161.9758] Rm unmapped page 0x45293000
+[0-161.9794] Rm unmapped page 0xc00ca000
+[0-161.9830] Rm unmapped page 0xc00cb000
+[0-161.9866] Rm unmapped page 0xc00cc000
+[0-161.9904] Merging 0x45292000-0x45293000 0x45292000-0x45293000
+[0-161.9960] Including vma range 0x00112000-0x00115000
+[0-162.0009] Including vma range 0x45292000-0x45293000
+[0-162.0058] VMAs dumped for ARM GP register pointers = 2
+[0-162.0072] [Mincore]: AES Key encrypted with New RSA.
+[0-162.0431] small Coredump: finished dumping small core /opt/usr/share/crash/core/mincore/4.avocd.avocd.1411.1411.__tizen-2.4-release-lfd-mp-hawkm-lfd_20170329.2__T-HKMLAKUC.0x4526738f.0x42951b5c.mcore
+[0-162.0433] [smart-deadlock][Making coredump done! Now restart monitoring!][time:30]
+[0-162.0463] [bptime] process released : avocd(1411)
+[2-162.3408] [bptime] process open : avocd(1613)

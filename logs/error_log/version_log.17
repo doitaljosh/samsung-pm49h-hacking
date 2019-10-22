@@ -1,0 +1,10 @@
+[Version]
+Model=T-HKMLAKUC;
+Version=T-HKMLAKUC-2002.3;
+Build=tizen-2.4-release-lfd-mp-hawkm-lfd_20170329.2;
+BuildType=;
+Operator=;
+
+[Build]
+Date=2017-03-29;
+Time=10:40:00;
